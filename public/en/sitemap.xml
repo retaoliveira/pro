@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://retaoliveira.pro/categories/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="http://retaoliveira.pro/br/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://retaoliveira.pro/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/posts/2020-12-01-r-rmarkdown/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/tags/plot/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/posts/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/categories/r/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/tags/r-markdown/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/tags/regression/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="http://retaoliveira.pro/br/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://retaoliveira.pro/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/tags/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="http://retaoliveira.pro/br/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://retaoliveira.pro/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/tags/basic/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/categories/basic/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/tags/content-organization/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/courses/sdss/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/posts/introduction/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/tags/markdown/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/tags/multi-lingual/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/courses/category/sub-category/rich-content/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/posts/category/sub-category/rich-content/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/posts/shortcodes/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/courses/category/sub-category/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/posts/category/sub-category/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/courses/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/courses/category/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/posts/category/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+  </url>
+  
+</urlset>

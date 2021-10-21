@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://retaoliveira.pro/br/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://retaoliveira.pro/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="http://retaoliveira.pro/br/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/br/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://retaoliveira.pro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="http://retaoliveira.pro/br/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://retaoliveira.pro/br/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://retaoliveira.pro/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="http://retaoliveira.pro/br/tags/"
+                />
+  </url>
+  
+</urlset>

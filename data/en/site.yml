@@ -1,0 +1,17 @@
+# Meta description for your site.  This will help the search engines to find your site.
+description: Portfolio and personal blog of Renata Oliveira.
+
+# specify the list of custom menus that you want to show in the top navbar.
+# they will be separated by a divider from the main menus.
+customMenus:
+- name: Courses
+  url: /courses
+
+
+# Specify OpenGraph Headers
+openGraph:
+  title: PLACES Research Group
+  type: website
+  description: Portfolio and personal blog of Renata Oliveira.
+  image: images/author/john.png
+  url: https://hugo-toha.github.io

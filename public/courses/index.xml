@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teste on Renata Oliveira</title>
+    <link>http://retaoliveira.pro/courses/</link>
+    <description>Recent content in Teste on Renata Oliveira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Jun 2020 08:06:25 +0600</lastBuildDate><atom:link href="http://retaoliveira.pro/courses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Courses</title>
+      <link>http://retaoliveira.pro/courses/sdss/</link>
+      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
+      
+      <guid>http://retaoliveira.pro/courses/sdss/</guid>
+      <description>Spatial decision Support System</description>
+    </item>
+    
+  </channel>
+</rss>
