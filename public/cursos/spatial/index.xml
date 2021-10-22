@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geocomputing e Análise Espacial on Renata Oliveira</title>
+    <link>https://determined-poitras-d3dc0d.netlify.app/cursos/spatial/</link>
+    <description>Recent content in Geocomputing e Análise Espacial on Renata Oliveira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://determined-poitras-d3dc0d.netlify.app/cursos/spatial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Construindo mapas e representações</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/spatial/map/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/spatial/map/</guid>
+      <description>PackagesUma introdução ao package tmapQuick tmapMapa completo por meio do tmapSistemas de coordenadasBase de dados EPGSAlterar projeçõesComo salvar meu mapaAdicionando mapa de contextoVisualização de fenômenos sociais no espaçoMapas coropléticosMapas de pontosRepresentação de fluxosMapas de calorCartogramasSímbolos proporcionaisPlotar pontos a partir de coordenadasPackageslibrary(raster)library(rJava)library(OpenStreetMap)library(RgoogleMaps)library(grid)library(rgdal)library(tidyverse)library(reshape2)library(ggmosaic)library(GISTools)library(sp)library(sf)library(tmap)library(tmaptools)library(mapview)# carregar o dadodata(&amp;quot;georgia&amp;quot;) # converter o dado em sfgeorgia_sf &amp;lt;- st_as_sf(georgia)class(georgia_sf)## [1] &amp;quot;sf&amp;quot; &amp;quot;data.</description>
+    </item>
+    
+  </channel>
+</rss>

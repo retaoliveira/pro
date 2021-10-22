@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cores Em Visualização De Dados</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" />
+
+<meta property="og:title" content="Cores Em Visualização De Dados" />
+<meta property="og:description" content="The objective of data visualization is to communicate key results from the data analysis workflow. And while a chart must look aesthetically appealing, its primary objective is not to ‘look pretty’.
+Use of color in a visualisation should be to help disseminate key findings instead of being part of some sort of artistic endeavor
+Rule 1 : Use color when you should, not when you can Use of color should be carefully strategized to communicate key findings and this decision, therefore, cannot be left for automated algorithms to make." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://determined-poitras-d3dc0d.netlify.app/posts/2021-01-05-cores-em-visualiza%C3%A7%C3%A3o-de-dados/" /><meta property="og:image" content="https://determined-poitras-d3dc0d.netlify.app/posts/2021-01-05-cores-em-visualiza%C3%A7%C3%A3o-de-dados/featured.jpg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-01-05T11:08:32-03:00" />
+<meta property="article:modified_time" content="2021-01-05T11:08:32-03:00" />
+
+
+
+    
+    
+<meta name="description" content="Cores Em Visualização De Dados" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" alt="Logo">
+      Renata Oliveira</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/inverted-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/sdss/" title="Courses">Courses</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/introduction/" title="Introduction">Introduction</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/category/">Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/courses/category/sub-category/">Sub-Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/category/sub-category/rich-content/" title="Rich Content">Rich Content</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/shortcodes/" title="Shortcodes Sample">Shortcodes Sample</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://determined-poitras-d3dc0d.netlify.app/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/reta_huaab57059f86c546c583a9e55d0837b53_77497_120x120_fit_q75_box.jpg' alt="Author Image">
+          <h5 class="author-name">Renata Oliveira</h5>
+          <p>January 5, 2021</p>
+        </div>
+
+        <div class="title">
+          <h1>Cores Em Visualização De Dados</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>The objective of data visualization is to communicate key results from the data analysis workflow. And while a chart must look aesthetically appealing, its primary objective is not to ‘look pretty’.</p>
+<p>Use of color in a visualisation should be to help disseminate key findings instead of being part of some sort of artistic endeavor</p>
+<h3 id="rule-1--use-color-when-you-should-not-when-you-can">Rule 1 : Use color when you should, not when you can</h3>
+<p>Use of color should be carefully strategized to communicate key findings and this decision, therefore, cannot be left for automated algorithms to make. Most data should be in neutral colors like grey with bright colors reserved for directing attention to significant or atypical data points.</p>
+<p><img src="https://retaoliveira.github.io/relements/figures/cores/acolor.png" alt="Usar cores?"></p>
+<h3 id="rule-2-utilize-color-to-group-related-data-points">Rule 2: Utilize color to group related data points</h3>
+<p>Color can be used to group data points of similar value and to render the extent of this similarity using the following two color palettes :</p>
+<p>A sequential color palettes is composed of varying intensities of a single hue of color at uniform saturation. Variability in luminance of adjacent colors corresponds to the variation in data values that they are used to render.</p>
+<p>A divergent color palettes is made of two sequential color palettes (each of a different hue) stacked next to each other with an inflection point in the middle. These become helpful when visualizing data with variations in two different directions.</p>
+<p>The chart below on the left uses a sequential color palette made of a single hue (green) for values ranging from -0.25 to +0.25 while chart on the right uses a divergent color scheme with different hues for positive (blue) and negative (red) values.
+<img src="https://retaoliveira.github.io/relements/figures/cores/bcolor.png" alt="Sequenciais">
+<img src="https://retaoliveira.github.io/relements/figures/cores/ccolor.png" alt="Divergentes"></p>
+<p>In the map on the right, positive and negative values can be identified immediately based on color alone. We can immediately conclude that the population of mid-western and southern towns had declined and that in the east and west coast has increased. This key insight into the data is not immediately obvious in the chart on the left where not color itself, but the intensity of color green must be used to read the map.
+<img src="https://retaoliveira.github.io/relements/figures/cores/dcolor.png" alt="Divergente para mapas"></p>
+<h3 id="rule-3-use-categorical-colors-for-unrelated-data">Rule 3: Use categorical colors for unrelated data</h3>
+<p>Categorical color palettes are derived from colors of different hues but uniform saturation and intensity and can be used to visualize unrelated data points of completely dissimilar origin or unrelated values. Check out this visualisation of different ethnicities in New York City. There is no correlation between the data for different ethnicities and a categorical palette is therefore used here.</p>
+<p>Sequential and divergent color palettes should be used to render changes in magnitude by encoding qualitative values while categorical color palettes should be used to render unrelated data categories by encoding quantitative values.
+<img src="https://retaoliveira.github.io/relements/figures/cores/ecolor.png" alt="Cores em categorias"></p>
+<h3 id="rule-4-categorical-colors-have-few-easily-discernible-bins">Rule 4: Categorical colors have few easily discernible bins</h3>
+<p>While the use of different colors can help distinguish between different data points, a chart should at most comprise of 6–8 distinct color categories for each of those to be readily distinguishable.</p>
+<p>Use of a separate colour for each of the 15 countries makes the chart on the left difficult to read, especially for countries with fewer satellites. The one on the right is much more readable at the cost of losing information on countries with fewer satellites, all of which is grouped in the “others” bin.
+Note that we have used a categorical color scheme here as the data for each country is completely uncorrelated. The number of India satellites, for instance, is completely independent of those of say France.
+<img src="https://retaoliveira.github.io/relements/figures/cores/fcolor.png" alt="Muitas cores?"></p>
+<h3 id="rule-5-change-in-chart-type-can-often-reduce-the-need-for-colors">Rule 5: Change in chart type can often reduce the need for colors</h3>
+<p>A pie chart probably is not the best option in the previous example. The resulting loss of categories may not always be acceptable. Plotting a bar chart instead, we can use a single color and retain all 15 data categories.</p>
+<p>If there is a need for more than 6–8 different colours (hues) in a visualization, either merge some of the categories or explore other charts types
+<img src="https://retaoliveira.github.io/relements/figures/cores/gcolor.png" alt="Mudar o gráfico?"></p>
+<h3 id="rule-6-when-not-to-use-sequential-color-scheme">Rule 6: When not to use sequential color scheme</h3>
+<p>For the subtle difference in color of a sequential palette to be readily apparent, these colors must be places right next to each other like in the chart on the left below. When place away from each other like in a scatter plot, the subtle differences become difficult to grasp.</p>
+<p>Sequential color schemes are difficult to interpret when the data points are not located immediately next to each other as in the scatter plot on the right. These colors may only be used to visualize relative values as in the chart on the left. [made by author]
+Best use of a sequential color scheme is to render relative difference in values. It is not suitable for plotting absolute values which are best rendered with a categorical color scheme.
+<img src="https://retaoliveira.github.io/relements/figures/cores/hcolor.png" alt="Quando não usar cores sequenciais"></p>
+<h3 id="rule-7-choose-appropriate-background">Rule 7: Choose appropriate background</h3>
+<p>Check out this animation by Akiyoshi Kitaoka that demonstrates how our perception of color of the moving square changes with changes in its background. The human perception of colors is not absolute. It is made relative to the surroundings.</p>
+<p>Perceived colour of an object is dependent not only on the colour of the object itself but also of its background. This leads us to conclude the following with respect to use of background colors in charts :
+Different objects grouped by same colour should also have same background. This in general means that variations in the background colour must be minimised.</p>
+<h3 id="rule-8-not-everyone-can-see-all-colors">Rule 8: Not everyone can see all colors</h3>
+<p>Roughly 10% of the world population is colour blind and to make coloured infographics accessible to everyone, avoid use of combinations of red and green. Shown below are how people with three different kinds of color blindness view the same map.</p>
+<p><img src="https://retaoliveira.github.io/relements/figures/cores/icolor.png" alt="Acessibilidade por meio de cores"></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The impetus of visualisation is to tell the story behind data. Only a thoughtful use of colour can help strengthen key arguments in this story.
+Tools for selecting colour combinations.</p>
+<p>Summarised below are some resources that I have found helpful in my work on the use of colours in data analysis and visualization.</p>
+<ul>
+<li>Colour brewer <a href="https://colorbrewer2.org/#type=qualitative&amp;scheme=Set3&amp;n=6">Link</a></li>
+<li>d3-interpolate <a href="https://github.com/d3/d3-interpolate">Link</a></li>
+<li>Colourco <a href="https://colourco.de/">Link</a></li>
+<li>Color Palette Helper <a href="https://vis4.net/palettes/#/9%7Cd%7C00429d,96ffea,ffffe0%7Cffffe0,ff005e,93003a%7C1%7C1">Link</a></li>
+<li>I want hue <a href="https://medialab.github.io/iwanthue/">Link</a></li>
+<li>colorspace <a href="https://colorspace.r-forge.r-project.org/articles/colorspace.html">Link</a></li>
+<li>tmaptools palette explorer <a href="https://cran.r-project.org/web/packages/tmap/vignettes/tmap-getstarted.html">Link</a></li>
+<li>Leaflet colors <a href="https://rstudio.github.io/leaflet/colors.html">Link</a></li>
+</ul>
+<hr>
+<p>Crédito: Este artigo é uma tradução do artigo <a href="https://towardsdatascience.com/8-rules-for-optimal-use-of-color-in-data-visualization-b283ae1fc1e2">8 Rules for optimal use of color in data visualization Why color is key for effective data visualization by Assem Kashyap </a></p>
+
+        </div>
+
+        
+        
+          <div class="btn-improve-page">
+              <a href="https://github.com/retaoliveira/places.git/edit/main/content/posts%5c2021-01-05-cores-em-visualiza%c3%a7%c3%a3o-de-dados%5cindex.md" title="Improve this page" target="_blank" rel="noopener">
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#rule-1--use-color-when-you-should-not-when-you-can">Rule 1 : Use color when you should, not when you can</a></li>
+        <li><a href="#rule-2-utilize-color-to-group-related-data-points">Rule 2: Utilize color to group related data points</a></li>
+        <li><a href="#rule-3-use-categorical-colors-for-unrelated-data">Rule 3: Use categorical colors for unrelated data</a></li>
+        <li><a href="#rule-4-categorical-colors-have-few-easily-discernible-bins">Rule 4: Categorical colors have few easily discernible bins</a></li>
+        <li><a href="#rule-5-change-in-chart-type-can-often-reduce-the-need-for-colors">Rule 5: Change in chart type can often reduce the need for colors</a></li>
+        <li><a href="#rule-6-when-not-to-use-sequential-color-scheme">Rule 6: When not to use sequential color scheme</a></li>
+        <li><a href="#rule-7-choose-appropriate-background">Rule 7: Choose appropriate background</a></li>
+        <li><a href="#rule-8-not-everyone-can-see-all-colors">Rule 8: Not everyone can see all colors</a></li>
+      </ol>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ol>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#projects">Projects</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#recent-posts">Recent Posts</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#achievements">Achievements</a>
+                </li>
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>renataoliveira@gmail.com</span></li>
+            
+            <li><span>Phone: </span> <span>&#43;5531988662226</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>Stay up to date with email notification</p>
+            
+              <form method='post' action='https://blogtrottr.com'>
+              <div class="form-group">
+              <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
+              <input type='hidden' name='btr_url' value='https://determined-poitras-d3dc0d.netlify.app/index.xml' />
+              <input type='hidden' name='schedule_type' value='1' />
+              <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
+              <button type="submit" class="btn btn-info"> Submit </button>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+
+This document was built with the&nbsp
+&nbsp<a href="https://retaoliveira.github.io/blog" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="heart-outline"></ion-icon></a>,&nbsp
+<a href="https://github.com/retaoliveira" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="logo-github"></ion-icon></a>, &nbsp<a href="https://cran.r-project.org" target="_blank" rel="noopener" style="color:#447178"><i class="fab fa-r-project "></i></a> &nbspand
+&nbsp<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener" style="color:#447178"> blogdown</a>.
+</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

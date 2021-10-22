@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Packages on Renata Oliveira</title>
+    <link>https://determined-poitras-d3dc0d.netlify.app/tags/packages/</link>
+    <description>Recent content in Packages on Renata Oliveira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Dec 2020 17:32:30 -0300</lastBuildDate><atom:link href="https://determined-poitras-d3dc0d.netlify.app/tags/packages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Packages interessantes do R para Análise de dados e espacial</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-packages-interessantes-do-r-para-an%C3%A1lise-de-dados-e-espacial/</link>
+      <pubDate>Sat, 26 Dec 2020 17:32:30 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-packages-interessantes-do-r-para-an%C3%A1lise-de-dados-e-espacial/</guid>
+      <description> RFsp — Random Forest for spatial data (R tutorial) by Hengl, T., Nussbaum, M., and Wright, M.N.  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,17 +2,1133 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Renata Oliveira</title>
-    <link>http://retaoliveira.pro/</link>
+    <link>https://determined-poitras-d3dc0d.netlify.app/</link>
     <description>Recent content on Renata Oliveira</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="http://retaoliveira.pro/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://determined-poitras-d3dc0d.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview - Tidyverse</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/tidyverse/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/tidyverse/</guid>
+      <description>Instalação e uso do Package tidyverseEstrutura básica do tidyverseImportação de dadosWrangleProgramaModeloAlguns links interessantes para aprender tidyverseInstalação e uso do Package tidyverseInstale todos os pacotes no tidyverse executando install.packages(&#34;tidyverse&#34;).
+Execute a library(tidyverse) para carregar o núcleo do tidyverse e torná-lo disponível em sua sessão R atual.
+Saiba mais sobre o pacote tidyverse em https://tidyverse.tidyverse.org.
+Estrutura básica do tidyverseA estrutura básica do tidyverse inclui os pacotes que você provavelmente usará nas análises de dados.</description>
+    </item>
+    
+    <item>
+      <title>Padlet da disciplina</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/padlet/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/padlet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Padlets da disciplina</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/padlet/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/padlet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Abrindo dados no R</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/abrindo_dados/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/abrindo_dados/</guid>
+      <description>Abrindo dados no RPacotes no RCaminhos no RReadrTibblesDados em arquivos editores de planilhasUm pouco sobre donwload e manipulação de arquivosVoltando às planilhasEste tutorial é de autoria do professor Leonardo S. Barone e pode ser encontrado no link. Agradeço pela generosidade em compartilhar.
+Abrindo dados no RNeste tutorial vamos cobrir uma série de métodos disponíveis para abrirmos arquivos de texto, editores de planilhas e de outros softwares de análise de dados no R.</description>
+    </item>
+    
+    <item>
+      <title>Logística Urbana</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/est_3/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/est_3/</guid>
+      <description>Assita os vídeos constantes em Desafios da Logística Urbana e responda as questões que seguem na tarefa postada no SIGAA:
+Defina Logística Urbana
+Quais desafios adicionais transportadores e embarcadores enfrentam quando discutimos a etapa da gestão da cadeia de suprimentos que acontece nas cidades? Explique.
+</description>
+    </item>
+    
+    <item>
+      <title>Atividade 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/atividade1/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/atividade1/</guid>
+      <description>A Unidade 1 é estruturada considerando os seguintes tópicos:  Instalação do R e do RStudio Como instalar o Git Criando uma conta no Github Instalar e carregar pacotes no R Instalar pacotes no R a partir do Github E aí, R? Entendendo o ambiente de trabalho Primeiros documentos no R - RMarkdown  Esta atividade deverá ser realizada até dia 19/10, quando teremos nosso primeiro encontro síncrono. São propostas as seguintes atividades:  Instale o R, o RStudio e o Git no seu computador - Link Crie uma conta no Github, caso ainda não tenha - Link Faça o tutorial - Link Faça o tutorial de Markdown desenvolvido pelas R-Ladies Beatriz Milz e Haydée Svab - Link Crie o seu primeiro documento RMarkdown.</description>
+    </item>
+    
+    <item>
+      <title>Instalação de R, RStudio e Git</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/install/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/install/</guid>
+      <description>R Baixar e instalar o R
+No link acima é apresentado o processo de instalação para Windows. No mesmo site é possível encontrar procedimentos de instalação para outros sistemas operacionais.
+Links adicionais Visão geral e primeiros passos com R e RStudio
+ RStudio Baixar e instalar o RStudio
+No link acima é apresentado o processo de instalação para Windows. No mesmo site é possível encontrar procedimentos de instalação para outros sistemas operacionais.</description>
+    </item>
+    
+    <item>
+      <title>Atividade 2</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/atividade2/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/atividade2/</guid>
+      <description>A Unidade 2 é estruturada considerando os seguintes tópicos:  Estrutura de dados no R: tipos de dados, importação de base de dados, criação de objeto (vetores, matrizes, data frames), operadores aritméticos, de comparação e lógicos. Visualização de informações gerenciais e científicas.  Esta atividade deverá ser realizada até dia 26/10, quando teremos nosso segundo encontro síncrono. São propostas as seguintes atividades:  Faça o download do arquivo disponível no link Resolva as questões.</description>
+    </item>
+    
+    <item>
+      <title>Lab 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/lab1/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/lab1/</guid>
+      <description>A Unidade 1 é estruturada considerando os seguintes tópicos:  Instalação do R e do RStudio Como instalar o Git Criando uma conta no Github Instalar e carregar pacotes no R Instalar pacotes no R a partir do Github E aí, R? Entendendo o ambiente de trabalho Primeiros documentos no R - RMarkdown  Diretrizes gerais:  Baixe o arquivo .Rmd e abra no RStudio.  Arquivo
+Instale os pacotes:   &amp;quot;tidyverse&amp;quot; &amp;quot;tinytex&amp;quot; &amp;quot;knitr&amp;quot; &amp;quot;flexdashboard&amp;quot; &amp;quot;xaringan&amp;quot; &amp;quot;xaringanthemer&amp;quot;  Chame as bibliotecas dos pacotes instalados   library(&amp;quot;tidyverse&amp;quot;) library(&amp;quot;tinytex&amp;quot;) library(&amp;quot;knitr&amp;quot;) library(&amp;quot;flexdashboard&amp;quot;) library(&amp;quot;xaringan&amp;quot;) library(&amp;quot;xaringanthemer&amp;quot;)   Corrija os problemas de códigos nos respectivos chunks.</description>
+    </item>
+    
+    <item>
+      <title>Desafios da Logística Urbana</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_urb/desafios/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_urb/desafios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projeto Integrador</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/projects/</link>
+      <pubDate>Thu, 10 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/projects/</guid>
+      <description>Os projetos integradores são parte estruturante do curso e, portanto, visam promover a sistematização e a consolidação da aprendizagem. Ainda, tem como objetivo proporcionar aos estudantes a capacidade de implementação do conhecimento adquirido ao longo deste curso de maneira aplicada e em uma situação-problema real.
+Este projeto será desenvolvido ao longo de toda a disciplina e deve ser relacionado com cada unidade de ensino. Seu conteúdo deve ser estruturado seguindo normas cultas de linguagem, clareza em relação ao problema em investigação e aos objetivos propostos.</description>
+    </item>
+    
+    <item>
+      <title>Afinal, o que é Logística?</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/definir_log/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/definir_log/</guid>
+      <description>Definir Logística é um grande desafio. Vários autores fizeram diferentes propostas de definições ao longo do tempo. Penso que o logística é muito mais um conjunto de princípios do que uma operação. “Fazer” logística relaciona-se à promover o acesso a bens de consumo e serviços, essenciais à vida humana e promovidos pelo consumo, destinados ao consumidor final da maneira mais eficiente e responsiva possível.
+As operações que envolvem esses princípios apresentam-se em diferentes dimensões, contextos e níveis de integração.</description>
+    </item>
+    
+    <item>
+      <title>Gestão da cadeia de suprimentos</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/gcs/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/gcs/</guid>
+      <description>Gestão Cadeia de SuprimentosAlinhamento estratégicoEscopo do alinhamento estratégicoOs benefícios principais advindos do alinhamento estratégicoDesafios para alinhamento estratégicoFatores-chave de desempenho na Gestão da Cadeia de SuprimentosInstalaçõesEstoqueTransporteInformaçãoSourcingPrecificaçãoGestão Cadeia de SuprimentosCadeia de suprimentos é a estrutura consolidada e integrada, em níveis estratégico, tático e operacional, entre agentes de produção, mercadológicos, logísticos e sociedade, para que seja possível coordenar as operações de maneira a garantir a gestão orientada à logística, tendo como objetivo o trade-off entre responsividade e eficiência, além de garantia de um contexto sustentável de desenvolvimento por ações socialmente responsáveis e resilientes.</description>
+    </item>
+    
+    <item>
+      <title>Logística 4.0</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/40/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/40/</guid>
+      <description>O mundo como conhecemos está em acelerada e abrangente mudança. O avanço tecnológico, materializado por meio da internet, da realidade aumentada, da inteligência artificial, da internet das coisas, dentre outros adventos, tem promovido possibilidades de aprendizagem, ação, interação e solução de problemas reais de maneira criativa e efetiva. Ainda, a estrutura econômica atual está sendo modificada, por meio de novas relações de produção e trabalho.
+Essas mudanças são fruto da quarta revolução industrial estruturada por meio do uso de tecnologia para convergência entre os mundos físico, digital e biológico.</description>
+    </item>
+    
+    <item>
+      <title>Tecnologia da Informação aplicada à Logística</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/ti/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/ti/</guid>
+      <description>O mundo como conhecemos está em acelerada e abrangente mudança. O avanço tecnológico, materializado por meio da internet, da realidade aumentada, da inteligência artificial, da internet das coisas, dentre outros adventos, tem promovido possibilidades de aprendizagem, ação, interação e solução de problemas reais de maneira criativa e efetiva. Ainda, a estrutura econômica atual está sendo modificada, por meio de novas relações de produção e trabalho.
+Essas mudanças são fruto da quarta revolução industrial estruturada por meio do uso de tecnologia para convergência entre os mundos físico, digital e biológico.</description>
+    </item>
+    
+    <item>
+      <title>Transportes</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/transportes/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/transportes/</guid>
+      <description>TransportesElementos básicos para a operação de transportesModos de transporte para movimentação de cargasQual o(s) problema(s) do Brasil em relação à movimentação de cargas em escala regional?No mundo….Movimentação global de contêineresQual o nosso problema?Como resolver?Como resolver?Como resolver?Conceitos-chaveConceitos-chaveEQUIPAMENTOS PARA UNITIZAÇÃO E MOVIMENTAÇÃO DE CARGASConsolidação x UnitizaçãoTipos de Equipamentos de UnitizaçãoVantagens e desvantagens da UnitizaçãoVantagens:Tipos de Equipamentos de UnitizaçãoPallet: Conceitos, Padrões Internacionais e UtilizaçãoPallet e seus TiposEquipamentos de Movimentação de PalletsContêiner: Conceito, Padronização e MedidasLingasTransporte aéreo – ULD (Unit Load Devices)PLANEJAMENTO ESTRATÉGICO DAS EMPRESASDefinir a Missão, Visão e Valores da empresaDefinir os Objetivos EstratégicosDefinir os Objetivos Táticos (Metas)Definir os Objetivos Operacionais (Planos de Ação)Elaborar um Orçamento EmpresarialINDICADORES DE AVALIAÇÃO DE TRANSPORTEKPI – Key Performance Indicators – Indicador-chave de desempenhoDefiniçãoFunçãoClassificação dos KPIsProcessos operacionais que serão trabalhados na gestão do transporte de cargas por meio de indicadores KPIsUNIDADES E INDICADORES DE AVALIAÇÃO DE TRANSPORTEObjetivo: medir os seguintes atributosNatureza dos indicadoresDiretos simplesRazõesOutrosESPECIFICAÇÃO E AVALIAÇÃO DE VEÍCULOSCaracterísticas da CargaCaracterísticas do TransporteCaracterísticas das RotasAvaliação de Desempenho de VeículosDIMENSIONAMENTO DE FROTASConceito de Rotação de cicloConceito de Existência (VHE)Conceito de Imobilização (VHI)Conceito de Avarias em trânsito (VHA)Utilização da disponibilidade (VHU)Não Utilização da Disponibilidade (VHNU)Dimensionamento de FrotasPLANEJAMENTO DA MANUTENÇÃOOPERAÇÃO DE FROTASRoteirizaçãoCONTROLE DE CUSTOS OPERACIONAIS NO TRANSPORTEINVESTIMENTOS EM TRANSPORTESTransportesElementos básicos para a operação de transportesElementos BásicosForça MotrizVeículoViaFatores DimensionaisQuantidadeDistânciaTempoTipos de deslocamentoColetaCirculaçãoEntregaAtividadesCargaDescargaTransbordoModos de transporte para movimentação de cargasRodoviário</description>
+    </item>
+    
+    <item>
+      <title>Impactos da pandemia COVID-19 nos transportes</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/transportes_covid/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/transportes_covid/</guid>
+      <description>Algumas notícias interessantes sobre os impactos da pandemia COVID-19 na movimentação internacional de cargas:
+Cargo flows impacting hinterland transport
+Disruptions and resilience in global container shipping and ports: covid-19 pandemic vs. 2008-2009 financial crisis
+The correlation between the behaviour of ports and freight rates in Latin America and the Caribbean during the COVID19 pandemic
+All areas of the supply chain must work together in post-pandemic world</description>
+    </item>
+    
+    <item>
+      <title>Projeto 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/project1/</link>
+      <pubDate>Sun, 20 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/project1/</guid>
+      <description>Pré-requisitosPara desenvolver esta tarefa você precisará dos seguintes pacotes:- rMarkdown
+- knitr
+- rpubs
+- prettydoc
+- xaringan
+- xaringarExtra
+- xaringanthemer
+- flexdashboard
+- kableExtra
+Atividades para consolidação do Projeto 01:Esta atividade tem valor de 10 pontos e, apesar de estar relacionada ao projeto integrador, é avaliada de maneira separada. O prazo para entrega desta atividade é dia 08/07/2021.
+Criar um documento de comunicação (relatório, apresentação ou outro de sua escolha) em RMarkdown.</description>
+    </item>
+    
+    <item>
+      <title>Gestão de estoques</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/estoques/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/estoques/</guid>
+      <description>DefiniçãoPor que surgem os estoques?Razões para existência de estoquesTipos de estoqueInfluência de estoques na competitividade das empresasDecisões de estoquesObjetivos da gestão de estoquesPrincipais incertezas que impactam o planejamento de estoquesAlguns vídeos interessantes para entender um pouco mais sobre estoquesGestão de estoquesSKUCurva ABCGiro de estoqueDefinição“Os estoques são recursos ociosos que possuem valor econômico.</description>
+    </item>
+    
+    <item>
+      <title>Omnichannel</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/omnichannel/</link>
+      <pubDate>Wed, 25 Aug 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/omnichannel/</guid>
+      <description>Omnichannel é uma estratégia de uso simultâneo e interligado de diferentes canais de comunicação, com o objetivo de estreitar a relação entre online e offline, aprimorando, assim, a experiência do cliente. Essa tendência do varejo permite a convergência do virtual e do físico.
+Internet Física</description>
+    </item>
+    
+    <item>
+      <title>Armazenagem</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/armazenagem/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/armazenagem/</guid>
+      <description>Endereçamento de armazenagemPickingRecebimento e conferênciaInventárioGestão estratégica de armazenagemArmazenagem no BrasilArmazéns automatizadosEndereçamento de armazenagemPickingRecebimento e conferênciaInventárioGestão estratégica de armazenagemArmazenagem no Brasilhttps://www.linkedin.com/feed/update/urn:li:activity:6772601182000087040/
+Armazéns automatizados</description>
+    </item>
+    
+    <item>
+      <title>Git e Github</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/git_r/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/git_r/</guid>
+      <description>DefiniçõesComo instalar o Git no seu computadorDefiniçõesGit é um sistema de controle de versão por linha de comando. Se você não estiver familiarizado com ele, Git não tem botões para pressionar, apenas comandos para digitar para controlá-lo, mas ele permite salvar múltiplas versões de um arquivo. A beleza do controle de versão é que se você fizer “alguma besteira”, você pode voltar para a última versão salva.</description>
+    </item>
+    
+    <item>
+      <title>Criando sua conta no Github</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/github/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/github/</guid>
+      <description>DefiniçõesVocabulário básico para uso do GitHub:Como operacionalizar?DefiniçõesGitHub é o lugar onde você pode armazenar todas estas versões de seu trabalho. Outros desenvolvedores podem ver, fazer uma cópia, alterar sua cópia e fazer sugestões sobre seu trabalho.
+Vocabulário básico para uso do GitHub:Repositório: Quando você faz uma conta no Github, a primeira coisa que você vai querer fazer é criar um repositório (ou repo).</description>
+    </item>
+    
+    <item>
+      <title>Gestão de Transportes</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/est_4/</link>
+      <pubDate>Tue, 20 Jul 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/est_4/</guid>
+      <description>O PRAZO DE ENTREGA DESTA ATIVIDADE PELO SIGAA É: 04/08
+Leia do artigo O uso da tecnologia nas adversidades da gestão de transportes e responda as perguntas que seguem na atividade no Sigaa referente ao representante do grupo.
+Não se esqueçam de incluir o nome dos membros do grupo na postagem!
+Como as TICs podem contribuir para a mitigação dos impactos disruptivos e da pandemia COVID 19 na gestão de transportes?</description>
+    </item>
+    
+    <item>
+      <title>Introdução à logística</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/ver_1/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/ver_1/</guid>
+      <description>Responda as questões disponíveis no link para verificar sua aprendizagem!
+LINK</description>
+    </item>
+    
+    <item>
+      <title>Encontro Síncrono 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc1/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc1/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Encontro Síncrono 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/sinc1/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/sinc1/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Encontro Síncrono 2</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc2/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc2/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Encontro Síncrono 3</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc3/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc3/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Gestão de Estoques</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/est_5/</link>
+      <pubDate>Tue, 20 Jul 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/est_5/</guid>
+      <description>O PRAZO DE ENTREGA DESTA ATIVIDADE PELO SIGAA É: 04/08
+Responda as questões que seguem em grupo e encaminhem as respostas(arquivo .docx ou .pdf ou imagem) por meio da atividade no SIGAA.
+Uma empresa compra matéria-prima cinco vezes ao ano; o custo totalanual de pedidos é $ 6.250,00. Qual o custo de cada pedido?
+A matéria-prima para fabricação de um produto é comprada de umfornecedor que entrega rapidamente seus pedidos.</description>
+    </item>
+    
+    <item>
+      <title>Encontros Síncronos 5, 6 e 7</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/sinc5/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/sinc5/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Projeto 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/project1/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/project1/</guid>
+      <description>Pré-requisitosEntender definições e fundamentos que compõe os conceitos Logística e Gestão da Cadeia de Suprimentos.
+Objetivos de aprendizagemAo final desta atividade os alunos devem ser capazes de relacionar os conceitos de Logística e Gestão da Cadeia de Suprimentos com os desafios contemporâneos advindos da 4a revolução industrial para a gestão logística estratégica.
+Atividades para consolidação do Projeto 01:Esta atividade tem valor de 10 pontos e deverá ser entregue por meio do sigaa, na tarefa respectiva, informando o link do vídeo carregado no youtube.</description>
+    </item>
+    
+    <item>
+      <title>Encontro Síncrono 2</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/sinc2/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/sinc2/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Encontro Síncrono 3</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/sinc3/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/sinc3/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Encontro Síncrono 4</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/sinc4/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/sinc4/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Redes logísticas</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/redes/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/redes/</guid>
+      <description>OPÇÕES DE PROJETOS PARA UMA REDE DE TRANSPORTERede de entrega diretaOPÇÕES DE PROJETOS PARA UMA REDE DE TRANSPORTEO projeto da rede de transporte é fator decisivo para garantir responsividade e custo competitivo na cadeia de suprimentos.
+Rede de entrega diretaTodas as entregas acontecem diretamente do fornecedor para o varejista. Neste caso, a rota de cada carregamento é pré-determinada, sendo necessário definir apenas o volume a ser transportado e o meio de transporte mais eficiente.</description>
+    </item>
+    
+    <item>
+      <title>Encontros Síncronos 10, 11 e 12</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/sinc9/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/sinc9/</guid>
+      <description>LINK</description>
+    </item>
+    
+    <item>
+      <title>Encontros Síncronos 8 e 9</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/sinc8/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/sinc8/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Encontros Síncronos 4, 5 e 6</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc4/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc4/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Introdução ao RMarkdown</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/intro_rmarkdown/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/intro_rmarkdown/</guid>
+      <description>TL;DRO que é Markdown?RMarkdownFormatação de textoIncluindo tabelasIncluindo figuraschunksVisualizaçãoMetadados - CabeçalhoFormatos de outputAssita o vídeo! É impactante, baseado em fatos reais!
+TL;DRRMarkdown é uma estrutura de documento para edição de textos que segue a sintaxe da linguagem Markdown. Sínteses e informações sobre essa linguagem RMarkdown podem ser encontradas nas seguintes cheatsheet que podem ser obtidas por meio do link</description>
+    </item>
+    
+    <item>
+      <title>Custos Logísticos</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/custos/</link>
+      <pubDate>Wed, 25 Aug 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/custos/</guid>
+      <description>1. PREVISÃO DE CUSTOS OPERACIONAIS NO TRANSPORTE DE CARGAS1.1 O Segredo da Boa DecisãoO que se entende por orçamento?E quanto ao controle de custos?1.2 Classificação dos Custos1.2.1 Tipos de Custos1.2.2 Componentes dos Custos1.2.3 Considerações Metodológicas1.3 Fatores que Influenciam nos Custos1.4 Métodos de Cálculo de Custos Operacionais1.4.1 Método dos Custos Médios Desagregados1.</description>
+    </item>
+    
+    <item>
+      <title>Redes Logísticas e Custos</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/est_6/</link>
+      <pubDate>Tue, 20 Jul 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/est_6/</guid>
+      <description>Exercício 1Exercício 2O PRAZO DE ENTREGA DESTA ATIVIDADE PELO SIGAA É: 18/08
+Exercício 1Uma empresa constituída de 3 fábricas produz um componente que é vendido a um preço fixo de entrega de R$ 2,20 por unidade. Os custos de transporte das fábricas para os clientes são mostrados a seguir:
+ABCDEFábrica I\(R\$0,04\)\(R\$0,08\)\(R\$0,10\)\(R\$0,14\)\(R\$0,15\)Fábrica II\(R\$0,07\)\(R\$0,05\)\(R\$0,11\)\(R\$0,11\)\(R\$0,16\)Fábrica III\(R\$0,11\)\(R\$0,08\)\(R\$0,08\)\(R\$0,11\)\(R\$0,15\)Previsões de vendas indicam que as entregas mensais serão de: 2.</description>
+    </item>
+    
+    <item>
+      <title>Mais sobre gráficos</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc8/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc8/</guid>
+      <description>LINK</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial1/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial1/</guid>
+      <description>Diretrizes gerais:Baixe o arquivo .Rmd e abra no RStudio.Arquivo
+Instale os pacotes:&#34;tidyverse&#34;&#34;tinytex&#34;&#34;knitr&#34;&#34;flexdashboard&#34;&#34;xaringan&#34;&#34;xaringanthemer&#34;Chame as bibliotecas dos pacotes instaladoslibrary(&#34;tidyverse&#34;)library(&#34;tinytex&#34;)library(&#34;knitr&#34;)library(&#34;flexdashboard&#34;)library(&#34;xaringan&#34;)library(&#34;xaringanthemer&#34;)Corrija os problemas de códigos nos respectivos chunks.
+Rode o arquivo .Rmd por meio do comando a seguir (copie e cole o comando no console + enter), substituindo o nome do arquivo pelo endereço completo em seu computador.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 2</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial2/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial2/</guid>
+      <description>Diretrizes gerais:Baixe o arquivo e abra no RStudio. Link
+Execute as operações assinaladas nos exercícios a seguir.
+Salve o .Rmd e submeta-o por meio desta tarefa.
+Dica: As barras que delimitam o endereçamento do arquivo no seu computador, quando exibidas no explorer do Windows, são invertidas (). O R trabalha com barras normais (/) para endereçamento.
+Operações matemáticas e vetoresExercícios:Questão 1:</description>
+    </item>
+    
+    <item>
+      <title>Desafios contemporâneos</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/log_atual/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/log_atual/</guid>
+      <description>Desafios contemporâneosAlguns desafios da/para Logística 4.0:“Dark economy” como solução logísticaAmeaças à responsividade e à eficiência na Gestão das Cadeias de SuprimentosEnquanto isso…. Transformações importantes em curso!Desafios contemporâneosDesafios contemporâneos permeiam as decisões logísticas ao longo da cadeia de suprimentos. Ao longo deste curso, vamos explorar esses desafios e a expectativa de mudanças estruturais: conceituais e práticas.
+Alguns desafios da/para Logística 4.</description>
+    </item>
+    
+    <item>
+      <title>Desempenho Logístico</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/kpi/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/kpi/</guid>
+      <description>KPIsPrazos de entregaNível de serviço ao clienteNíveis de estoqueUso de recursosIndicadores de Serviço na LogísticaDecisões e métricas de desempenho em cada atividade-chaveInstalaçõesEstoqueTransporteInformaçãoSourcingPrecificaçãoKPIsKPIs (Key Performance Indicators) ou medidas de desempenho devem estar vinculadas à estratégia organizacional. Os indicadores de desempenho representam um conjunto de medidas que focam nos aspectos de desempenho que são críticos para o presente e o futuro da organização.</description>
+    </item>
+    
+    <item>
+      <title>Logística Urbana - definições</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/log_urb/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/log_urb/</guid>
+      <description>Livro
+</description>
+    </item>
+    
+    <item>
+      <title>Matemática Financeira</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/mat_fin/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/mat_fin/</guid>
+      <description>1. MATEMÁTICA FINANCEIRA1.1 Juro1.2 Taxa de Juros1.2.1 Juros Simples1.2.2 Juros Composto1.3 Valor Presente1.4 Série Uniforme de Pagamentos1.5 Inflação1.6 Correção Monetária1.7 Sistema de Amortização1.7.1 Sistema Francês de Amortização - PRICE1.7.2 Sistema de Amortização Constante - SAC1.7.3 Sistema de Pagamento Único1. MATEMÁTICA FINANCEIRA1.1 JuroÉ a remuneração do capital pelo seu uso alternativo.</description>
+    </item>
+    
+    <item>
+      <title>Nível de Serviço</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/nivel_servico/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/nivel_servico/</guid>
+      <description>Serviço ao clienteRedução de custoAgregação de valorCadeias de suprimento orientadas pelo mercadoQuais as vantagens de realizar diagnóstico externo do sistema logístico?Serviço ao clienteTodas as atividades necessárias para receber, aceitar, processar, enviar e faturar os pedidos dos clientes, controlar para que as atividades possam ser executadas em conformidade com o planejamento e assegurar-se que o cliente está satisfeito. O objetivo do serviço ao cliente é CRIAR VALOR para o cliente.</description>
+    </item>
+    
+    <item>
+      <title>KPIs</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/est_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/est_2/</guid>
+      <description>Responda as questões a seguir de maneira colaborativa em seu grupo de trabalho e submeta pela respectiva tarefa do SIGAA.KPI’s LogísticosResponda as questões a seguir de maneira colaborativa em seu grupo de trabalho e submeta pela respectiva tarefa do SIGAA.O que são e qual a importância de KPIs para a gestão da cadeia desuprimentos?
+Você trabalha na empresa Entrega Rápida que atua no mercado comooperador logístico para e-commerce.</description>
+    </item>
+    
+    <item>
+      <title>Nível de Serviço Logístico</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/est_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/est_1/</guid>
+      <description>1. Varejo tradicional em uma cadeia de suprimentos2. Varejo e-commerce - serviço de entregaLeia do artigo Logística e Serviço ao Cliente: como Aumentar a satisfação do cliente através de uma cadeia de abastecimento eficaz e responda as perguntas que seguem na atividade no Sigaa referente ao representante do grupo.
+1. Varejo tradicional em uma cadeia de suprimentosComo um comerciante de alimentos (mercearia ou pequeno supermercado) poderia usar o inventário (produtos em estoque no estabelecimento) para aumentar a capacidade responsividade da cadeia de suprimentos da empresa?</description>
+    </item>
+    
+    <item>
+      <title>Encontros Síncronos 7 e 8</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc5/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc5/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Sustentabilidade e Logística</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/est_7/</link>
+      <pubDate>Tue, 20 Jul 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/est_7/</guid>
+      <description>Pergunta 1Pergunta 2O PRAZO DE ENTREGA DESTA ATIVIDADE PELO SIGAA É: 08/09
+Pergunta 1Qual o papel da cadeia de suprimentos na transformação das empresas à luz das demandas de ESG (Environmental Social Governance)? Detalhe sua resposta considerando as quatro principais atividades-chave da gestão da cadeia de suprimentos e as dimensões social, econômica e ambiental.
+Pergunta 2Quais Objetivos de Desenvolvimento Sustentável (ODS) podem ser endereçados por meio da gestão da cadeia de suprimentos?</description>
+    </item>
+    
+    <item>
+      <title>Encontro Síncrono 13</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/sinc13/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/sinc13/</guid>
+      <description>LINK</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 3</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial3/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial3/</guid>
+      <description>Diretrizes gerais:Baixe o arquivo e abra no RStudio. Link
+Execute as operações assinaladas nos exercícios a seguir.
+Salve o .Rmd e submeta-o por meio desta tarefa.
+Dica: As barras que delimitam o endereçamento do arquivo no seu computador, quando exibidas no explorer do Windows, são invertidas (). O R trabalha com barras normais (/) para endereçamento.
+Dê uma olhada no dataframe Starwars.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 4</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial4/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial4/</guid>
+      <description>A poluição por plástico é um problema importante e crescente, afetando negativamente a saúde dos oceanos e da vida selvagem.Our World in Data tem muitos dados em vários níveis, em escala global, por país e ao longo do tempo.
+Para este laboratório, nos concentramos nos dados de 2010.
+Além disso, a National Geographic realizou um concurso de comunicação de visualização de dados sobre resíduos plásticos, como visto aqui.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 5</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial5/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial5/</guid>
+      <description>library(tidyverse)library(ggplot2)# From TidyTuesday: https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.mdhotels &amp;lt;- read_csv(&amp;quot;https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-02-11/hotels.csv&amp;quot;)ExercíciosExercício 1.As pessoas estão viajando por um capricho?Vamos ver…
+Preencha os espaços em branco para filtragem de reservas de hotel onde o hóspede é não dos EUA (código do país USA) e o lead_time é menos de 1 dia.
+Nota: Você precisará definir eval=TRUE quando tiver uma resposta que queira experimentar.
+hotels_no_usa &amp;lt;- filter(hotels, country != &amp;quot;USA&amp;quot;, lead_time &amp;lt; 1)hotels_no_usa_cancelled &amp;lt;- select(hotels_no_usa, hotel, is_canceled)ggplot(hotels_no_usa, aes(x = arrival_date_year)) +geom_bar()hotels_no_usa_pipe &amp;lt;- hotels %&amp;gt;% filter(country !</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 6</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial6/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial6/</guid>
+      <description>BibliotecasEssas funções servem para carregar as bibliotecas dos pacotes que serão necessários para a análise.
+library(tidyverse)Carregar arquivosFaçam o download do arquivo .zip.Removam os arquivos de dados do arquivo .zip.Carregue os arquivos de dados usando a função read_csv e atribuindo cada conjunto de dados a um objetoManipulação de dados - mulheres cientistasFaça a junção dos dataframes
+Ordene por ano de nascimento</description>
+    </item>
+    
+    <item>
+      <title>Consumer Centric Supply Chain Framework</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/ccscf/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/ccscf/</guid>
+      <description>Consumer Centric Supply Chain FrameworkConsumer Centric Supply Chain FrameworkAs transformações pelas quais a área de Supply Chain Management (SCM) tem passado nos últimos anos, com a oferta de novos serviços logísticos, digitalização de estruturas, robotização e uso massivo de tecnologia para apoio à decisão, são frutos do empoderamento do consumidor, que ganha um papel central na construção e gestão de uma cadeia de suprimentos orientada para o atendimento de suas necessidades e expectativas, desafiando os modelos clássicos de operações.</description>
+    </item>
+    
+    <item>
+      <title>Encontros Síncronos 9 e 10</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc9/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc9/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Encontros Síncronos 11 e 12</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc12/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc12/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Encontros Síncronos 13</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc13/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc13/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Hello R! Tutorial no swirl</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/swirl/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/swirl/</guid>
+      <description>Fiquei pensando em como posso ajudar os estudantes no desenvolvimento de competências no R com tão pouco tempo e remotamente. Uma possibilidade que consegui viabilizar são tutoriais interativos. São atividades eletivas também, mas FORTEMENTE recomendadas! No site os estudantes podem encontrar as informações necessárias para utilizar as funções e podem sempre consultar o “oráculo” universal Google.
+Os estudantes um procedimento breve para conseguirem abrir o tutorial:
+Salvar o arquivo nesta mensagem em um diretório em seu computador.</description>
+    </item>
+    
+    <item>
+      <title>Tipos de dados e objetos no R</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/estrutura_dados/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/estrutura_dados/</guid>
+      <description>Tipos de dados no RTipos de classes no RDicas de sites com informação interessanteTipos de dados no RNo R, os dados são organizados por meio de uma estrutura hierárquica de tipos de dados que podem ser utilizados para armazenar valores em diferentes estruturas. Cada tipo de dado pode ser associado com uma função de teste e uma função de conversão.
+A função de teste retorna sempre TRUE ou FALSE, pois é uma função lógica.</description>
+    </item>
+    
+    <item>
+      <title>Visualização de dados</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/ggplot/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/ggplot/</guid>
+      <description>Gráficos no RFerramentas básicas de construção de gráficos no RIntrodução à gramática de gráficos com ggplot2ggplot2: uma gramática de dadosUm primeiro exemploVariações de histograma e gráfico de densidadeCurva de densidade ou boxplot?Duas variáveis contínuas e gráfico de dispersãoAspectos não relacionados à geometriaGráficos no RFerramentas básicas de construção de gráficos no Rx1 &amp;lt;- rnorm(100)y1 &amp;lt;- rnorm(100)plot(x1,y1)plot(x1,y1,pch=16, col=&amp;#39;red&amp;#39;)x2 &amp;lt;- seq(0,2*pi,len=100)y2 &amp;lt;- sin(x2)plot(x2,y2,type=&amp;#39;l&amp;#39;)plot(x2,y2,type=&amp;#39;l&amp;#39;, lwd=3, col=&amp;#39;darkgreen&amp;#39;) plot(x2,y2,type=&amp;#39;l&amp;#39;, col=&amp;#39;darkgreen&amp;#39;, lwd=3, ylim=c(-1.</description>
+    </item>
+    
+    <item>
+      <title>Encontro Síncrono 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/sinc1/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/sinc1/</guid>
+      <description>LINK</description>
+    </item>
+    
+    <item>
+      <title>Encontro Síncrono 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/sinc2/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/sinc2/</guid>
+      <description>LINK</description>
+    </item>
+    
+    <item>
+      <title>Encontro Síncrono 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log_adm/sinc1/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log_adm/sinc1/</guid>
+      <description>LINK</description>
+    </item>
+    
+    <item>
+      <title>Encontro Síncrono 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log_epc/sinc1/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/log_epc/sinc1/</guid>
+      <description>LINK</description>
+    </item>
+    
+    <item>
+      <title>Construindo mapas e representações</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/spatial/map/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/spatial/map/</guid>
+      <description>PackagesUma introdução ao package tmapQuick tmapMapa completo por meio do tmapSistemas de coordenadasBase de dados EPGSAlterar projeçõesComo salvar meu mapaAdicionando mapa de contextoVisualização de fenômenos sociais no espaçoMapas coropléticosMapas de pontosRepresentação de fluxosMapas de calorCartogramasSímbolos proporcionaisPlotar pontos a partir de coordenadasPackageslibrary(raster)library(rJava)library(OpenStreetMap)library(RgoogleMaps)library(grid)library(rgdal)library(tidyverse)library(reshape2)library(ggmosaic)library(GISTools)library(sp)library(sf)library(tmap)library(tmaptools)library(mapview)# carregar o dadodata(&amp;quot;georgia&amp;quot;) # converter o dado em sfgeorgia_sf &amp;lt;- st_as_sf(georgia)class(georgia_sf)## [1] &amp;quot;sf&amp;quot; &amp;quot;data.</description>
+    </item>
+    
+    <item>
+      <title>Documentos parametrizados</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/reprodutibility/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/reprodutibility/</guid>
+      <description>Um dos muitos benefícios de trabalhar com R Markdown é que você pode reproduzir análises com o clique de um botão. Isto torna muito fácil atualizar qualquer trabalho e alterar qualquer parâmetro de entrada dentro do relatório. Relatórios parametrizados estendem esse benefício e permitem aos usuários especificar um ou mais parâmetros para personalizar a análise. Isto é útil se você quiser criar um modelo de relatório que possa ser reutilizado em vários cenários similares.</description>
+    </item>
+    
+    <item>
+      <title>Logística verde, reversa e sustentável</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/sustentavel/</link>
+      <pubDate>Wed, 25 Aug 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/sustentavel/</guid>
+      <description>LOGÍSTICA VERDE, LOGÍSTICA REVERSA E LOGÍSTICA SUSTENTÁVEL1.1 Logística Verde x Logística Reversa1.1.1 Definição de Logística Reversa1.1.2 Logística Verde1.2 Cadeia de Suprimentos SustentáveisLOGÍSTICA VERDE, LOGÍSTICA REVERSA E LOGÍSTICA SUSTENTÁVELO conceito de cadeia de suprimentos verde, o qual integra escolha de gerenciamento ambientais para a conversão de recursos em produtos que podem ser utilizados novamente na cadeia de suprimentos, surgiu na década de 1990.</description>
+    </item>
+    
+    <item>
+      <title>Operadores lógicos e aritméticos no R</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/estatistica/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/estatistica/</guid>
+      <description>Estatística descritiva para sumarização de dados com o R Já apresentamos os operadores relativos às estatísticas descritivas básicas. Segue uma síntese:
+Operadores aritméticos R    Operador Descrição     x + y Adição de x com y   x - y Subtração de y em x   x * y Multiplicação de x e y   x / y Divisão de x por y   xy ou x**y x elevado a y-ésima potência   x%%y Resto da divisão de x por y (módulo)   x%/%y Parte inteira da divisão de x por y    Operadores de comparação no R    Operador Significado     == igual a   !</description>
+    </item>
+    
+    <item>
+      <title>Hello R! Estrutura, conceitos e funções básicas</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/intro_r/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/intro_r/</guid>
+      <description>TL;DRR? O que é o R?Conhecendo o RInterface e funcionalidadesDefinições básicasTipos de arquivos no RLocal de trabalhoVariáveis, funções e packagesTL;DRNessa seção apresentamos alguns conceitos importantes para que a utilização do R seja mais amigável! Algumas informações importantes que são detalhadas a seguir:
+O RStudio é uma interface para uso do RO R é sensível a caracteres maiúsculos e minúsculos.</description>
+    </item>
+    
+    <item>
+      <title>Pacotes para Análise Exploratória de Dados no R</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2021-09-10-pacotes-para-an%C3%A1lise-explorat%C3%B3ria-de-dados-no-r/</link>
+      <pubDate>Fri, 10 Sep 2021 09:37:49 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2021-09-10-pacotes-para-an%C3%A1lise-explorat%C3%B3ria-de-dados-no-r/</guid>
+      <description>https://github.com/easystats/see
+https://cran.r-project.org/web/packages/interactions/vignettes/interactions.html
+https://ssc.wisc.edu/sscc/pubs/DWE/book/preface.html</description>
+    </item>
+    
+    <item>
+      <title>Blogdown</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/blogdown/</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/blogdown/</guid>
+      <description>https://portfolio.peter-baumgartner.net/#about
+https://github.com/hannesdatta
+https://www.hannesdatta.com/
+https://wowchemy.com/docs/content/docs/
+https://hugo-online-course.netlify.app/course/example/python/</description>
+    </item>
+    
+    <item>
+      <title>Curso Sensacional em Métodos de Análise Espacial</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2021-09-09-curso-sensacional-em-m%C3%A9todos-de-an%C3%A1lise-espacial/</link>
+      <pubDate>Thu, 09 Sep 2021 12:34:12 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2021-09-09-curso-sensacional-em-m%C3%A9todos-de-an%C3%A1lise-espacial/</guid>
+      <description>http://darribas.org/gds_course/content/bA/concepts_A.html</description>
+    </item>
+    
+    <item>
+      <title>Dados e Ética Podem Caminhar Juntos?</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2021-09-03-dados-e-%C3%A9tica-podem-caminhar-juntos/</link>
+      <pubDate>Fri, 03 Sep 2021 15:47:26 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2021-09-03-dados-e-%C3%A9tica-podem-caminhar-juntos/</guid>
+      <description>Com cada vez mais pessoas usando produtos digitais, termos como rastreamento ou coleta de dados, GDPR, preferências de cookies, criptografia, autenticação multi-fator tornaram-se parte de nosso vocabulário cotidiano. Existe um território digital onde nós existimos e que precisamos navegar. Isto não apenas implica que temos identidades digitais, mas também significa que precisamos aprender a cuidar e proteger essas identidades.
+As empresas que criam os produtos digitais que usamos todos os dias devem ter a responsabilidade de projetar produtos que respeitem e protejam as identidades, dados e informações sensíveis dos usuários.</description>
+    </item>
+    
+    <item>
+      <title>Usando o Github Desktop - Git sem coding</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/usando-o-github-desktop-git-sem-coding/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/usando-o-github-desktop-git-sem-coding/</guid>
+      <description>Algumas dicas de como utilizar o Github Desktop para fazer uso do Git e do Github sem a necessidade de aprender as linhas de comando.
+  Instale o aplicativo conforme seu sistema operacional. Se você utilizar o Windows, faça o download no link.
+  Crie uma conta no Github
+  Vá em File &amp;raquo; Options &amp;raquo; Accounts &amp;raquo; Sign in
+   Para mais informações, acesse o site Github Docs</description>
+    </item>
+    
+    <item>
+      <title>A farra dos preços baixos no Uber e no Airbnb está próxima do fim</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2021-06-21-a-farra-dos-pre%C3%A7os-baixos-no-uber-e-no-airbnb-est%C3%A1-pr%C3%B3xima-do-fim/</link>
+      <pubDate>Mon, 21 Jun 2021 17:10:58 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2021-06-21-a-farra-dos-pre%C3%A7os-baixos-no-uber-e-no-airbnb-est%C3%A1-pr%C3%B3xima-do-fim/</guid>
+      <description>A farra dos preços baixos no Uber e no Airbnb está próxima</description>
+    </item>
+    
+    <item>
+      <title>Principais comandos do Git</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/principais-comandos-do-git/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/principais-comandos-do-git/</guid>
+      <description>O que é Sistema de Controle de Versão? O sistema de controle de versão é uma estrutura que nos permite acrescentar e supervisionar várias entregas e fases de um item de produto sem realmente manter diferentes documentos ou pastas. Além disso, eles tornam a melhoria dentro de um grupo mais sensata e menos estressante, pois os desenvolvedores não precisam trocar pastas, mas, em vez disso, falam com uma fonte solitária onde cada uma das progressões está acontecendo e tudo é salvo.</description>
+    </item>
+    
+    <item>
+      <title>Acessibility</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/project/acessibilidade/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/project/acessibilidade/</guid>
+      <description>Accessibility to urban functions.</description>
+    </item>
+    
+    <item>
+      <title>Railroads</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/project/rail/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/project/rail/</guid>
+      <description>Railroads and economic development</description>
+    </item>
+    
+    <item>
+      <title>Atuação Do Mercado Imobiliário Sobre a Estrutura Urbana</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2021-04-27-felicidade-atua%C3%A7%C3%A3o-do-mercado-imobili%C3%A1rio-sobre-a-estrutura-urbana/</link>
+      <pubDate>Tue, 27 Apr 2021 15:30:38 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2021-04-27-felicidade-atua%C3%A7%C3%A3o-do-mercado-imobili%C3%A1rio-sobre-a-estrutura-urbana/</guid>
+      <description>Link para reportagem sobre as transformações urbanas em relação à proximdidade ao transporte em SP e arranha-céus surgem em áreas de casas na periferia</description>
+    </item>
+    
+    <item>
+      <title>Spatial Analysis</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/project/spatial/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/project/spatial/</guid>
+      <description>Spatial analysis.</description>
+    </item>
+    
+    <item>
+      <title>Urban Logistics</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/project/urban-logistics/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/project/urban-logistics/</guid>
+      <description>Urban Logistics.</description>
+    </item>
+    
+    <item>
+      <title>Avaliação Estratégica do Acesso a Oportunidades de Trabalho em Belo Horizonte</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/publication/oliveira-avaliacao-estrategica-acesso-2021/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/publication/oliveira-avaliacao-estrategica-acesso-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutoriais interativos</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/tutoriais-interativos/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/tutoriais-interativos/</guid>
+      <description>Fiquei pensando em como posso ajudar os estudantes no desenvolvimento de competências no R com tão pouco tempo e remotamente. Uma possibilidade que consegui viabilizar são tutoriais interativos. São atividades eletivas também, mas FORTEMENTE recomendadas! No site os estudantes podem encontrar as informações necessárias para utilizar as funções e podem sempre consultar o &amp;ldquo;oráculo&amp;rdquo; universal Google.
+Os estudantes um procedimento breve para conseguirem abrir o tutorial:
+ Salvar o arquivo nesta mensagem em um diretório em seu computador.</description>
+    </item>
+    
+    <item>
+      <title>Dicas de R e glossário de termos mais comuns</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2021-01-05-dicas-de-r-e-gloss%C3%A1rio-de-termos-mais-comuns/</link>
+      <pubDate>Tue, 05 Jan 2021 20:05:57 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2021-01-05-dicas-de-r-e-gloss%C3%A1rio-de-termos-mais-comuns/</guid>
+      <description>  Free R Tips - Business Science
+  Introduction to Open Data Science with R: Glossary
+  </description>
+    </item>
+    
+    <item>
+      <title>Uso de Inteligência Artificial na Gestão Pública</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2021-01-05-uso-de-intelig%C3%AAncia-artificial-na-gest%C3%A3o-p%C3%BAblica/</link>
+      <pubDate>Tue, 05 Jan 2021 20:00:17 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2021-01-05-uso-de-intelig%C3%AAncia-artificial-na-gest%C3%A3o-p%C3%BAblica/</guid>
+      <description>Ai Register
+Artificial Intelligence as a Public Service: Learning from Amsterdam and Helsinki by Luciano Floridi</description>
+    </item>
+    
+    <item>
+      <title>Cores Em Visualização De Dados</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2021-01-05-cores-em-visualiza%C3%A7%C3%A3o-de-dados/</link>
+      <pubDate>Tue, 05 Jan 2021 11:08:32 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2021-01-05-cores-em-visualiza%C3%A7%C3%A3o-de-dados/</guid>
+      <description>The objective of data visualization is to communicate key results from the data analysis workflow. And while a chart must look aesthetically appealing, its primary objective is not to ‘look pretty’.
+Use of color in a visualisation should be to help disseminate key findings instead of being part of some sort of artistic endeavor
+Rule 1 : Use color when you should, not when you can Use of color should be carefully strategized to communicate key findings and this decision, therefore, cannot be left for automated algorithms to make.</description>
+    </item>
+    
+    <item>
+      <title>Podcasts De Logística</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2021-01-05-podcasts-de-log%C3%ADstica/</link>
+      <pubDate>Tue, 05 Jan 2021 11:04:29 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2021-01-05-podcasts-de-log%C3%ADstica/</guid>
+      <description>PODCASTS sobre logística:
+GuiaKast
+Café com Logística</description>
+    </item>
+    
+    <item>
+      <title>Markdown Ou Rmarkdown</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2021-01-02-markdown-ou-rmarkdown/</link>
+      <pubDate>Sat, 02 Jan 2021 14:31:19 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2021-01-02-markdown-ou-rmarkdown/</guid>
+      <description>https://www.markdowntutorial.com/lesson/1/</description>
+    </item>
+    
+    <item>
+      <title>Relationships among urban characteristics, real estate market and spatial patterns of warehouses in different geographic contexts</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/publication/oliveira-relationships-urban-characteristics-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/publication/oliveira-relationships-urban-characteristics-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fundamentos De Estatística</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-31-fundamentos-de-estat%C3%ADstica/</link>
+      <pubDate>Thu, 31 Dec 2020 13:30:05 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-31-fundamentos-de-estat%C3%ADstica/</guid>
+      <description>  Univariate and bivariate descriptive analysis by Gert Janssenswillen
+  An Introduction to Statistical Learning
+  An Introduction to Statistical Learning - Lab
+  The six traps in data analysis and how to escape them by Julia Luz
+  </description>
+    </item>
+    
+    <item>
+      <title>Dicas Sobre Rmarkdown</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-30-dicas-sobre-rmarkdown/</link>
+      <pubDate>Wed, 30 Dec 2020 20:47:37 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-30-dicas-sobre-rmarkdown/</guid>
+      <description>O site Pimp my rmd traz uma série de dicas interessantes para construção de arquivos com linguagem RMarkdown.
+ R Markdown - The Definitive Guide by Yihui Xie, J. J. Allaire, Garrett Grolemund Introduction to R Markdown by Michael Clark   </description>
+    </item>
+    
+    <item>
+      <title>Usando Git e Github</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/usando-git-e-github/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/usando-git-e-github/</guid>
+      <description>Definições Git é um sistema de controle de versão por linha de comando. Se você não estiver familiarizado com ele, Git não tem botões para pressionar, apenas comandos para digitar para controlá-lo, mas ele permite salvar múltiplas versões de um arquivo. A beleza do controle de versão é que se você fizer &amp;ldquo;alguma besteira&amp;rdquo;, você pode voltar para a última versão salva. É como chegar a um &amp;ldquo;ponto de salvamento&amp;rdquo; em um videogame no qual você pode voltar se seu personagem morrer.</description>
+    </item>
+    
+    <item>
+      <title>Acesso à API do Twitter</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-27-acesso-%C3%A0-api-do-twitter/</link>
+      <pubDate>Sun, 27 Dec 2020 13:39:12 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-27-acesso-%C3%A0-api-do-twitter/</guid>
+      <description>Como obter e usar tokens de acesso à API do Twitter para uso no pacote rtweet Criando um aplicativo no Twitter Para criar um aplicativo no Twitter, você precisará primeiro solicitar uma conta de desenvolvedor. Este processo, juntamente com uma explicação detalhada pode ser encontrado em developer.twitter.com.
+Uma vez que você tenha adquirido uma conta de desenvolvedor, navegue até developer.twitter.com/pt/apps. Clique no botão azul que diz: Create a New App, e então preencha o formulário com os seguintes campos:</description>
+    </item>
+    
+    <item>
+      <title>Mineração de Texto</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-27-minera%C3%A7%C3%A3o-de-texto/</link>
+      <pubDate>Sun, 27 Dec 2020 13:08:19 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-27-minera%C3%A7%C3%A3o-de-texto/</guid>
+      <description>Dicionário de dados do Twitter Data dictionary
+Sentimentos no Twitter para CSV O download do arquivo .csv do Twitter a partir de termos de busca pode ser feito no site Tweet Sentiment to CSV. São 100 tweets sobre o termos pesquisado.
+Links interessantes sobre esse tópico são:  Como investigar tweets com rtweet r R by Abraji Intro to rtweet: Collecting Twitter Data by Michael W. Kearney Aprenda a fazer um Analisador de Sentimentos do Twitter em Python by Paulo Vasconcellos Twitter Data in R Using Rtweet by Leah Wasser, Carson Farmer Github Mariana Cartaxo Text Mining example codes (tweets) Ocupação na UFMG e intervenção policial - Twitter by Neylson Crepalde Github Judite Cypreste Análise de Sentimentos no Twitter Sobre o Governo Bolsonaro by Arthur Carosia A Guide to Mining and Analysing Tweets with R by Céline Van den Rul Mining Tweets of US candidates on mass shootings before and after the 2018 midterms by Céline Van den Rul Análise de Conteúdo (twitteR) by Nelson Crepalde Twitter sentiment analysis  Conteúdo adicional Text Mining and Analytics, University of Illinois at Urbana-Champaign: https://www.</description>
+    </item>
+    
+    <item>
+      <title>E-books sobre R</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/e-books-sobre-r/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/e-books-sobre-r/</guid>
+      <description> Oliveira, Paulo Felipe de; Guerra, Saulo; McDonell, Robert. Ciência de Dados com R – Introdução. Brasília: Editora IBPAD, 2018 Text Mining with R by Julia Silge and David Robinson blogdown: Creating Websites with R Markdown by Yihui Xie, Amber Thomas, Alison Presmanes Hill Efficient R programming by Colin Gillespie and Robin Lovelace R para ciências sociais Data Analysis and Prediction Algorithms with R by Rafael A. Irizarry  </description>
+    </item>
+    
+    <item>
+      <title>Segmentação de Mercado</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-segmenta%C3%A7%C3%A3o-de-mercado/</link>
+      <pubDate>Sat, 26 Dec 2020 20:35:22 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-segmenta%C3%A7%C3%A3o-de-mercado/</guid>
+      <description>A gentle Introduction to Customer Segmentation - Using K-Means Clustering to Understand Marketing Response
+Using K-Means Clustering to Understand Marketing Response</description>
+    </item>
+    
+    <item>
+      <title>Desafios que enfrentei para construir e publicar este site com Blogdown e Hugo</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-desafios-que-enfrentei-para-construir-publicar-este-site-com-blogdown-e-hugo/</link>
+      <pubDate>Sat, 26 Dec 2020 19:23:01 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-desafios-que-enfrentei-para-construir-publicar-este-site-com-blogdown-e-hugo/</guid>
+      <description>https://amber.rbind.io/2016/12/19/website/
+Finalmente, Alison Hill e sua equipe de desenvolvedores salvaram horas de trabalho no site por meio de funções implementadas no pacote Blogdown que permite a verificação de problemas! Muito obrigada!!!!!
+Unbreak your blogdown site by Alison Hill</description>
+    </item>
+    
+    <item>
+      <title>Blogs sobre R em Português</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-blogs-sobre-r-em-portugu%C3%AAs/</link>
+      <pubDate>Sat, 26 Dec 2020 17:34:50 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-blogs-sobre-r-em-portugu%C3%AAs/</guid>
+      <description>Marcos Vital nos presenteou com a organização de uma lista de blogs sobre R no Brasil.
+Outras dicas!!!
+ Curso Básico de Linguagem R by Eduardo Ferreira e Weverton Lisboa  </description>
+    </item>
+    
+    <item>
+      <title>Packages interessantes do R para Análise de dados e espacial</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-packages-interessantes-do-r-para-an%C3%A1lise-de-dados-e-espacial/</link>
+      <pubDate>Sat, 26 Dec 2020 17:32:30 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-packages-interessantes-do-r-para-an%C3%A1lise-de-dados-e-espacial/</guid>
+      <description> RFsp — Random Forest for spatial data (R tutorial) by Hengl, T., Nussbaum, M., and Wright, M.N.  </description>
+    </item>
+    
+    <item>
+      <title>R Para Análise Espacial</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-r-para-an%C3%A1lise-espacial/</link>
+      <pubDate>Sat, 26 Dec 2020 17:25:22 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-r-para-an%C3%A1lise-espacial/</guid>
+      <description>A comunidade acadêmica tem caminhado para abertura de licença de uso e reprodução de material didático, bases de dados, e conteúdo que pode ajudar a construção de competências e a aprendizagem em diferentes contextos. A universalização da informação é responsabilidade do docente que acredita na mudança por meio da educação. A Internet tem possibilitado tanto a publicação como o acesso a diferentes formas de apresentação de conteúdo que, em conjunto, contribuem para a formação de profissionais e outros acadêmicos.</description>
+    </item>
+    
+    <item>
+      <title>Como deixar o R com a minha cara</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/como-deixar-o-r-com-a-minha-cara/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/como-deixar-o-r-com-a-minha-cara/</guid>
+      <description>Para trocar o tema, basta fazer o download do tema favorito (ou criar o seu) e carrega no RStudio. Para isso:
+Tools -&amp;gt; Global Options -&amp;gt; Appearance -&amp;gt; Add&amp;hellip;
+ Temas  </description>
+    </item>
+    
+    <item>
+      <title>Tutoriais de R</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/tutoriais-de-r/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/tutoriais-de-r/</guid>
+      <description>Em inglês
+ R for data Science by Hadley Wickham and Garret Grolemund RMarkdown by RStudio Introduction to Machine Learning with the Tidyverse by Alison Hill UC Business Analytics R Programming Guide  Em português
+ Curso-R - Livro Curso-R - materiais Curso de R para Jornalistas by Gabriela Caesar  </description>
+    </item>
+    
+    <item>
+      <title>Tutoriais para QGIS</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/tutoriais-para-qgis/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/tutoriais-para-qgis/</guid>
+      <description> QGIS Tutorials and Tips by Ujaval Gandhi Spatial Thoughts by Ujaval Gandhi Automating GIS Workflows with QGIS (Full Course Material) by Ujaval Gandhi  </description>
+    </item>
+    
+    <item>
+      <title>Como comecei a usar RMarkdown</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/uso-markdown/</link>
+      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/uso-markdown/</guid>
+      <description>Períodos de pandemia são sempre interessantes! Falo como se tivesse passado por diversos momentos como este; felizmente, isso não é verdade! Entretanto, foi nesse período que descobri o Rmarkdown.
+O isolamento social trouxe possibilidades, como eu aprender o R. Pesquisando sobre Latex, tive acesso a diferentes linguagens para elaboração de relatórios reprodutíveis e dinâmicos. A necessidade faz a “força”. Resolvi explorar as possibilidades antes de me dedicar a aprender efetivamente alguma linguagem e descobri que o Rmarkdown é bem mais intuitivo e dinâmico do que o Latex, apesar de ainda precisar do Latex para implementação de equações, por exemplo.</description>
+    </item>
+    
     <item>
       <title>Hello R Markdown</title>
-      <link>http://retaoliveira.pro/posts/2020-12-01-r-rmarkdown/</link>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-01-r-rmarkdown/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>http://retaoliveira.pro/posts/2020-12-01-r-rmarkdown/</guid>
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-01-r-rmarkdown/</guid>
       <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
@@ -20,29 +1136,29 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     
     <item>
       <title>Courses</title>
-      <link>http://retaoliveira.pro/courses/sdss/</link>
+      <link>https://determined-poitras-d3dc0d.netlify.app/courses/sdss/</link>
       <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
       
-      <guid>http://retaoliveira.pro/courses/sdss/</guid>
+      <guid>https://determined-poitras-d3dc0d.netlify.app/courses/sdss/</guid>
       <description>Spatial decision Support System</description>
     </item>
     
     <item>
       <title>Introduction</title>
-      <link>http://retaoliveira.pro/posts/introduction/</link>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/introduction/</link>
       <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
       
-      <guid>http://retaoliveira.pro/posts/introduction/</guid>
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/introduction/</guid>
       <description>Greeting! This is an introduction post. This post tests the followings:
  Hero image is in the same directory as the post. This post should be at top of the sidebar. Post author should be the same as specified in author.yaml file.  </description>
     </item>
     
     <item>
       <title>Rich Content</title>
-      <link>http://retaoliveira.pro/courses/category/sub-category/rich-content/</link>
+      <link>https://determined-poitras-d3dc0d.netlify.app/courses/category/sub-category/rich-content/</link>
       <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
       
-      <guid>http://retaoliveira.pro/courses/category/sub-category/rich-content/</guid>
+      <guid>https://determined-poitras-d3dc0d.netlify.app/courses/category/sub-category/rich-content/</guid>
       <description>This sample post tests the followings:
  Category, sub-category nesting in the sidebar. Hero image and other images are in images folder inside this post directory. Different media rendering like image, tweet, YouTube video, Vimeo video etc.  Image Sample  Tweet Sample “In addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.”
 — Jan Tschichold pic.twitter.com/gcv7SrhvJb
@@ -51,10 +1167,10 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     
     <item>
       <title>Rich Content</title>
-      <link>http://retaoliveira.pro/posts/category/sub-category/rich-content/</link>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/category/sub-category/rich-content/</link>
       <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
       
-      <guid>http://retaoliveira.pro/posts/category/sub-category/rich-content/</guid>
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/category/sub-category/rich-content/</guid>
       <description>This sample post tests the followings:
  Category, sub-category nesting in the sidebar. Hero image and other images are in images folder inside this post directory. Different media rendering like image, tweet, YouTube video, Vimeo video etc.  Image Sample  Tweet Sample “In addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.”
 — Jan Tschichold pic.twitter.com/gcv7SrhvJb
@@ -63,13 +1179,130 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     
     <item>
       <title>Shortcodes Samples</title>
-      <link>http://retaoliveira.pro/posts/shortcodes/</link>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/shortcodes/</link>
       <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
       
-      <guid>http://retaoliveira.pro/posts/shortcodes/</guid>
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/shortcodes/</guid>
       <description>This is a sample post intended to test the followings:
  Default hero image. Different shortcodes.  Alert The following alerts are available in this theme.
 This is sample alert with type=&amp;quot;success&amp;quot;.  This is sample alert with type=&amp;quot;danger&amp;quot;.  This is sample alert with type=&amp;quot;warning&amp;quot;.  This is sample alert with type=&amp;quot;info&amp;quot;.  This is sample alert with type=&amp;quot;dark&amp;quot;.  This is sample alert with type=&amp;quot;primary&amp;quot;.  This is sample alert with type=&amp;quot;secondary&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>An analysis of the effects on rail operational efficiency due to a merger between Brazilian rail companies: The case of rumo-all</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/publication/da-silva-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/publication/da-silva-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Freight trip generation to buildings under construction : a comparative analysis with linear regression and generalised linear regression</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/publication/oliveira-freight-trip-generation-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/publication/oliveira-freight-trip-generation-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retailers and carriers’ viewpoint on Sorocaba’s city logistics: A spatial analysis</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/publication/guedesfurquim-retailers-carriers-viewpoint-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/publication/guedesfurquim-retailers-carriers-viewpoint-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/publication/preprint/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.</description>
+    </item>
+    
+    <item>
+      <title>Analysis of accessibility from collection and delivery points: Towards the sustainability of the e-commerce delivery</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/publication/de-oliveira-2019-a/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/publication/de-oliveira-2019-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Challenges to urban freight transport in historical cities: A case study for Sabará (Brazil)</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/publication/de-oliveira-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/publication/de-oliveira-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An overview of problems and solutions for urban freight transport in Brazilian cities</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/publication/oliveira-2018-a/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/publication/oliveira-2018-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is the Location of Warehouses Changing in the Belo Horizonte Metropolitan Area (Brazil)? A Logistics Sprawl Analysis in a Latin American Context</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/publication/oliveira-2018-b/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/publication/oliveira-2018-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Restrições de carga urbana e desafios logísticos: Percepção de varejistas e motoristas em Sorocaba</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/publication/furquim-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/publication/furquim-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis of the potential demand of automated delivery stations for e-commerce deliveries in Belo Horizonte, Brazil</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/publication/oliveira-2017-a/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/publication/oliveira-2017-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Análise do espraiamento logístico: um estudo para a região metropolitana de Belo Horizonte</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/publication/oliveira-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/publication/oliveira-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proposição de modelos de geração de viagens para Belo Horizonte</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/publication/de-oliveira-2017-a/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/publication/de-oliveira-2017-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelo de geração de viagens de carga em áreas urbanas: um estudo para bares, restaurantes e supermercados</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/publication/de-oliveira-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/publication/de-oliveira-2016/</guid>
+      <description></description>
     </item>
     
   </channel>

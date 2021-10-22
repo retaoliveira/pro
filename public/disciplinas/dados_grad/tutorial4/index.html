@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tutorial 4</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" />
+
+<meta property="og:title" content="Tutorial 4" />
+<meta property="og:description" content="A poluição por plástico é um problema importante e crescente, afetando negativamente a saúde dos oceanos e da vida selvagem.Our World in Data tem muitos dados em vários níveis, em escala global, por país e ao longo do tempo.
+Para este laboratório, nos concentramos nos dados de 2010.
+Além disso, a National Geographic realizou um concurso de comunicação de visualização de dados sobre resíduos plásticos, como visto aqui." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial4/" /><meta property="article:section" content="disciplinas" />
+<meta property="article:published_time" content="2021-06-05T00:00:00+01:00" />
+<meta property="article:modified_time" content="2021-06-05T00:00:00+01:00" />
+
+
+
+    
+    
+<meta name="description" content="Tutorial 4" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" alt="Logo">
+      Renata Oliveira</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/inverted-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/sdss/" title="Courses">Courses</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/introduction/" title="Introduction">Introduction</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/category/">Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/courses/category/sub-category/">Sub-Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/category/sub-category/rich-content/" title="Rich Content">Rich Content</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/shortcodes/" title="Shortcodes Sample">Shortcodes Sample</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://determined-poitras-d3dc0d.netlify.app/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/reta_huaab57059f86c546c583a9e55d0837b53_77497_120x120_fit_q75_box.jpg' alt="Author Image">
+          <h5 class="author-name">Renata Oliveira</h5>
+          <p>June 5, 2021</p>
+        </div>
+
+        <div class="title">
+          <h1>Tutorial 4</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+  <link rel="stylesheet" href="/assets/css/custom.css" type="text/css" />
+
+
+<p>A poluição por plástico é um problema importante e crescente, afetando negativamente a saúde dos oceanos e da vida selvagem.
+<a href="https://ourworldindata.org/plastic-pollution">Our World in Data</a> tem muitos dados em vários níveis, em escala global, por país e ao longo do tempo.</p>
+<p>Para este laboratório, nos concentramos nos dados de 2010.</p>
+<p>Além disso, a National Geographic realizou um concurso de comunicação de visualização de dados sobre resíduos plásticos, como visto <a href="https://www.nationalgeographic.org/funding-opportunities/innovation-challenges/plastic/dataviz/">aqui</a>.</p>
+<div id="objetivos-de-aprendizagem" class="section level1">
+<h1>Objetivos de aprendizagem</h1>
+<ul>
+<li>Visualizar dados numéricos e categóricos e interpretar visualizações</li>
+<li>Recriação de visualizações</li>
+</ul>
+</div>
+<div id="iniciando" class="section level1">
+<h1>Iniciando</h1>
+<div id="pacotes" class="section level2">
+<h2>Pacotes</h2>
+<p>Usaremos o pacote <strong>tidyverse</strong>* para esta análise.
+Execute o seguinte código no Console para carregar este pacote.</p>
+<pre class="r"><code>library(tidyverse)</code></pre>
+</div>
+<div id="dados" class="section level2">
+<h2>Dados</h2>
+<p>O conjunto de dados para esta tarefa pode ser encontrado no link a seguir, acessado por meio do comando:</p>
+<pre class="r"><code>#url_file &lt;- &quot;atalho no seu computador/plastic-waste.csv&quot;
+
+#plastic_waste &lt;- read_csv(url_file)
+
+#library(readr)
+plastic_waste &lt;- read_csv(&quot;D:/OneDrive - cefetmg.br/01_disciplinas/ERE/2020_2/R_adm/00_aulas/class07_dados_adm/data/plastic-waste.csv&quot;)
+
+View(plastic_waste)</code></pre>
+<p>As descrições das variáveis são as seguintes:</p>
+<ul>
+<li><code>code</code>: código do país</li>
+<li><code>entity</code>: Nome do país</li>
+<li><code>continent</code>: Nome do continente</li>
+<li><code>year</code>: Ano</li>
+<li><code>gdp_per_cap</code>: PIB per capita internacional 2011 $, taxa</li>
+<li><code>plastic_waste_per_cap</code>: Quantidade de resíduos plásticos per capita em kg/dia</li>
+<li><code>mismanaged_plastic_waste_per_cap</code>: Quantidade de resíduos plásticos mal administrados per capita em kg/dia</li>
+<li><code>mismanaged_plastic_waste</code>: Toneladas de resíduos plásticos mal administrados</li>
+<li><code>coastal_pop</code>: Número de indivíduos que vivem no litoral/na costa</li>
+<li><code>total_pop</code>: População total de acordo com Gapminder</li>
+</ul>
+</div>
+</div>
+<div id="warm-up" class="section level1">
+<h1>Warm up</h1>
+<ul>
+<li><p>Recorde que o RStudio está dividido em quatro painéis. Sem olhar, você pode nomeá-las todas e descrever brevemente seu propósito?</p></li>
+<li><p>Verifique se o conjunto de dados foi carregado para o Ambiente. Quantas observações há no conjunto de dados? Ao clicar no conjunto de dados no Ambiente, você poderá inspecioná-lo com mais cuidado. Alternativamente, você pode digitar <code>View(plastic_waste)</code> no Console para fazer isso.</p></li>
+<li><p>Dê uma rápida olhada nos dados e observe que há células que levam o valor <code>NA</code> - o que isso significa?</p></li>
+</ul>
+</div>
+<div id="exercícios" class="section level1">
+<h1>Exercícios</h1>
+<p>Vamos começar dando uma olhada na distribuição de resíduos plásticos per capita em 2010.</p>
+<pre class="r"><code>ggplot(data = plastic_waste, aes(x = plastic_waste_per_cap)) +
+  geom_histogram(binwidth = 0.2)</code></pre>
+<pre><code>## Warning: Removed 51 rows containing non-finite values (stat_bin).</code></pre>
+<p><img src="/disciplinas/dados_grad/tutorial4_files/figure-html/plastic_waste_per_cap-hist-1.png" width="672" /></p>
+<p>Um país se destaca como uma observação incomum no topo da distribuição.</p>
+<p>Uma maneira de identificar este país é filtrar os dados para países onde os resíduos plásticos per capita são maiores que 3,5 kg/pessoa.</p>
+<pre class="r"><code>plastic_waste %&gt;%
+  filter(plastic_waste_per_cap &gt; 3.5)</code></pre>
+<pre><code>## # A tibble: 1 x 10
+##   code  entity              continent  year gdp_per_cap plastic_waste_p~ mismanaged_plas~
+##   &lt;chr&gt; &lt;chr&gt;               &lt;chr&gt;     &lt;dbl&gt;       &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;
+## 1 TTO   Trinidad and Tobago North Am~  2010      31261.              3.6             0.19
+## # ... with 3 more variables: mismanaged_plastic_waste &lt;dbl&gt;, coastal_pop &lt;dbl&gt;,
+## #   total_pop &lt;dbl&gt;</code></pre>
+<p>Você esperava este resultado?</p>
+<p>Você poderia considerar fazer alguma pesquisa sobre Trinidad e Tobago para ver por que os resíduos plásticos per capita são tão altos lá, ou se isto é um erro de dados.</p>
+<ol style="list-style-type: decimal">
+<li>Faça um histograma para a distribuição de resíduos plásticos per capita desagregados (facet) por continente. O que você pode dizer sobre como os continentes se comparam uns aos outros em termos de seus resíduos plásticos per capita?</li>
+</ol>
+<pre class="marginfigure"><code>**NOTA:** A partir deste ponto, os gráficos e a saída do código não são exibidos nas instruções desta atividade, mas você mesmo pode e deve criar o código e ver os resultados.</code></pre>
+<p>Outra forma de visualizar os dados numéricos é utilizando gráficos de densidade.</p>
+<pre class="r"><code>ggplot(data = plastic_waste, aes(x = plastic_waste_per_cap)) +
+  geom_density()</code></pre>
+<p>E comparar as distribuições entre continentes por curvas de densidade de coloração por continente.</p>
+<pre class="r"><code>ggplot(data = plastic_waste, 
+       mapping = aes(x = plastic_waste_per_cap, 
+                     color = continent)) +
+  geom_density()</code></pre>
+<p>O gráfico resultante pode ser um pouco difícil de ler, então vamos também preencher as curvas com cores.</p>
+<pre class="r"><code>ggplot(data = plastic_waste, 
+       mapping = aes(x = plastic_waste_per_cap, 
+                     color = continent, 
+                     fill = continent)) +
+  geom_density()</code></pre>
+<p>A sobreposição de cores torna difícil dizer o que está acontecendo com as distribuições nos continentes plotados devido a continentes plotados sobre eles.</p>
+<p>Podemos mudar o nível de transparência da cor de preenchimento para ajudar nisso.</p>
+<p>O argumento <code>alpha</code> recebe valores entre 0 e 1: 0 é completamente transparente e 1 é completamente opaco.
+Não há como dizer qual valor funcionará melhor, então você só precisa tentar alguns valores.</p>
+<pre class="r"><code>ggplot(data = plastic_waste, 
+       mapping = aes(x = plastic_waste_per_cap, 
+                     color = continent, 
+                     fill = continent)) +
+  geom_density(alpha = 0.7)</code></pre>
+<p>Isto ainda não parece ótimo…</p>
+<ol style="list-style-type: decimal">
+<li><p>Recriar as parcelas de densidade acima usando um nível <code>alpha</code> diferente (inferior) que funcione melhor para exibir as curvas de densidade para todos os continentes.</p></li>
+<li><p>Descreva porque definimos a “cor” e “preenchimento” das curvas através do mapeamento estético do gráfico, mas definimos o nível “alpha” como uma característica da geometria de plotagem.</p></li>
+</ol>
+<p>E ainda outra maneira de visualizar esta relação é utilizando gráficos boxplot.</p>
+<pre class="r"><code>ggplot(data = plastic_waste, 
+       mapping = aes(x = continent, 
+                     y = plastic_waste_per_cap)) +
+  geom_boxplot()</code></pre>
+<ol style="list-style-type: decimal">
+<li>Converta os boxplot da tarefa anterior para <a href="http://ggplot2.tidyverse.org/reference/geom_violin.html">plot de violino</a>. O que os gráficos de violino revelam que os boxplot não revelam? Quais características são aparentes nas parcelas de box mas não nas parcelas de violino?</li>
+</ol>
+<pre class="marginfigure"><code>**Lembrar:** Utilizamos `geom_point()` para fazer scatterplots.</code></pre>
+<ol style="list-style-type: decimal">
+<li><p>Visualizar a relação entre os resíduos plásticos per capita e os resíduos plásticos mal administrados per capita usando um gráfico de dispersão.
+Descrever a relação.</p></li>
+<li><p>Colorir os pontos no gráfico de dispersão por continente.
+Parece haver alguma distinção clara entre continentes com relação a como os resíduos plásticos per capita e os resíduos plásticos mal administrados per capita estão associados?</p></li>
+<li><p>Visualize a relação entre os resíduos plásticos per capita e a população total, assim como os resíduos plásticos per capita e a população costeira.
+Você precisará fazer duas parcelas separadas.
+Algum destes pares de variáveis parece estar associado de forma mais linear?</p></li>
+</ol>
+</div>
+<div id="envolvimento" class="section level1">
+<h1>Envolvimento</h1>
+<p>Não esperamos que você complete todos os exercícios dentro da hora reservada para a atividade durante o encontro síncrono.
+Você deve encontrar um tempo para se reunir com sua equipe e completá-los após o encontro.</p>
+<pre class="marginfigure"><code>**Dica:** O eixo x é uma variável calculada. Um país com resíduos plásticos per capita acima de 3 kg/dia foi filtrado. E os dados não são representados apenas com pontos no gráfico, mas também com uma curva suave. O termo &quot;smooth&quot; deve ajudá-lo [escolha qual geom a usar](https://ggplot2.tidyverse.org/reference/index.html#section-geoms).</code></pre>
+<ol style="list-style-type: decimal">
+<li>Recrie o seguinte gráfico e interprete o que você vê no contexto dos dados.</li>
+</ol>
+<p><img src="/disciplinas/dados_grad/tutorial4_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+</div>
+
+        </div>
+
+        
+        
+          <div class="btn-improve-page">
+              <a href="https://github.com/retaoliveira/places.git/edit/main/content/disciplinas%5cdados_grad%5ctutorial4.html" title="Improve this page" target="_blank" rel="noopener">
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#projects">Projects</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#recent-posts">Recent Posts</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#achievements">Achievements</a>
+                </li>
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>renataoliveira@gmail.com</span></li>
+            
+            <li><span>Phone: </span> <span>&#43;5531988662226</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>Stay up to date with email notification</p>
+            
+              <form method='post' action='https://blogtrottr.com'>
+              <div class="form-group">
+              <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
+              <input type='hidden' name='btr_url' value='https://determined-poitras-d3dc0d.netlify.app/index.xml' />
+              <input type='hidden' name='schedule_type' value='1' />
+              <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
+              <button type="submit" class="btn btn-info"> Submit </button>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+
+This document was built with the&nbsp
+&nbsp<a href="https://retaoliveira.github.io/blog" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="heart-outline"></ion-icon></a>,&nbsp
+<a href="https://github.com/retaoliveira" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="logo-github"></ion-icon></a>, &nbsp<a href="https://cran.r-project.org" target="_blank" rel="noopener" style="color:#447178"><i class="fab fa-r-project "></i></a> &nbspand
+&nbsp<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener" style="color:#447178"> blogdown</a>.
+</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redes Logísticas e Custos</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" />
+
+<meta property="og:title" content="Redes Logísticas e Custos" />
+<meta property="og:description" content="Exercício 1Exercício 2O PRAZO DE ENTREGA DESTA ATIVIDADE PELO SIGAA É: 18/08
+Exercício 1Uma empresa constituída de 3 fábricas produz um componente que é vendido a um preço fixo de entrega de R$ 2,20 por unidade. Os custos de transporte das fábricas para os clientes são mostrados a seguir:
+ABCDEFábrica I\(R\$0,04\)\(R\$0,08\)\(R\$0,10\)\(R\$0,14\)\(R\$0,15\)Fábrica II\(R\$0,07\)\(R\$0,05\)\(R\$0,11\)\(R\$0,11\)\(R\$0,16\)Fábrica III\(R\$0,11\)\(R\$0,08\)\(R\$0,08\)\(R\$0,11\)\(R\$0,15\)Previsões de vendas indicam que as entregas mensais serão de: 2." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://determined-poitras-d3dc0d.netlify.app/disciplinas/log/est_6/" /><meta property="article:section" content="disciplinas" />
+<meta property="article:published_time" content="2021-07-20T00:00:00+01:00" />
+<meta property="article:modified_time" content="2021-07-20T00:00:00+01:00" />
+
+
+
+    
+    
+<meta name="description" content="Redes Logísticas e Custos" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" alt="Logo">
+      Renata Oliveira</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/inverted-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/sdss/" title="Courses">Courses</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/introduction/" title="Introduction">Introduction</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/category/">Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/courses/category/sub-category/">Sub-Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/category/sub-category/rich-content/" title="Rich Content">Rich Content</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/shortcodes/" title="Shortcodes Sample">Shortcodes Sample</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://determined-poitras-d3dc0d.netlify.app/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/reta_huaab57059f86c546c583a9e55d0837b53_77497_120x120_fit_q75_box.jpg' alt="Author Image">
+          <h5 class="author-name">Renata Oliveira</h5>
+          <p>July 20, 2021</p>
+        </div>
+
+        <div class="title">
+          <h1>Redes Logísticas e Custos</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          
+<script src="/places/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
+<ul>
+<li><a href="#exercício-1">Exercício 1</a></li>
+<li><a href="#exercício-2">Exercício 2</a></li>
+</ul>
+</div>
+
+<p>O PRAZO DE ENTREGA DESTA ATIVIDADE PELO SIGAA É: <strong>18/08</strong></p>
+<div id="exercício-1" class="section level1">
+<h1>Exercício 1</h1>
+<p>Uma empresa constituída de 3 fábricas produz um componente que é vendido a um preço fixo de entrega de R$ 2,20 por unidade. Os custos de transporte das fábricas para os clientes são mostrados a seguir:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+<th>D</th>
+<th>E</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Fábrica I</td>
+<td><span class="math inline">\(R\$0,04\)</span></td>
+<td><span class="math inline">\(R\$0,08\)</span></td>
+<td><span class="math inline">\(R\$0,10\)</span></td>
+<td><span class="math inline">\(R\$0,14\)</span></td>
+<td><span class="math inline">\(R\$0,15\)</span></td>
+</tr>
+<tr class="even">
+<td>Fábrica II</td>
+<td><span class="math inline">\(R\$0,07\)</span></td>
+<td><span class="math inline">\(R\$0,05\)</span></td>
+<td><span class="math inline">\(R\$0,11\)</span></td>
+<td><span class="math inline">\(R\$0,11\)</span></td>
+<td><span class="math inline">\(R\$0,16\)</span></td>
+</tr>
+<tr class="odd">
+<td>Fábrica III</td>
+<td><span class="math inline">\(R\$0,11\)</span></td>
+<td><span class="math inline">\(R\$0,08\)</span></td>
+<td><span class="math inline">\(R\$0,08\)</span></td>
+<td><span class="math inline">\(R\$0,11\)</span></td>
+<td><span class="math inline">\(R\$0,15\)</span></td>
+</tr>
+</tbody>
+</table>
+<p>Previsões de vendas indicam que as entregas mensais serão de: 2.000 unidades para o cliente A, 2.200 para B, 3.000 para C, 3.500 para D e 4.000 para E. As capacidades máximas de produção mensal são de 5.500 na fábrica I, 10.000 em II, e 15.000 em III. Os custos diretos para produzir cada unidade são de <span class="math inline">\(R\$ 2,00\)</span> na fábrica I, <span class="math inline">\(R\$ 1,90\)</span> na fábrica II e <span class="math inline">\(R\$ 1,80\)</span> na fábrica III.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Quais são as variáveis de decisão em questão no problema proposto?</p></li>
+<li><p>Defina a Função Objetivo do Problema visando a maximização do lucro, considerando as parcelas de vendas, produção e transporte, e considerando que o produtor é responsável pelos custos de transporte.</p></li>
+<li><p>Escreva as restrições devido à demanda e às capacidades produtivas.</p></li>
+<li><p>Estruture o problema na Forma Formal de um problema de PL.</p></li>
+<li><p>Resolva o problema com a ajuda do Solver – Excel. Qual o valor atribuído pela ferramenta ao Lucro Máximo? Qual o esquema de produção e transporte proposto pelo sistema?</p></li>
+<li><p>Quais os dois clientes mais interessantes para a empresa? Por quê?</p></li>
+</ol>
+</div>
+<div id="exercício-2" class="section level1">
+<h1>Exercício 2</h1>
+<p>Uma empresa fabricante de aparelhos elétricos compra motores para fabricação de seus produtos. A demanda anual para produção equivale a 120.000 motores e o custo unitário de aquisição de cada motor é de <span class="math inline">\(R\$ 120,00\)</span>. A demanda permaneceu constante ao longo dos últimos anos e deve permanecer assim por algum tempo.</p>
+<p>Cada motor pesa cerca de 4,5 quilogramas e o lote de compras atualmente definido para aquisição destes componentes é de 3.000 unidades. Após recebimento do pedido, o fornecedor demora 1 (um) dia para expedição dos motores.</p>
+<p>Os custos anuais para manutenção de estoque dos motores são de 25% do valor de aquisição.</p>
+<p>O gerente da fábrica recebeu uma proposta para realizar o transporte dos motores e deve decidir qual irá aceitar. Os detalhes da operação de transporte são apresentados a seguir.</p>
+<table>
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Transportadora</th>
+<th>Lote de Compra Ótimo (un)</th>
+<th>Tempo em trânsito (dias)</th>
+<th>Custo unitário de transporte (R$/kg)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AMRailroad</td>
+<td>2000</td>
+<td>5</td>
+<td>0,144</td>
+</tr>
+<tr class="even">
+<td>Northeast Trucking</td>
+<td>1000</td>
+<td>3</td>
+<td>0,167</td>
+</tr>
+<tr class="odd">
+<td>Golden Freightways</td>
+<td>500</td>
+<td>3</td>
+<td>0,178</td>
+</tr>
+<tr class="even">
+<td>Golden Freightways</td>
+<td>1500</td>
+<td>3</td>
+<td>0,178</td>
+</tr>
+<tr class="odd">
+<td>Golden Freightways</td>
+<td>2500</td>
+<td>3</td>
+<td>0,133</td>
+</tr>
+<tr class="even">
+<td>Golden Freightways</td>
+<td>3000</td>
+<td>3</td>
+<td>0,089</td>
+</tr>
+<tr class="odd">
+<td>Golden Freightways</td>
+<td>4000</td>
+<td>3</td>
+<td>0,079</td>
+</tr>
+</tbody>
+</table>
+<p>A partir do cálculo do custo total de estoque (cíclico) e dos custos de transporte, determine qual a alternativa mais econômica.</p>
+<hr>
+<ul>
+<li><p><a href="https://www.dropbox.com/s/jy45ct453y7zsjb/ea_6.xlsx?dl=0">Link para arquivo com cálculos</a></p></li>
+<li><p>Vídeo sobre como ativar o Solver no Excel</p></li>
+</ul>
+<iframe width="1218" height="645" src="https://www.youtube.com/embed/CXbibyCtUNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+
+        </div>
+
+        
+        
+          <div class="btn-improve-page">
+              <a href="https://github.com/retaoliveira/places.git/edit/main/content/disciplinas%5clog%5cest_6.html" title="Improve this page" target="_blank" rel="noopener">
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#projects">Projects</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#recent-posts">Recent Posts</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#achievements">Achievements</a>
+                </li>
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>renataoliveira@gmail.com</span></li>
+            
+            <li><span>Phone: </span> <span>&#43;5531988662226</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>Stay up to date with email notification</p>
+            
+              <form method='post' action='https://blogtrottr.com'>
+              <div class="form-group">
+              <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
+              <input type='hidden' name='btr_url' value='https://determined-poitras-d3dc0d.netlify.app/index.xml' />
+              <input type='hidden' name='schedule_type' value='1' />
+              <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
+              <button type="submit" class="btn btn-info"> Submit </button>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+
+This document was built with the&nbsp
+&nbsp<a href="https://retaoliveira.github.io/blog" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="heart-outline"></ion-icon></a>,&nbsp
+<a href="https://github.com/retaoliveira" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="logo-github"></ion-icon></a>, &nbsp<a href="https://cran.r-project.org" target="_blank" rel="noopener" style="color:#447178"><i class="fab fa-r-project "></i></a> &nbspand
+&nbsp<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener" style="color:#447178"> blogdown</a>.
+</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

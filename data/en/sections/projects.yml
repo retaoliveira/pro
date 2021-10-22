@@ -21,28 +21,37 @@ buttons:
 
 # your projects
 projects:
-- name: Kubernetes
+- name: Characterization of the Logistics Sprawl and respective impacts on metropolitan areas
   logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  role: researcher
+  timeline: "July 2017 - Present"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Production-Grade Container Scheduling and Management.
   tags: ["professional", "kubernetes", "cloud"]
 
-- name: Tensorflow
+- name: Accessibility and mobility planning for a sustainable and equitable cities
   logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
+  role: Researcher
+  timeline: "August 2018 - Present"
   repo: https://github.com/tensorflow/tensorflow
   #url: ""
   summary: An Open Source Machine Learning Framework for Everyone.
   tags: ["professional", "machine-learning","academic"]
 
-- name: Toha
+- name: Urban Logistics Challenges and Opportunities
   logo: /images/sections/projects/toha.png
-  role: Owner
+  role: Researcher
   timeline: "Jun 2019 - Present"
   repo: https://github.com/hossainemruz/toha
   summary: A Hugo theme for personal portfolio.
   tags: ["hobby","hugo","theme","professional"]
+  
+- name: Urban Horticulture as a city logistics solution
+  logo: /images/sections/projects/toha.png
+  role: Researcher
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["hobby","hugo","theme","professional"]
+

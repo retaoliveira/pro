@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>R Para Análise Espacial</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" />
+
+<meta property="og:title" content="R Para Análise Espacial" />
+<meta property="og:description" content="A comunidade acadêmica tem caminhado para abertura de licença de uso e reprodução de material didático, bases de dados, e conteúdo que pode ajudar a construção de competências e a aprendizagem em diferentes contextos. A universalização da informação é responsabilidade do docente que acredita na mudança por meio da educação. A Internet tem possibilitado tanto a publicação como o acesso a diferentes formas de apresentação de conteúdo que, em conjunto, contribuem para a formação de profissionais e outros acadêmicos." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-r-para-an%C3%A1lise-espacial/" /><meta property="og:image" content="https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-r-para-an%C3%A1lise-espacial/featured.jpg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-12-26T17:25:22-03:00" />
+<meta property="article:modified_time" content="2020-12-26T17:25:22-03:00" />
+
+
+
+    
+    
+<meta name="description" content="R Para Análise Espacial" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" alt="Logo">
+      Renata Oliveira</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/inverted-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/sdss/" title="Courses">Courses</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/introduction/" title="Introduction">Introduction</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/category/">Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/courses/category/sub-category/">Sub-Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/category/sub-category/rich-content/" title="Rich Content">Rich Content</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/shortcodes/" title="Shortcodes Sample">Shortcodes Sample</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://determined-poitras-d3dc0d.netlify.app/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/reta_huaab57059f86c546c583a9e55d0837b53_77497_120x120_fit_q75_box.jpg' alt="Author Image">
+          <h5 class="author-name">Renata Oliveira</h5>
+          <p>December 26, 2020</p>
+        </div>
+
+        <div class="title">
+          <h1>R Para Análise Espacial</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>A comunidade acadêmica tem caminhado para abertura de licença de uso e reprodução de material didático, bases de dados, e conteúdo que pode ajudar a construção de competências e a aprendizagem em diferentes contextos. A universalização da informação é responsabilidade do docente que acredita na mudança por meio da educação. A Internet tem possibilitado tanto a publicação como o acesso a diferentes formas de apresentação de conteúdo que, em conjunto, contribuem para a formação de profissionais e outros acadêmicos. Infelizmente vivemos em um país onde a desigualdade ainda diferencia as pessoas, também em relação ao acesso à Internet. Nesse contexto, a abertura pública de conteúdo faz-se ainda mais necessária e eficaz, contribuindo para pequenas ações que podem mudar o mundo.</p>
+<p>Trago aqui algumas dicas de sites, livros e material para implementações práticas que foram generosamente publicados por seus autores.</p>
+<h3 id="em-português">Em português</h3>
+<ul>
+<li>
+<p><a href="https://geokrigagem.com.br/geoestatistica-no-r-licao7-analises-descritivas-dos-dados-tutorial/">Lições de geoestatística no R</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/channel/UCO6x7sQurFTw0Su0vsexE5g">Canal do Mercel Santos</a></p>
+</li>
+</ul>
+<h3 id="em-inglês">Em inglês</h3>
+<ul>
+<li>
+<p><a href="https://cran.r-project.org/doc/contrib/intro-spatial-rl.pdf">Introduction to visualising spatial data in R by Robin Lovelace (R.Lovelace@leeds.ac.uk), James Cheshire, Rachel Oldroyd and others</a></p>
+</li>
+<li>
+<p><a href="https://geocompr.robinlovelace.net/">Geocomputation with R by Robin Lovelace, Jakub Nowosad, Jannes Muenchow</a></p>
+</li>
+<li>
+<p><a href="http://data-analytics.net/cep/Schedule_files/geospatial.html">Geospatial Analysis in R by Major David Beskow</a></p>
+</li>
+<li>
+<p><a href="https://slcladal.github.io/index.html">Language Technology and Data Analysis Laboratory (LADAL) of the School of Languages and Cultures at the University of Queensland</a></p>
+</li>
+<li>
+<p><a href="https://mgimond.github.io/Spatial/index.html">Intro to GIS and Spatial Analysis by Manuel Gimond</a></p>
+</li>
+<li>
+<p><a href="https://hautahi.com/rmaps">Mapping Spatial Data in R by Hautahi Kingi</a></p>
+</li>
+<li>
+<p><a href="https://www.jessesadler.com/post/gis-with-r-intro/">Introduction to GIS with R by Jesse Sadler</a></p>
+</li>
+<li>
+<p><a href="https://edzer.github.io/UseR2017/">Spatial Data in R: New Directions by Edzer Pebesma</a></p>
+</li>
+<li>
+<p><a href="https://spacetimewithr.org/">Spatio-Temporal Statistics with R by Christopher K. Wikle, Andrew Zammit-Mangion, and Noel Cressie</a></p>
+</li>
+<li>
+<p><a href="http://gis.humboldt.edu/OLM/r/Spatial%20Analysis%20With%20R.pdf">Use R! by Robert Gentleman Kurt Hornik Giovanni Parmigiani</a></p>
+</li>
+<li>
+<p><a href="https://link.springer.com/content/pdf/10.1007%2F978-1-4614-7618-4.pdf">Applied Spatial Data Analysis with R by Roger S. Bivand, Edzer Pebesma and Virgilio Gómez-Rubio</a></p>
+</li>
+<li>
+<p><a href="https://www.maths.lancs.ac.uk/~rowlings/Teaching/UseR2012/cheatsheet.html">Geospatial Data in R and beyond by Barry Rowlingson</a></p>
+</li>
+<li>
+<p><a href="spatial-analyst.net">spatial-analyst.net by Tomislav Hengl</a></p>
+</li>
+<li>
+<p><a href="https://cengel.github.io/rspatial/">Introduction to Mapping and Spatial Analysis with R by Branner Earth Sciences Library - Teaching Corner</a></p>
+</li>
+<li>
+<p><a href="https://hautahi.com/rmaps">Mapping Spatial Data in R by Hautahi Kingi</a></p>
+</li>
+<li>
+<p><a href="https://north-road.github.io/qgis-processing-r/">Processing R Provider by North Road and Jan Caha</a></p>
+</li>
+<li>
+<p><a href="https://rspatial.org/">Spatial Data Science with R by Robert J. Hijmans</a></p>
+</li>
+<li>
+<p><a href="https://www.jessesadler.com/post/gis-with-r-intro/">Introduction to GIS with R by Jesse Sadler</a></p>
+</li>
+<li>
+<p><a href="https://www.r-spatial.org/">R Spatial software blogs and ideas by Edzer Pebesma</a></p>
+</li>
+<li>
+<p><a href="https://keen-swartz-3146c4.netlify.app/">Spatial Data Science by Edzer Pebesma, Roger Bivand</a></p>
+</li>
+<li>
+<p><a href="http://www.gastonsanchez.com/visually-enforced/how-to/2014/01/15/Center-data-in-R/">Visually Enforced by Gaston Sanchez</a></p>
+</li>
+<li>
+<p><a href="https://rpubs.com/corey_sparks/105700">Exploratory Spatial Data Analysis by coreysparks</a></p>
+</li>
+<li>
+<p><a href="https://spatialanalysis.github.io/lab_tutorials/Applications_of_Spatial_Weights.html">Applications of Spatial Weights by Luc Anselin and Grant Morrison1</a></p>
+</li>
+<li>
+<p><a href="https://rpubs.com/FelipeSantos/LISA_tmap_geoda">Local Moran’s I and spatial scales (using R and tmap) by Felipe Santos Marquez</a></p>
+</li>
+<li>
+<p><a href="https://rpubs.com/helson/608377">Outlier detection in spatial data using  by Helson Gomes de Souza</a></p>
+</li>
+<li>
+<p><a href="https://github.com/rafapereirabr/urban_centrality_index_2013">Urban centrality index by Rafael Pereira</a></p>
+</li>
+</ul>
+<h3 id="the-best">The BEST</h3>
+<p><a href="https://maczokni.github.io/crimemapping_textbook_bookdown/">Crime Mapping in R by Juanjo Medina and Reka Solymosi</a></p>
+<h3 id="dicas-e-dúvidas">Dicas e dúvidas</h3>
+<ul>
+<li><a href="https://gist.github.com/rafapereirabr/5348193abf779625f5e8c5090776a228">Map of bivariate spatial correlation in R (bivariate LISA) by Rafael Pereira</a></li>
+</ul>
+
+        </div>
+
+        
+        
+          <div class="btn-improve-page">
+              <a href="https://github.com/retaoliveira/places.git/edit/main/content/posts%5c2020-12-26-r-para-an%c3%a1lise-espacial%5cindex.md" title="Improve this page" target="_blank" rel="noopener">
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#em-português">Em português</a></li>
+        <li><a href="#em-inglês">Em inglês</a></li>
+        <li><a href="#the-best">The BEST</a></li>
+        <li><a href="#dicas-e-dúvidas">Dicas e dúvidas</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#projects">Projects</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#recent-posts">Recent Posts</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#achievements">Achievements</a>
+                </li>
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>renataoliveira@gmail.com</span></li>
+            
+            <li><span>Phone: </span> <span>&#43;5531988662226</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>Stay up to date with email notification</p>
+            
+              <form method='post' action='https://blogtrottr.com'>
+              <div class="form-group">
+              <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
+              <input type='hidden' name='btr_url' value='https://determined-poitras-d3dc0d.netlify.app/index.xml' />
+              <input type='hidden' name='schedule_type' value='1' />
+              <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
+              <button type="submit" class="btn btn-info"> Submit </button>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+
+This document was built with the&nbsp
+&nbsp<a href="https://retaoliveira.github.io/blog" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="heart-outline"></ion-icon></a>,&nbsp
+<a href="https://github.com/retaoliveira" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="logo-github"></ion-icon></a>, &nbsp<a href="https://cran.r-project.org" target="_blank" rel="noopener" style="color:#447178"><i class="fab fa-r-project "></i></a> &nbspand
+&nbsp<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener" style="color:#447178"> blogdown</a>.
+</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

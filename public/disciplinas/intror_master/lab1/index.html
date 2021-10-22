@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 1</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" />
+
+<meta property="og:title" content="Lab 1" />
+<meta property="og:description" content="A Unidade 1 é estruturada considerando os seguintes tópicos:  Instalação do R e do RStudio Como instalar o Git Criando uma conta no Github Instalar e carregar pacotes no R Instalar pacotes no R a partir do Github E aí, R? Entendendo o ambiente de trabalho Primeiros documentos no R - RMarkdown  Diretrizes gerais:  Baixe o arquivo .Rmd e abra no RStudio.  Arquivo
+Instale os pacotes:   &quot;tidyverse&quot; &quot;tinytex&quot; &quot;knitr&quot; &quot;flexdashboard&quot; &quot;xaringan&quot; &quot;xaringanthemer&quot;  Chame as bibliotecas dos pacotes instalados   library(&quot;tidyverse&quot;) library(&quot;tinytex&quot;) library(&quot;knitr&quot;) library(&quot;flexdashboard&quot;) library(&quot;xaringan&quot;) library(&quot;xaringanthemer&quot;)   Corrija os problemas de códigos nos respectivos chunks." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/lab1/" /><meta property="article:section" content="disciplinas" />
+<meta property="article:published_time" content="2021-10-15T00:00:00+01:00" />
+<meta property="article:modified_time" content="2021-10-15T00:00:00+01:00" />
+
+
+
+    
+    
+<meta name="description" content="Lab 1" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" alt="Logo">
+      Renata Oliveira</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/inverted-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/sdss/" title="Courses">Courses</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/introduction/" title="Introduction">Introduction</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/category/">Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/courses/category/sub-category/">Sub-Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/category/sub-category/rich-content/" title="Rich Content">Rich Content</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/shortcodes/" title="Shortcodes Sample">Shortcodes Sample</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://determined-poitras-d3dc0d.netlify.app/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/reta_huaab57059f86c546c583a9e55d0837b53_77497_120x120_fit_q75_box.jpg' alt="Author Image">
+          <h5 class="author-name">Renata Oliveira</h5>
+          <p>October 15, 2021</p>
+        </div>
+
+        <div class="title">
+          <h1>Lab 1</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <h2 id="a-unidade-1-é-estruturada-considerando-os-seguintes-tópicos">A <strong>Unidade 1</strong> é estruturada considerando os seguintes tópicos:</h2>
+<ul>
+<li>Instalação do R e do RStudio</li>
+<li>Como instalar o Git</li>
+<li>Criando uma conta no Github</li>
+<li>Instalar e carregar pacotes no R</li>
+<li>Instalar pacotes no R a partir do Github</li>
+<li>E aí, R? Entendendo o ambiente de trabalho</li>
+<li>Primeiros documentos no R - RMarkdown</li>
+</ul>
+<h2 id="diretrizes-gerais">Diretrizes gerais:</h2>
+<ol>
+<li>Baixe o arquivo .Rmd e abra no RStudio.</li>
+</ol>
+<p><a href="https://cefetmgbr-my.sharepoint.com/:u:/g/personal/renataoliveira_cefetmg_br/EdTjtwRl5F5DjFDlgrOB6BgB4fqdODik9Jkp0cA_sB696Q?e=jdqlwW">Arquivo</a></p>
+<ol start="2">
+<li>Instale os pacotes:</li>
+</ol>
+<ul>
+<li><code>&quot;tidyverse&quot;</code></li>
+<li><code>&quot;tinytex&quot;</code></li>
+<li><code>&quot;knitr&quot;</code></li>
+<li><code>&quot;flexdashboard&quot;</code></li>
+<li><code>&quot;xaringan&quot;</code></li>
+<li><code>&quot;xaringanthemer&quot;</code></li>
+</ul>
+<ol start="3">
+<li>Chame as bibliotecas dos pacotes instalados</li>
+</ol>
+<ul>
+<li><code>library(&quot;tidyverse&quot;)</code></li>
+<li><code>library(&quot;tinytex&quot;)</code></li>
+<li><code>library(&quot;knitr&quot;)</code></li>
+<li><code>library(&quot;flexdashboard&quot;)</code></li>
+<li><code>library(&quot;xaringan&quot;)</code></li>
+<li><code>library(&quot;xaringanthemer&quot;)</code></li>
+</ul>
+<ol start="4">
+<li>
+<p>Corrija os problemas de códigos nos respectivos chunks.</p>
+</li>
+<li>
+<p>Rode o arquivo .Rmd por meio do ícone <code>knitr</code></p>
+</li>
+<li>
+<p>Salve o .Rmd e <strong>submeta-o por meio da tarefa no Sigaa</strong>.</p>
+</li>
+</ol>
+<blockquote>
+<p>Dica: As barras que delimitam o endereçamento do arquivo no seu computador, quando exibidas no explorer do Windows, são invertidas (). O R trabalha com barras normais (/) para endereçamento.</p>
+</blockquote>
+<h2 id="preparação-para-o-exercício">Preparação para o exercício:</h2>
+<p>Carregue o <em>data frame</em> <em>mtcars</em></p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}">data(mtcars)
+</code></pre><h2 id="encontre-o-erro-em-todos-os-códigos-abaixo-corrija-os-e-rode-o-script">Encontre o erro em todos os códigos abaixo, corrija-os e rode o script:</h2>
+<p>Q1)</p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}">Head(mtcars)
+</code></pre><p>Q2)</p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}">str(Mtcars)
+</code></pre><p>Q3)</p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}">dim[mtcars]
+</code></pre><p>Q4)</p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}">nomes(mtcars)
+</code></pre><p>Q5)</p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}">head(mtcars, x = 10)
+</code></pre><p>Q6)</p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}">v1 &lt;- (&quot;pato&quot;, &quot;cachorro&quot;, &quot;minhoca&quot;, &quot;lagarto&quot;)
+</code></pre><p>Q7)</p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}">v2 &lt;- c(&quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;)
+v1 + 42
+</code></pre><p>Q8)</p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}">v1 &lt;- c(&quot;pato&quot;, &quot;cachorro&quot;, &quot;minhoca&quot;, &quot;lagarto&quot;
+</code></pre><p>Q9)</p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}">v3 &lt;- c(33 31 40 25 27 40)
+</code></pre><p>Q10)</p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}">v1 &lt;- c(pato, cachorro, minhoca, lagarto)
+</code></pre><p>Q11)</p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}">v1 &lt;- c(&quot;pato&quot; &quot;cachorro&quot; &quot;minhoca&quot; &quot;lagarto&quot;)
+</code></pre><p>Q12)</p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}">v3 &lt;- C(33, 31, 40, 25, 27, 40)
+</code></pre><p>Q13)</p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}">v1 &lt;- c(&quot;pato&quot;, &quot;cachorro&quot;&quot;, &quot;minhoca&quot;, &quot;lagarto&quot;)
+v3 &lt;- c(33, 31, 40, 25, 27, 40)
+myData &lt;- data.frame(v1, v3)
+</code></pre><p>Q14)</p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}">v1 &lt;- c(&quot;pato&quot;, &quot;cachorro&quot;&quot;, &quot;minhoca&quot;, &quot;lagarto&quot;)
+v4 &lt;- c(33, 31, 40, 25)
+myData &lt;- data.frame(v1 = animal, v4 = idade)
+</code></pre><p>Q15)</p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}">ls
+</code></pre><p>Q16)</p>
+<pre tabindex="0"><code class="language-{r}" data-lang="{r}">v1 &lt;- c(&quot;pato&quot;, &quot;cachorro&quot;, &quot;minhoca&quot;, &quot;lagarto&quot;)
+sum(v1)
+</code></pre>
+        </div>
+
+        
+        
+          <div class="btn-improve-page">
+              <a href="https://github.com/retaoliveira/places.git/edit/main/content/disciplinas%5cintror_master%5clab1.md" title="Improve this page" target="_blank" rel="noopener">
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#a-unidade-1-é-estruturada-considerando-os-seguintes-tópicos">A <strong>Unidade 1</strong> é estruturada considerando os seguintes tópicos:</a></li>
+    <li><a href="#diretrizes-gerais">Diretrizes gerais:</a></li>
+    <li><a href="#preparação-para-o-exercício">Preparação para o exercício:</a></li>
+    <li><a href="#encontre-o-erro-em-todos-os-códigos-abaixo-corrija-os-e-rode-o-script">Encontre o erro em todos os códigos abaixo, corrija-os e rode o script:</a></li>
+  </ol>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#projects">Projects</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#recent-posts">Recent Posts</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#achievements">Achievements</a>
+                </li>
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>renataoliveira@gmail.com</span></li>
+            
+            <li><span>Phone: </span> <span>&#43;5531988662226</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>Stay up to date with email notification</p>
+            
+              <form method='post' action='https://blogtrottr.com'>
+              <div class="form-group">
+              <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
+              <input type='hidden' name='btr_url' value='https://determined-poitras-d3dc0d.netlify.app/index.xml' />
+              <input type='hidden' name='schedule_type' value='1' />
+              <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
+              <button type="submit" class="btn btn-info"> Submit </button>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+
+This document was built with the&nbsp
+&nbsp<a href="https://retaoliveira.github.io/blog" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="heart-outline"></ion-icon></a>,&nbsp
+<a href="https://github.com/retaoliveira" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="logo-github"></ion-icon></a>, &nbsp<a href="https://cran.r-project.org" target="_blank" rel="noopener" style="color:#447178"><i class="fab fa-r-project "></i></a> &nbspand
+&nbsp<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener" style="color:#447178"> blogdown</a>.
+</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

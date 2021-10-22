@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Análise de dados para gestão organizacional on Renata Oliveira</title>
+    <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/</link>
+    <description>Recent content in Análise de dados para gestão organizacional on Renata Oliveira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Padlet da disciplina</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/padlet/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/padlet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projeto Integrador</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/projects/</link>
+      <pubDate>Thu, 10 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/projects/</guid>
+      <description>Os projetos integradores são parte estruturante do curso e, portanto, visam promover a sistematização e a consolidação da aprendizagem. Ainda, tem como objetivo proporcionar aos estudantes a capacidade de implementação do conhecimento adquirido ao longo deste curso de maneira aplicada e em uma situação-problema real.
+Este projeto será desenvolvido ao longo de toda a disciplina e deve ser relacionado com cada unidade de ensino. Seu conteúdo deve ser estruturado seguindo normas cultas de linguagem, clareza em relação ao problema em investigação e aos objetivos propostos.</description>
+    </item>
+    
+    <item>
+      <title>Projeto 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/project1/</link>
+      <pubDate>Sun, 20 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/project1/</guid>
+      <description>Pré-requisitosPara desenvolver esta tarefa você precisará dos seguintes pacotes:- rMarkdown
+- knitr
+- rpubs
+- prettydoc
+- xaringan
+- xaringarExtra
+- xaringanthemer
+- flexdashboard
+- kableExtra
+Atividades para consolidação do Projeto 01:Esta atividade tem valor de 10 pontos e, apesar de estar relacionada ao projeto integrador, é avaliada de maneira separada. O prazo para entrega desta atividade é dia 08/07/2021.
+Criar um documento de comunicação (relatório, apresentação ou outro de sua escolha) em RMarkdown.</description>
+    </item>
+    
+    <item>
+      <title>Encontro Síncrono 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc1/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc1/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Encontro Síncrono 2</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc2/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc2/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Encontro Síncrono 3</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc3/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc3/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Encontros Síncronos 4, 5 e 6</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc4/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc4/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Mais sobre gráficos</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc8/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc8/</guid>
+      <description>LINK</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial1/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial1/</guid>
+      <description>Diretrizes gerais:Baixe o arquivo .Rmd e abra no RStudio.Arquivo
+Instale os pacotes:&#34;tidyverse&#34;&#34;tinytex&#34;&#34;knitr&#34;&#34;flexdashboard&#34;&#34;xaringan&#34;&#34;xaringanthemer&#34;Chame as bibliotecas dos pacotes instaladoslibrary(&#34;tidyverse&#34;)library(&#34;tinytex&#34;)library(&#34;knitr&#34;)library(&#34;flexdashboard&#34;)library(&#34;xaringan&#34;)library(&#34;xaringanthemer&#34;)Corrija os problemas de códigos nos respectivos chunks.
+Rode o arquivo .Rmd por meio do comando a seguir (copie e cole o comando no console + enter), substituindo o nome do arquivo pelo endereço completo em seu computador.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 2</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial2/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial2/</guid>
+      <description>Diretrizes gerais:Baixe o arquivo e abra no RStudio. Link
+Execute as operações assinaladas nos exercícios a seguir.
+Salve o .Rmd e submeta-o por meio desta tarefa.
+Dica: As barras que delimitam o endereçamento do arquivo no seu computador, quando exibidas no explorer do Windows, são invertidas (). O R trabalha com barras normais (/) para endereçamento.
+Operações matemáticas e vetoresExercícios:Questão 1:</description>
+    </item>
+    
+    <item>
+      <title>Encontros Síncronos 7 e 8</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc5/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc5/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 3</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial3/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial3/</guid>
+      <description>Diretrizes gerais:Baixe o arquivo e abra no RStudio. Link
+Execute as operações assinaladas nos exercícios a seguir.
+Salve o .Rmd e submeta-o por meio desta tarefa.
+Dica: As barras que delimitam o endereçamento do arquivo no seu computador, quando exibidas no explorer do Windows, são invertidas (). O R trabalha com barras normais (/) para endereçamento.
+Dê uma olhada no dataframe Starwars.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 4</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial4/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial4/</guid>
+      <description>A poluição por plástico é um problema importante e crescente, afetando negativamente a saúde dos oceanos e da vida selvagem.Our World in Data tem muitos dados em vários níveis, em escala global, por país e ao longo do tempo.
+Para este laboratório, nos concentramos nos dados de 2010.
+Além disso, a National Geographic realizou um concurso de comunicação de visualização de dados sobre resíduos plásticos, como visto aqui.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 5</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial5/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial5/</guid>
+      <description>library(tidyverse)library(ggplot2)# From TidyTuesday: https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.mdhotels &amp;lt;- read_csv(&amp;quot;https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-02-11/hotels.csv&amp;quot;)ExercíciosExercício 1.As pessoas estão viajando por um capricho?Vamos ver…
+Preencha os espaços em branco para filtragem de reservas de hotel onde o hóspede é não dos EUA (código do país USA) e o lead_time é menos de 1 dia.
+Nota: Você precisará definir eval=TRUE quando tiver uma resposta que queira experimentar.
+hotels_no_usa &amp;lt;- filter(hotels, country != &amp;quot;USA&amp;quot;, lead_time &amp;lt; 1)hotels_no_usa_cancelled &amp;lt;- select(hotels_no_usa, hotel, is_canceled)ggplot(hotels_no_usa, aes(x = arrival_date_year)) +geom_bar()hotels_no_usa_pipe &amp;lt;- hotels %&amp;gt;% filter(country !</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 6</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial6/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/tutorial6/</guid>
+      <description>BibliotecasEssas funções servem para carregar as bibliotecas dos pacotes que serão necessários para a análise.
+library(tidyverse)Carregar arquivosFaçam o download do arquivo .zip.Removam os arquivos de dados do arquivo .zip.Carregue os arquivos de dados usando a função read_csv e atribuindo cada conjunto de dados a um objetoManipulação de dados - mulheres cientistasFaça a junção dos dataframes
+Ordene por ano de nascimento</description>
+    </item>
+    
+    <item>
+      <title>Encontros Síncronos 9 e 10</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc9/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc9/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Encontros Síncronos 11 e 12</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc12/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc12/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+    <item>
+      <title>Encontros Síncronos 13</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc13/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/dados_grad/sinc13/</guid>
+      <description>LINK
+</description>
+    </item>
+    
+  </channel>
+</rss>

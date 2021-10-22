@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Operadores lógicos e aritméticos no R</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" />
+
+<meta property="og:title" content="Operadores lógicos e aritméticos no R" />
+<meta property="og:description" content="Estatística descritiva para sumarização de dados com o R Já apresentamos os operadores relativos às estatísticas descritivas básicas. Segue uma síntese:
+Operadores aritméticos R    Operador Descrição     x &#43; y Adição de x com y   x - y Subtração de y em x   x * y Multiplicação de x e y   x / y Divisão de x por y   xy ou x**y x elevado a y-ésima potência   x%%y Resto da divisão de x por y (módulo)   x%/%y Parte inteira da divisão de x por y    Operadores de comparação no R    Operador Significado     == igual a   !" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/estatistica/" /><meta property="article:section" content="cursos" />
+<meta property="article:published_time" content="2021-05-05T00:00:00+01:00" />
+<meta property="article:modified_time" content="2021-05-05T00:00:00+01:00" />
+
+
+
+    
+    
+<meta name="description" content="Operadores lógicos e aritméticos no R" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" alt="Logo">
+      Renata Oliveira</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/inverted-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/sdss/" title="Courses">Courses</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/introduction/" title="Introduction">Introduction</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/category/">Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/courses/category/sub-category/">Sub-Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/category/sub-category/rich-content/" title="Rich Content">Rich Content</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/shortcodes/" title="Shortcodes Sample">Shortcodes Sample</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://determined-poitras-d3dc0d.netlify.app/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/reta_huaab57059f86c546c583a9e55d0837b53_77497_120x120_fit_q75_box.jpg' alt="Author Image">
+          <h5 class="author-name">Renata Oliveira</h5>
+          <p>May 5, 2021</p>
+        </div>
+
+        <div class="title">
+          <h1>Operadores lógicos e aritméticos no R</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <h2 id="estatística-descritiva-para-sumarização-de-dados-com-o-r">Estatística descritiva para sumarização de dados com o R</h2>
+<p>Já apresentamos os operadores relativos às estatísticas descritivas básicas. Segue uma síntese:</p>
+<h3 id="operadores-aritméticos-r">Operadores aritméticos R</h3>
+<table>
+<thead>
+<tr>
+<th>Operador</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x + y</td>
+<td>Adição de x com y</td>
+</tr>
+<tr>
+<td>x - y</td>
+<td>Subtração de y em x</td>
+</tr>
+<tr>
+<td>x * y</td>
+<td>Multiplicação de x e y</td>
+</tr>
+<tr>
+<td>x / y</td>
+<td>Divisão de x por y</td>
+</tr>
+<tr>
+<td>xy ou x**y</td>
+<td>x elevado a y-ésima potência</td>
+</tr>
+<tr>
+<td>x%%y</td>
+<td>Resto da divisão de x por y (módulo)</td>
+</tr>
+<tr>
+<td>x%/%y</td>
+<td>Parte inteira da divisão de x por y</td>
+</tr>
+</tbody>
+</table>
+<h3 id="operadores-de-comparação-no-r">Operadores de comparação no R</h3>
+<table>
+<thead>
+<tr>
+<th>Operador</th>
+<th>Significado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>==</td>
+<td>igual a</td>
+</tr>
+<tr>
+<td>!=</td>
+<td>diferente de</td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>maior que</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>menor que</td>
+</tr>
+<tr>
+<td>&gt;=</td>
+<td>maior ou igual a</td>
+</tr>
+<tr>
+<td>&lt;=</td>
+<td>menor ou igual a</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Os operadores de comparação sempre retornam um valor lógico TRUE ou FALSE.</p>
+</blockquote>
+<h3 id="operadores-lógicos-no-r">Operadores lógicos no R</h3>
+<table>
+<thead>
+<tr>
+<th>Operador</th>
+<th>Descrição</th>
+<th>Explicação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&amp;</td>
+<td>AND lógico</td>
+<td>Versão vetorizada. Compara dois elementos do tipo vetor e retorna um vetor de TRUEs e FALSEs</td>
+</tr>
+<tr>
+<td>&amp;&amp;</td>
+<td>AND lógico</td>
+<td>Versão não-vetorizada. Compara apenas o primeiro valor de cada vetor, retornando um valor lógico.</td>
+</tr>
+<tr>
+<td>|</td>
+<td>OR lógico</td>
+<td>Versão vetorizada. Compara dois elementos do tipo vetor e retorna um vetor de TRUEs e FALSEs</td>
+</tr>
+<tr>
+<td>||</td>
+<td>OR lógico</td>
+<td>Versão não-vetorizada. Compara apenas o primeiro valor de cada vetor, retornando um valor lógico.</td>
+</tr>
+<tr>
+<td>!</td>
+<td>NOT lógico</td>
+<td>Negação lógica. Retorna um valor lógico único ou um vetor de TRUE / FALSE.</td>
+</tr>
+<tr>
+<td>xor</td>
+<td>XOR</td>
+<td>Ou Exclusivo. Retorna valor lógico TRUE se ambos os valores de entrada forem diferentes entre si, e retorna FALSE se os valores forem iguais.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Também conhecidos como operadores booleanos, permitem trabalhar com múltiplas condições relacionais na mesma expressão, e retornam valores lógicos verdadeiro ou falso.</p>
+</blockquote>
+<h3 id="algumas-funções-estatísticas-para-sumarização-de-dados">Algumas funções estatísticas para sumarização de dados</h3>
+<table>
+<thead>
+<tr>
+<th>Funções</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>min()</code></td>
+<td>mínimo</td>
+</tr>
+<tr>
+<td><code>max()</code></td>
+<td>máximo</td>
+</tr>
+<tr>
+<td><code>range()</code></td>
+<td>amplitude</td>
+</tr>
+<tr>
+<td><code>mean()</code></td>
+<td>média</td>
+</tr>
+<tr>
+<td><code>sum()</code></td>
+<td>soma</td>
+</tr>
+<tr>
+<td><code>median()</code></td>
+<td>mediana</td>
+</tr>
+<tr>
+<td><code>sd()</code></td>
+<td>desvio-padrão</td>
+</tr>
+<tr>
+<td><code>IQR()</code></td>
+<td>intervalo interquantil</td>
+</tr>
+<tr>
+<td><code>quantile()</code></td>
+<td>quartis</td>
+</tr>
+<tr>
+<td><code>var()</code></td>
+<td>variância</td>
+</tr>
+<tr>
+<td><code>cor()</code></td>
+<td>correlação</td>
+</tr>
+<tr>
+<td><code>summary()</code></td>
+<td>métricas de sumarização</td>
+</tr>
+<tr>
+<td><code>rowMeans()</code></td>
+<td>média das linhas</td>
+</tr>
+<tr>
+<td><code>colMeans()</code></td>
+<td>média das colunas</td>
+</tr>
+<tr>
+<td><code>rowSums()</code></td>
+<td>soma das linhas</td>
+</tr>
+<tr>
+<td><code>colSums()</code></td>
+<td>soma das colunas</td>
+</tr>
+</tbody>
+</table>
+<h3 id="tratamento-de-dados-omissos">Tratamento de dados omissos</h3>
+<p>O R permite que sejam armazenados, em vetores e data.frames, o valor <code>NA</code> (Not Available), que representa dados que ainda não são conhecidos.</p>
+<blockquote>
+<p><code>x == NA</code> trará sempre um resultado FALSE, mesmo que <code>x</code> não seja conhecido.</p>
+</blockquote>
+<p>
+<hr>
+<p>
+<h2 id="atividades-de-verificação-de-aprendizagem">Atividades de verificação de aprendizagem</h2>
+<p><strong>Questão 1:</strong>
+Abra o <code>data.frame</code> &ldquo;iris&rdquo;.</p>
+<pre tabindex="0"><code class="language-{r" data-lang="{r">a &lt;- iris
+class(iris)
+</code></pre><p>a. Calcule estatísticas básicas de cada variável. Copie e cole no Canvas (código e resultado).</p>
+<p>Veja o exemplo:</p>
+<pre tabindex="0"><code class="language-{r" data-lang="{r">summary(iris$Sepal.Length)
+</code></pre><p>b. Para que serve p símbolo <code>$</code> após o nome do data.frame?
+c. Por meio das funções <code>hist()</code> e <code>boxplot()</code>, respectivamente, gere um exemplo de cada gráfico para a variável que você escolher. Copie e cole no Canvas.</p>
+
+        </div>
+
+        
+        
+          <div class="btn-improve-page">
+              <a href="https://github.com/retaoliveira/places.git/edit/main/content/cursos%5cintro_r%5cestatistica.md" title="Improve this page" target="_blank" rel="noopener">
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#estatística-descritiva-para-sumarização-de-dados-com-o-r">Estatística descritiva para sumarização de dados com o R</a>
+      <ol>
+        <li><a href="#operadores-aritméticos-r">Operadores aritméticos R</a></li>
+        <li><a href="#operadores-de-comparação-no-r">Operadores de comparação no R</a></li>
+        <li><a href="#operadores-lógicos-no-r">Operadores lógicos no R</a></li>
+        <li><a href="#algumas-funções-estatísticas-para-sumarização-de-dados">Algumas funções estatísticas para sumarização de dados</a></li>
+        <li><a href="#tratamento-de-dados-omissos">Tratamento de dados omissos</a></li>
+      </ol>
+    </li>
+    <li><a href="#atividades-de-verificação-de-aprendizagem">Atividades de verificação de aprendizagem</a></li>
+  </ol>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#projects">Projects</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#recent-posts">Recent Posts</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#achievements">Achievements</a>
+                </li>
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>renataoliveira@gmail.com</span></li>
+            
+            <li><span>Phone: </span> <span>&#43;5531988662226</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>Stay up to date with email notification</p>
+            
+              <form method='post' action='https://blogtrottr.com'>
+              <div class="form-group">
+              <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
+              <input type='hidden' name='btr_url' value='https://determined-poitras-d3dc0d.netlify.app/index.xml' />
+              <input type='hidden' name='schedule_type' value='1' />
+              <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
+              <button type="submit" class="btn btn-info"> Submit </button>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+
+This document was built with the&nbsp
+&nbsp<a href="https://retaoliveira.github.io/blog" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="heart-outline"></ion-icon></a>,&nbsp
+<a href="https://github.com/retaoliveira" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="logo-github"></ion-icon></a>, &nbsp<a href="https://cran.r-project.org" target="_blank" rel="noopener" style="color:#447178"><i class="fab fa-r-project "></i></a> &nbspand
+&nbsp<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener" style="color:#447178"> blogdown</a>.
+</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

@@ -1,0 +1,48 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+degrees:
+- name: Doctor of Science (D.Sc.) in Geography
+  icon: fa-globe
+  timeframe: 2011-2015
+  institution:
+    name: Catholic University of Minas Gerais (PUCMinas)
+    url: "#"
+  publications: #(optional)
+  - title: "Spatial Analysis of the correlation among the location of grocery retailers, the average income of the population and prices policy: a case study for Belo Horizonte." 
+    #url: "#"
+
+- name: Master of Science (M.Sc.) in Transportation Engineering
+  icon: fa-truck
+  timeframe: 2002-2004
+  institution:
+    name: Military Institute of Engineering (IME)
+    url: "#"
+  publications: #(optional)
+  - title: "Neuro-Fuzzy Model for Freight Transport Mode Choice."
+    #url: "#"
+    
+- name: Postgraduate diploma (PgDip.) in Railway Engineering
+  icon: fa-train
+  timeframe: 2003-2004
+  institution:
+    name: Vale
+    #url: "#"
+
+- name: Bachelor of Science (B.Sc.) in Civil Engineering 
+  icon: fa-graduation-cap
+  timeframe: 1997-2001
+  institution:
+    name: Federal University of Minas Gerais (UFMG)
+    #url: "#"
+
+

@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello R! Estrutura, conceitos e funções básicas</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" />
+
+<meta property="og:title" content="Hello R! Estrutura, conceitos e funções básicas" />
+<meta property="og:description" content="TL;DRR? O que é o R?Conhecendo o RInterface e funcionalidadesDefinições básicasTipos de arquivos no RLocal de trabalhoVariáveis, funções e packagesTL;DRNessa seção apresentamos alguns conceitos importantes para que a utilização do R seja mais amigável! Algumas informações importantes que são detalhadas a seguir:
+O RStudio é uma interface para uso do RO R é sensível a caracteres maiúsculos e minúsculos." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/intro_r/" /><meta property="article:section" content="cursos" />
+<meta property="article:published_time" content="2021-10-15T00:00:00+01:00" />
+<meta property="article:modified_time" content="2021-10-15T00:00:00+01:00" />
+
+
+
+    
+    
+<meta name="description" content="Hello R! Estrutura, conceitos e funções básicas" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" alt="Logo">
+      Renata Oliveira</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/inverted-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/sdss/" title="Courses">Courses</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/introduction/" title="Introduction">Introduction</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/category/">Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/courses/category/sub-category/">Sub-Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/category/sub-category/rich-content/" title="Rich Content">Rich Content</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/shortcodes/" title="Shortcodes Sample">Shortcodes Sample</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://determined-poitras-d3dc0d.netlify.app/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/reta_huaab57059f86c546c583a9e55d0837b53_77497_120x120_fit_q75_box.jpg' alt="Author Image">
+          <h5 class="author-name">Renata Oliveira</h5>
+          <p>October 15, 2021</p>
+        </div>
+
+        <div class="title">
+          <h1>Hello R! Estrutura, conceitos e funções básicas</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
+<ul>
+<li><a href="#tldr">TL;DR</a></li>
+<li><a href="#r-o-que-é-o-r">R? O que é o R?</a>
+<ul>
+<li><a href="#conhecendo-o-r">Conhecendo o R</a>
+<ul>
+<li><a href="#interface-e-funcionalidades">Interface e funcionalidades</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#definições-básicas">Definições básicas</a>
+<ul>
+<li><a href="#tipos-de-arquivos-no-r">Tipos de arquivos no R</a></li>
+<li><a href="#local-de-trabalho">Local de trabalho</a></li>
+<li><a href="#variáveis-funções-e-packages">Variáveis, funções e <em>packages</em></a></li>
+</ul></li>
+</ul>
+</div>
+
+<div id="tldr" class="section level1">
+<h1>TL;DR</h1>
+<p>Nessa seção apresentamos alguns conceitos importantes para que a utilização do <code>R</code> seja mais amigável! Algumas informações importantes que são detalhadas a seguir:</p>
+<ul>
+<li>O <code>RStudio</code> é uma interface para uso do <code>R</code></li>
+<li>O <code>R</code> é sensível a caracteres maiúsculos e minúsculos.</li>
+<li>Marcador de decimal para o R é <code>.</code>, mas pode ser configurado conforme arquivo.</li>
+<li>O <code>R</code> é estruturado em <code>package::função(objeto, parâmetros))</code></li>
+<li>Para utilizar pacotes, precisamos instalar (<code>install.packages("package")</code>), carregar (<code>library("package")</code>) e chamar as funções.<br />
+</li>
+<li>As funções <code>getwd()</code>, <code>dir()</code> e <code>setwd()</code> ajudam a organizar o trabalho.</li>
+</ul>
+</div>
+<div id="r-o-que-é-o-r" class="section level1">
+<h1>R? O que é o R?</h1>
+<div id="conhecendo-o-r" class="section level2 tabset tabset-fade tabset-pills">
+<h2>Conhecendo o R</h2>
+<div id="interface-e-funcionalidades" class="section level3">
+<h3>Interface e funcionalidades</h3>
+<p>Para uso do R no ambiente RStudio, é inicialmente necessário entender o seu funcionamento. O R é uma linguagem de programação, em plataforma open source, desenvolvida para análise de dados. SEJAM BEM VINDOS!</p>
+<div class="figure">
+<img src="https://retaoliveira.github.io/relements/figures/allison_horst/welcome_to_rstats_twitter.png" alt="" />
+<p class="caption">Bem vindo</p>
+</div>
+<p>Em um primeiro momento, o conjunto R + RStudio parece pouco amigável, mas com o tempo, é impossível não apaixonar-se pelas infinitas possibilidades que temos ao utilizar o R.</p>
+<div class="figure">
+<img src="https://retaoliveira.github.io/relements/figures/allison_horst/r_first_then.png" alt="" />
+<p class="caption">Ódio x amor</p>
+</div>
+<p>A comunidade do R é bastante ampla e colaborativa. Assim: BUSQUE AJUDA!!!!!</p>
+<div class="figure">
+<img src="https://retaoliveira.github.io/relements/figures/allison_horst/code_hero.jpg" alt="" />
+<p class="caption">Suporte</p>
+</div>
+</div>
+</div>
+</div>
+<div id="definições-básicas" class="section level1">
+<h1>Definições básicas</h1>
+<table>
+<colgroup>
+<col width="37%" />
+<col width="62%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Termos</th>
+<th>Definição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>Script</code></td>
+<td>Os scripts são arquivos do R com comandos a serem executados. Para rodar um comando digitado no painel de edição dos Scripts ou do arquivo .Rmd do RStudio no Windows, basta fazer: <code>Ctrl+Enter</code>.</td>
+</tr>
+<tr class="even">
+<td><code>Packages</code> ou <code>pacotes</code></td>
+<td>São um conjunto de funções organizadas em um arquivo que pode ser obtido em diferentes repositórios. Para utilização dos pacotes, é necessário instalá-los e, posteriormente, carregá-los na sessão por meio do comando <code>library</code>.</td>
+</tr>
+<tr class="odd">
+<td><code>funções</code></td>
+<td>São códigos que determina um algoritmo computacional e que têm diferentes objetivos. Pode haver mais de uma função para o mesmo objetivo. As funções são estruturadas por meio de um comando básico e parâmetros/argumentos que são incluídos entre parênteses após a função.</td>
+</tr>
+<tr class="even">
+<td><code>objeto</code></td>
+<td>Objetos no R são elementos aos quais são aplicadas as funções</td>
+</tr>
+<tr class="odd">
+<td><code>Console</code></td>
+<td>É o espaço no ambiente R onde você digita e roda os comandos do R. É a janela principal, onde é possível digitar os comandos, vizualizar os resultados e mensagens de alerta e mensagens de erros. Nesse ambiente, a seta (&gt;) indica que o R esta pronto para receber um comando; sinal de mais (+) indica que o comando da linha anterior ainda não esta completo, faltando algo para o comando ser executado. A ausência de um desses dois simbólos (&gt; ou +) indica que o R ainda não finalizou o processo do comando anterior. Os resultados de uma função são apresentados entre símbolos de cochetes ([]).</td>
+</tr>
+<tr class="even">
+<td><code>Terminal</code></td>
+<td>É o espaço onde você digita e roda comandos do sistema (Windows, por exemplo)</td>
+</tr>
+<tr class="odd">
+<td><code>RMarkdown</code></td>
+<td>Linguagem de texto do R</td>
+</tr>
+<tr class="even">
+<td><code>RStudio</code></td>
+<td>É uma IDE (Integrated Development Envirnonment) que permite uma interface gráfica amigável com os usuários.</td>
+</tr>
+<tr class="odd">
+<td><code>Help</code></td>
+<td>Janela onde são mostrados os textos de ajuda.</td>
+</tr>
+<tr class="even">
+<td><code>Plot</code></td>
+<td>Janela reservada para os resultados gráficos.</td>
+</tr>
+<tr class="odd">
+<td><code>History</code></td>
+<td>Lista o histórico dos comandos já executados.</td>
+</tr>
+<tr class="even">
+<td><code>Environment</code></td>
+<td>Painel exclusivo do RStudio que lista os objetos criados na área de trabalho (workspace).</td>
+</tr>
+<tr class="odd">
+<td><code>Files</code></td>
+<td>Painel exclusivo do RStudio, que lista os arquivos do computador. É semelhante ao gerenciador de arquivos padrão do sistema operacional.</td>
+</tr>
+</tbody>
+</table>
+<div id="tipos-de-arquivos-no-r" class="section level2">
+<h2>Tipos de arquivos no R</h2>
+<p>Os principais tipos de arquivos gerados por meio do <code>R</code> são:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Extensão</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>.R</td>
+<td>Usado para salvar <code>scripts</code>.</td>
+</tr>
+<tr class="even">
+<td>.RData</td>
+<td>Usado para salvar os <code>objetos</code> da área de trabalho (workspace).</td>
+</tr>
+<tr class="odd">
+<td>.Rhistory</td>
+<td>Usado para salvar o <code>histórico dos comandos</code> executados.</td>
+</tr>
+<tr class="even">
+<td>.Rmd</td>
+<td>Formato para salvar arquivos em <code>RMarkdown</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="local-de-trabalho" class="section level2">
+<h2>Local de trabalho</h2>
+<p>O diretório de trabalho padrão é aquele ao qual o R foi associado. Entretanto, pode ser alterado, sem qualquer mudanças nos objetos da área de trabalho.</p>
+<p><img src="https://retaoliveira.github.io/relements/figures/allison_horst/cracked_setwd.png" /></p>
+<pre class="r"><code>getwd() # Mostrar o diretório de trabalho atual
+dir() # Listar os arquivos do diretório
+setwd() # Mudar o diretório de trabalho</code></pre>
+<p>É possivel salvar a área de trabalho inteira e carregar em outro momento.</p>
+<pre class="r"><code>ls() # Listar os objetos da área de trabalho
+save.image(&quot;meu_workspace.RData&quot;) # Salvar área de trabalho
+load(&quot;meu_workspace.RData&quot;) # Carregar área de trabalho</code></pre>
+</div>
+<div id="variáveis-funções-e-packages" class="section level2">
+<h2>Variáveis, funções e <em>packages</em></h2>
+<p>Sua estrutura fundamenta-se em uma grande variedade de ferramentas quantitativas, organizadas por meio de <strong>objetos</strong>, <strong>funções</strong> e <strong>packages</strong>. A instalação <code>base</code> do R já contempla uma série de funções e <em>packages</em>. <em>Packages</em> adicionais podem ser instalados quando for necessário ou interessante. Para instalação de <em>packages</em>, utiliza-se a função <code>install.packages()</code>.</p>
+<p>A priori, instale os seguintes pacotes no seu computador:</p>
+<pre class="r"><code>install.packages(c(&quot;rmarkdown&quot;, &quot;knitr&quot;, &quot;dsbox&quot;, &quot;tidyverse&quot;, &quot;coronavirus&quot;, &quot;lubridate&quot;, &quot;glue&quot;, &quot;scales&quot;, &quot;ggrepel&quot;, &quot;DT&quot;, &quot;flexdashboard&quot;, &quot;blogdown&quot;, &quot;bookdown&quot;, &quot;pagedown&quot;, &quot;xaringan&quot;, &quot;xaringanthemer&quot;, &quot;janitor&quot;, &quot;jsonlite&quot;, &quot;kableExtra&quot;, &quot;leaflet&quot;, &quot;officedown&quot;, &quot;openxlsx&quot;, &quot;readr&quot;, &quot;readxl&quot;, &quot;devtools&quot;, &quot;remotes&quot;, &quot;swirl&quot;, &quot;stringr&quot;, &quot;tmap&quot;, &quot;tmapstool&quot;, &quot;rvest&quot;, &quot;viridis&quot;, &quot;installr&quot;, &quot;distill&quot;, &quot;rticles&quot;, &quot;data.table&quot;, &quot;ggplot2&quot;, &quot;hrbrthemes&quot;, &quot;plotly&quot;, &quot;learnr&quot;, &quot;prettydoc&quot;, &quot;corrplot&quot;, &quot;tufte&quot;, &quot;ggpubr&quot;, &quot;sf&quot;, &quot;htmlwidgets&quot;))</code></pre>
+<p>Ao longo do curso chamaremos as bibliotecas para que possamos implementar as funções.</p>
+<iframe width="1197" height="645" src="https://www.youtube.com/embed/dOasm9dKjKE?list=PLqDTVtdD-5aPagWJB6_0IaKN3IpIGhFU1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+</div>
+
+        </div>
+
+        
+        
+          <div class="btn-improve-page">
+              <a href="https://github.com/retaoliveira/places.git/edit/main/content/cursos%5cintro_r%5cintro_r.html" title="Improve this page" target="_blank" rel="noopener">
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#projects">Projects</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#recent-posts">Recent Posts</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#achievements">Achievements</a>
+                </li>
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>renataoliveira@gmail.com</span></li>
+            
+            <li><span>Phone: </span> <span>&#43;5531988662226</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>Stay up to date with email notification</p>
+            
+              <form method='post' action='https://blogtrottr.com'>
+              <div class="form-group">
+              <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
+              <input type='hidden' name='btr_url' value='https://determined-poitras-d3dc0d.netlify.app/index.xml' />
+              <input type='hidden' name='schedule_type' value='1' />
+              <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
+              <button type="submit" class="btn btn-info"> Submit </button>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+
+This document was built with the&nbsp
+&nbsp<a href="https://retaoliveira.github.io/blog" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="heart-outline"></ion-icon></a>,&nbsp
+<a href="https://github.com/retaoliveira" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="logo-github"></ion-icon></a>, &nbsp<a href="https://cran.r-project.org" target="_blank" rel="noopener" style="color:#447178"><i class="fab fa-r-project "></i></a> &nbspand
+&nbsp<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener" style="color:#447178"> blogdown</a>.
+</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

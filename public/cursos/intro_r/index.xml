@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Renata Oliveira</title>
+    <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/</link>
+    <description>Recent content in R on Renata Oliveira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview - Tidyverse</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/tidyverse/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/tidyverse/</guid>
+      <description>Instalação e uso do Package tidyverseEstrutura básica do tidyverseImportação de dadosWrangleProgramaModeloAlguns links interessantes para aprender tidyverseInstalação e uso do Package tidyverseInstale todos os pacotes no tidyverse executando install.packages(&#34;tidyverse&#34;).
+Execute a library(tidyverse) para carregar o núcleo do tidyverse e torná-lo disponível em sua sessão R atual.
+Saiba mais sobre o pacote tidyverse em https://tidyverse.tidyverse.org.
+Estrutura básica do tidyverseA estrutura básica do tidyverse inclui os pacotes que você provavelmente usará nas análises de dados.</description>
+    </item>
+    
+    <item>
+      <title>Abrindo dados no R</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/abrindo_dados/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/abrindo_dados/</guid>
+      <description>Abrindo dados no RPacotes no RCaminhos no RReadrTibblesDados em arquivos editores de planilhasUm pouco sobre donwload e manipulação de arquivosVoltando às planilhasEste tutorial é de autoria do professor Leonardo S. Barone e pode ser encontrado no link. Agradeço pela generosidade em compartilhar.
+Abrindo dados no RNeste tutorial vamos cobrir uma série de métodos disponíveis para abrirmos arquivos de texto, editores de planilhas e de outros softwares de análise de dados no R.</description>
+    </item>
+    
+    <item>
+      <title>Instalação de R, RStudio e Git</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/install/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/install/</guid>
+      <description>R Baixar e instalar o R
+No link acima é apresentado o processo de instalação para Windows. No mesmo site é possível encontrar procedimentos de instalação para outros sistemas operacionais.
+Links adicionais Visão geral e primeiros passos com R e RStudio
+ RStudio Baixar e instalar o RStudio
+No link acima é apresentado o processo de instalação para Windows. No mesmo site é possível encontrar procedimentos de instalação para outros sistemas operacionais.</description>
+    </item>
+    
+    <item>
+      <title>Git e Github</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/git_r/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/git_r/</guid>
+      <description>DefiniçõesComo instalar o Git no seu computadorDefiniçõesGit é um sistema de controle de versão por linha de comando. Se você não estiver familiarizado com ele, Git não tem botões para pressionar, apenas comandos para digitar para controlá-lo, mas ele permite salvar múltiplas versões de um arquivo. A beleza do controle de versão é que se você fizer “alguma besteira”, você pode voltar para a última versão salva.</description>
+    </item>
+    
+    <item>
+      <title>Criando sua conta no Github</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/github/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/github/</guid>
+      <description>DefiniçõesVocabulário básico para uso do GitHub:Como operacionalizar?DefiniçõesGitHub é o lugar onde você pode armazenar todas estas versões de seu trabalho. Outros desenvolvedores podem ver, fazer uma cópia, alterar sua cópia e fazer sugestões sobre seu trabalho.
+Vocabulário básico para uso do GitHub:Repositório: Quando você faz uma conta no Github, a primeira coisa que você vai querer fazer é criar um repositório (ou repo).</description>
+    </item>
+    
+    <item>
+      <title>Introdução ao RMarkdown</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/intro_rmarkdown/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/intro_rmarkdown/</guid>
+      <description>TL;DRO que é Markdown?RMarkdownFormatação de textoIncluindo tabelasIncluindo figuraschunksVisualizaçãoMetadados - CabeçalhoFormatos de outputAssita o vídeo! É impactante, baseado em fatos reais!
+TL;DRRMarkdown é uma estrutura de documento para edição de textos que segue a sintaxe da linguagem Markdown. Sínteses e informações sobre essa linguagem RMarkdown podem ser encontradas nas seguintes cheatsheet que podem ser obtidas por meio do link</description>
+    </item>
+    
+    <item>
+      <title>Hello R! Tutorial no swirl</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/swirl/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/swirl/</guid>
+      <description>Fiquei pensando em como posso ajudar os estudantes no desenvolvimento de competências no R com tão pouco tempo e remotamente. Uma possibilidade que consegui viabilizar são tutoriais interativos. São atividades eletivas também, mas FORTEMENTE recomendadas! No site os estudantes podem encontrar as informações necessárias para utilizar as funções e podem sempre consultar o “oráculo” universal Google.
+Os estudantes um procedimento breve para conseguirem abrir o tutorial:
+Salvar o arquivo nesta mensagem em um diretório em seu computador.</description>
+    </item>
+    
+    <item>
+      <title>Tipos de dados e objetos no R</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/estrutura_dados/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/estrutura_dados/</guid>
+      <description>Tipos de dados no RTipos de classes no RDicas de sites com informação interessanteTipos de dados no RNo R, os dados são organizados por meio de uma estrutura hierárquica de tipos de dados que podem ser utilizados para armazenar valores em diferentes estruturas. Cada tipo de dado pode ser associado com uma função de teste e uma função de conversão.
+A função de teste retorna sempre TRUE ou FALSE, pois é uma função lógica.</description>
+    </item>
+    
+    <item>
+      <title>Visualização de dados</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/ggplot/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/ggplot/</guid>
+      <description>Gráficos no RFerramentas básicas de construção de gráficos no RIntrodução à gramática de gráficos com ggplot2ggplot2: uma gramática de dadosUm primeiro exemploVariações de histograma e gráfico de densidadeCurva de densidade ou boxplot?Duas variáveis contínuas e gráfico de dispersãoAspectos não relacionados à geometriaGráficos no RFerramentas básicas de construção de gráficos no Rx1 &amp;lt;- rnorm(100)y1 &amp;lt;- rnorm(100)plot(x1,y1)plot(x1,y1,pch=16, col=&amp;#39;red&amp;#39;)x2 &amp;lt;- seq(0,2*pi,len=100)y2 &amp;lt;- sin(x2)plot(x2,y2,type=&amp;#39;l&amp;#39;)plot(x2,y2,type=&amp;#39;l&amp;#39;, lwd=3, col=&amp;#39;darkgreen&amp;#39;) plot(x2,y2,type=&amp;#39;l&amp;#39;, col=&amp;#39;darkgreen&amp;#39;, lwd=3, ylim=c(-1.</description>
+    </item>
+    
+    <item>
+      <title>Documentos parametrizados</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/reprodutibility/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/reprodutibility/</guid>
+      <description>Um dos muitos benefícios de trabalhar com R Markdown é que você pode reproduzir análises com o clique de um botão. Isto torna muito fácil atualizar qualquer trabalho e alterar qualquer parâmetro de entrada dentro do relatório. Relatórios parametrizados estendem esse benefício e permitem aos usuários especificar um ou mais parâmetros para personalizar a análise. Isto é útil se você quiser criar um modelo de relatório que possa ser reutilizado em vários cenários similares.</description>
+    </item>
+    
+    <item>
+      <title>Operadores lógicos e aritméticos no R</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/estatistica/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/estatistica/</guid>
+      <description>Estatística descritiva para sumarização de dados com o R Já apresentamos os operadores relativos às estatísticas descritivas básicas. Segue uma síntese:
+Operadores aritméticos R    Operador Descrição     x + y Adição de x com y   x - y Subtração de y em x   x * y Multiplicação de x e y   x / y Divisão de x por y   xy ou x**y x elevado a y-ésima potência   x%%y Resto da divisão de x por y (módulo)   x%/%y Parte inteira da divisão de x por y    Operadores de comparação no R    Operador Significado     == igual a   !</description>
+    </item>
+    
+    <item>
+      <title>Hello R! Estrutura, conceitos e funções básicas</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/intro_r/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/cursos/intro_r/intro_r/</guid>
+      <description>TL;DRR? O que é o R?Conhecendo o RInterface e funcionalidadesDefinições básicasTipos de arquivos no RLocal de trabalhoVariáveis, funções e packagesTL;DRNessa seção apresentamos alguns conceitos importantes para que a utilização do R seja mais amigável! Algumas informações importantes que são detalhadas a seguir:
+O RStudio é uma interface para uso do RO R é sensível a caracteres maiúsculos e minúsculos.</description>
+    </item>
+    
+  </channel>
+</rss>

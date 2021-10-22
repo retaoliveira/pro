@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Desempenho Logístico</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" />
+
+<meta property="og:title" content="Desempenho Logístico" />
+<meta property="og:description" content="KPIsPrazos de entregaNível de serviço ao clienteNíveis de estoqueUso de recursosIndicadores de Serviço na LogísticaDecisões e métricas de desempenho em cada atividade-chaveInstalaçõesEstoqueTransporteInformaçãoSourcingPrecificaçãoKPIsKPIs (Key Performance Indicators) ou medidas de desempenho devem estar vinculadas à estratégia organizacional. Os indicadores de desempenho representam um conjunto de medidas que focam nos aspectos de desempenho que são críticos para o presente e o futuro da organização." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://determined-poitras-d3dc0d.netlify.app/cursos/log_all/kpi/" /><meta property="article:section" content="cursos" />
+<meta property="article:published_time" content="2021-05-05T00:00:00+01:00" />
+<meta property="article:modified_time" content="2021-05-05T00:00:00+01:00" />
+
+
+
+    
+    
+<meta name="description" content="Desempenho Logístico" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" alt="Logo">
+      Renata Oliveira</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/inverted-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/sdss/" title="Courses">Courses</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/introduction/" title="Introduction">Introduction</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/category/">Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/courses/category/sub-category/">Sub-Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/category/sub-category/rich-content/" title="Rich Content">Rich Content</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/shortcodes/" title="Shortcodes Sample">Shortcodes Sample</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://determined-poitras-d3dc0d.netlify.app/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/reta_huaab57059f86c546c583a9e55d0837b53_77497_120x120_fit_q75_box.jpg' alt="Author Image">
+          <h5 class="author-name">Renata Oliveira</h5>
+          <p>May 5, 2021</p>
+        </div>
+
+        <div class="title">
+          <h1>Desempenho Logístico</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
+<ul>
+<li><a href="#kpis">KPIs</a></li>
+<li><a href="#prazos-de-entrega">Prazos de entrega</a></li>
+<li><a href="#nível-de-serviço-ao-cliente">Nível de serviço ao cliente</a></li>
+<li><a href="#níveis-de-estoque">Níveis de estoque</a></li>
+<li><a href="#uso-de-recursos">Uso de recursos</a></li>
+<li><a href="#indicadores-de-serviço-na-logística">Indicadores de Serviço na Logística</a></li>
+<li><a href="#decisões-e-métricas-de-desempenho-em-cada-atividade-chave">Decisões e métricas de desempenho em cada atividade-chave</a>
+<ul>
+<li><a href="#instalações">Instalações</a></li>
+<li><a href="#estoque">Estoque</a></li>
+<li><a href="#transporte">Transporte</a></li>
+<li><a href="#informação">Informação</a></li>
+<li><a href="#sourcing">Sourcing</a></li>
+<li><a href="#precificação">Precificação</a></li>
+</ul></li>
+</ul>
+</div>
+
+<div id="kpis" class="section level2">
+<h2>KPIs</h2>
+<p>KPIs (Key Performance Indicators) ou medidas de desempenho devem estar vinculadas à estratégia organizacional. Os indicadores de desempenho representam um conjunto de medidas que focam nos aspectos de desempenho que são críticos para o presente e o futuro da organização.</p>
+<p>Um indicador de desempenho deve demonstrar claramente que ação deve ser tomada e quando deve ser tomada.</p>
+<ul>
+<li>Os indicadores não podem ser individuais. Nenhuma medida individual define o desempenho da cadeia: existem muitas dimensões a serem consideradas. Cuidado com avaliações isoladas.</li>
+<li>Atenção para medidas conflitantes, que podem acentuar os problemas dos silos ao invés de resolvê-los.</li>
+<li>O requerimento é buscar um balanceamento através da cadeia de abastecimento e se preparar para possíveis mudanças.</li>
+<li>Medir, interpretar ou analisar as medidas exige um perfil profissional adequado que deve ser desenvolvido.</li>
+</ul>
+<p>Existem quatro elementos que são fundamentais para o desenvolvimento destas medidas de desempenho:
+- Parceria com fornecedores, clientes e pessoal interno
+- Transferência de poder para as pessoas das pontas
+- Integração das medidas, relatórios e melhoria de desempenho
+- Conexão das medidas de desempenho à estratégia corporativa</p>
+<p>As medidas de desempenho dos negócios basicamente passam pelos seguintes processos: montar a estratégia, planejar, monitorar e analisar e, por fim, ajustar.</p>
+</div>
+<div id="prazos-de-entrega" class="section level2">
+<h2>Prazos de entrega</h2>
+<p>Os prazos de entrega ou tempos de ciclo correspondem aos tempos totais absorvidos pela cadeia desde o início até o final do processo e normalmente está conectado ao atendimento ao cliente e podem variar dependendo da segmentação da indústria. Por exemplo, organizações voltadas para produção sob pedido ou mesmo projetos podem estabelecer prazos através de cronograma. Há organizações que trabalham com conceitos de estoque, como é o caso de empresas de ciclo rápido como alimentos e o atendimento é efetuado com base nos estoques disponíveis.</p>
+</div>
+<div id="nível-de-serviço-ao-cliente" class="section level2">
+<h2>Nível de serviço ao cliente</h2>
+<p>Interessante que esta função está atrelada a uma série de indicadores e não apenas a um indicador. Ele corresponde ao atendimento vinculado ao produto, prazo, quantidade ou outra medida que eventualmente tenha sido estabelecida e concordada com o cliente. É um conjunto de medidas para medir a satisfação do cliente.</p>
+</div>
+<div id="níveis-de-estoque" class="section level2">
+<h2>Níveis de estoque</h2>
+<p>Esta medida é fundamental, pois afeta os custos totais de estoque. Uma vez que estoque carrega custos, o sugerido é que se tenham estoques mínimos ou necessários para atender as demandas ou oscilações das mesmas. As medidas de níveis de estoques mostram a eficiência operacional e financeira da cadeia e gera impactos significativos nos resultados das empresas se mal administrados.</p>
+</div>
+<div id="uso-de-recursos" class="section level2">
+<h2>Uso de recursos</h2>
+<p>O objetivo aqui é utilizar eficientemente todos os recursos da cadeia incluindo os prédios, transportes, pessoas, equipamentos visando maximizar o atendimento ao cliente, com baixos níveis de estoque e prazos de entrega adequados.</p>
+<p>A Cadeia de Abastecimento e seu aspecto logístico têm papel importantíssimo no contexto do atendimento e serviço ao cliente.</p>
+<hr />
+</div>
+<div id="indicadores-de-serviço-na-logística" class="section level2">
+<h2>Indicadores de Serviço na Logística</h2>
+<iframe width="1147" height="645" src="https://www.youtube.com/embed/8R65LEMLY5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<hr />
+</div>
+<div id="decisões-e-métricas-de-desempenho-em-cada-atividade-chave" class="section level2">
+<h2>Decisões e métricas de desempenho em cada atividade-chave</h2>
+<div id="instalações" class="section level3">
+<h3>Instalações</h3>
+<p><strong>Instalações</strong> são os locais físicos reais na rede da cadeia de suprimentos onde o produto é armazenado, montado ou fabricado. Decisões com relação à função, localização, capacidade e flexibilidade das instalações têm impacto significativo sobre o desempenho da cadeia de suprimentos.</p>
+<p>As empresas podem elevar a responsividade por meio do aumento do número de instalações, tornando-os mais flexíveis, ou elevando a capacidade.
+Cada uma dessas ações, no entanto, tem um custo. Assim, cada cadeia de suprimentos deve encontrar o equilíbrio apropriado ao projetar sua rede de instalações.</p>
+<p>Para instalações de produção, as empresas precisam decidir se serão flexíveis, dedicadas ou uma combinação dos dois. Decidir onde uma empresa localizará suas instalações se constitui numa grande parte do projeto de uma cadeia de suprimentos.</p>
+<p>As empresas devem também determinar a capacidade de uma instalação realizar sua função ou funções pretendidas.</p>
+<p>Um gestor deverá acompanhar as seguintes <code>métricas relacionadas à instalação</code> que influenciam no desempenho da cadeia de suprimentos:</p>
+<p><code>Métricas relacionadas à instalação</code></p>
+<ul>
+<li>Capacidade<br />
+</li>
+<li>Utilização<br />
+</li>
+<li>Tempo ocioso de processamento/preparação/parada<br />
+</li>
+<li>Custo de produção por unidade<br />
+</li>
+<li>Perda de qualidade<br />
+</li>
+<li>Tempo de fluxo/ciclo teórico de produção<br />
+</li>
+<li>Tempo de fluxo/ciclo médio real<br />
+</li>
+<li>Eficiência de tempo de fluxo<br />
+</li>
+<li>Variedade de produtos<br />
+</li>
+<li>Contribuição de volume dos 20% maiores SKUs e clientes<br />
+</li>
+<li>Tamanho médio de lote de produção<br />
+</li>
+<li>Nível de serviço de produção</li>
+</ul>
+</div>
+<div id="estoque" class="section level3">
+<h3>Estoque</h3>
+<p><strong>Estoque</strong> abrange todas as matérias-primas, o trabalho em processo e os produtos acabados dentro de uma cadeia de suprimentos. Mudar políticas de estoque pode alterar de modo significativo a eficiência e a responsividade da cadeia de suprimentos.</p>
+<p>O estoque existe na cadeia de suprimentos por causa de um descompasso entre oferta e demanda. O estoque afeta os ativos mantidos, os custos incorridos e a responsividade proporcionada pela cadeia de suprimentos. O estoque também tem um impacto significativo sobre o tempo de fluxo de material em uma cadeia de suprimentos.</p>
+<p><code>Estoque cíclico</code> é a quantidade média de estoque usada para atender à demanda entre os recebimentos de remessas do fornecedor.</p>
+<p><code>Estoque de segurança</code> é aquele mantido caso a demanda ultrapasse a expectativa; ele é preservado para combater a incerteza.</p>
+<p><code>Estoque sazonal</code> é aquele criado para combater variabilidade previsível na demanda.</p>
+<p><code>Nível de disponibilidade de produto</code> é a fração de demanda que é atendida prontamente a partir do produto mantido no estoque.</p>
+<p><code>Métricas relacionadas a estoque</code></p>
+<ul>
+<li>Tempo cíclico C2C</li>
+<li>Estoque médio</li>
+<li>Giro de estoque</li>
+<li>Produtos com mais de um número específico de dias de estoque</li>
+<li>Tamanho médio de lote de reposição</li>
+<li>Estoque de segurança médio</li>
+<li>Estoque sazonal</li>
+<li>Taxa de atendimento</li>
+<li>Fração de tempo sem estoque</li>
+<li>Estoque obsoleto</li>
+</ul>
+</div>
+<div id="transporte" class="section level3">
+<h3>Transporte</h3>
+<p><strong>Transporte</strong> envolve a movimentação de estoque de um ponto para outro na cadeia de suprimentos. Opções de transporte têm grande impacto sobre a responsividade e a eficiência da cadeia de suprimentos.</p>
+<p>O transporte move o produto entre diferentes estágios em uma cadeia de suprimentos e afeta tanto a responsividade como a eficiência. O transporte mais rápido é mais caro, mas permite que uma cadeia de suprimentos seja mais responsiva. Como resultado, a cadeia de suprimentos pode ter estoques menores e poucas instalações.</p>
+<p><code>Projeto de rede de transporte</code> refere-se à coleção de meios de transporte, locais e rotas ao longo das quais o produto pode ser entregue.</p>
+<p><code>Escolha do modo de transporte</code> é a definição do modo de transporte, sendo a maneira como um produto é movido de um local da cadeia de suprimentos para outro.</p>
+<p><code>Métricas relacionadas a transporte</code></p>
+<ul>
+<li>Custo médio de transporte de recebimento<br />
+</li>
+<li>Tamanho médio de recebimento<br />
+</li>
+<li>Custo médio de transporte de recebimento por embarque<br />
+</li>
+<li>Custo médio de transporte do embarque<br />
+</li>
+<li>Tamanho médio de embarque<br />
+</li>
+<li>Custo médio de transporte de envio por embarque<br />
+</li>
+<li>Fração transportada por modo</li>
+</ul>
+</div>
+<div id="informação" class="section level3">
+<h3>Informação</h3>
+<p><strong>Informação</strong> consiste em dados e análise referentes a instalações, estoque, transporte, custos, preços e clientes por toda a cadeia de suprimentos. A informação é potencialmente o maior fator-chave de desempenho na cadeia, pois afeta diretamente cada um dos demais fatores.</p>
+<p>A boa informação pode ajudar na utilização dos ativos da cadeia de suprimentos e na coordenação dos fluxos da cadeia de suprimentos para aumentar a responsividade e diminuir os custos.</p>
+<p><code>Empurrar x Puxar</code> Ao projetar processos de cadeia de suprimentos, gestores precisam determinar se esses processos fazem parte da fase empurrar ou puxar na cadeia.</p>
+<p><code>Coordenação e compartilhamento de informações</code> A coordenação da cadeia de suprimentos ocorre quando todos os estágios de uma cadeia trabalham com o objetivo de maximizar a lucratividade total da cadeia de suprimentos com base em informação compartilhada.</p>
+<p><code>Planejamento de vendas e operações</code> (PVO) é o processo de criação de um plano de oferta geral (produção e estoques) para atender o nível previsto de demanda (vendas).</p>
+<p><code>Métricas relacionadas à informação</code></p>
+<ul>
+<li>Horizonte de previsão<br />
+</li>
+<li>Frequência de atualização<br />
+</li>
+<li>Erro de previsão<br />
+</li>
+<li>Fatores sazonais<br />
+</li>
+<li>Fatores sazonais<br />
+</li>
+<li>Razão entre variabilidade da demanda e variabilidade do pedido</li>
+</ul>
+</div>
+<div id="sourcing" class="section level3">
+<h3>Sourcing</h3>
+<p><strong>Sourcing</strong> é a escolha de quem realizará determinada atividade da cadeia de suprimentos, como produção, armazenamento, transporte ou a gestão da informação. Decisões de contratação afetam tanto a responsividade quanto a eficiência de uma cadeia de suprimentos.</p>
+<p>Sourcing é o conjunto de processos de negócios exigidos para a aquisição de bens e serviços.</p>
+<p><code>Internalizar ou terceirizar</code> A decisão de sourcing mais significativa para uma empresa é se ela realizará uma tarefa internamente ou se contratará serviços de terceiros.</p>
+<p><code>Seleção de fornecedor</code> Os gestores devem decidir sobre o número de fornecedores que terão para determinada atividade.</p>
+<p><code>Aquisição</code> A aquisição é o processo de obter bens e serviços dentro da cadeia de suprimentos.</p>
+<p><code>Métricas relacionadas a Sourcing</code></p>
+<ul>
+<li>Dias pendentes de contas a pagar<br />
+</li>
+<li>Preço médio de compra<br />
+</li>
+<li>Faixa de preço de compra<br />
+</li>
+<li>Quantidade média de compra<br />
+</li>
+<li>Qualidade do fornecimento<br />
+</li>
+<li>Tempo de execução de fornecimento<br />
+</li>
+<li>Percentagem de entregas de imediato<br />
+</li>
+<li>Confiabilidade do fornecedor</li>
+</ul>
+</div>
+<div id="precificação" class="section level3">
+<h3>Precificação</h3>
+<p><strong>Precificação</strong> (pricing) determina o quanto uma empresa cobrará por bens e serviços que ela torna disponíveis na cadeia de suprimentos. Preços afetam o comportamento do comprador do bem ou serviço, afetando, assim, o desempenho e a demanda da cadeia de suprimentos.</p>
+<p>Precificação é o processo pelo qual uma empresa decide quanto cobrar dos clientes por seus bens e serviços.</p>
+<p><code>Precificação e economias de escala</code></p>
+<p><code>Preços baixos todo dia versus preços altos e baixos</code></p>
+<p><code>Preço fixo versus precificação por menu</code></p>
+<p><code>Métricas relacionadas à precificação</code></p>
+<ul>
+<li>Margem de lucro<br />
+</li>
+<li>Dias de vendas pendentes<br />
+</li>
+<li>Custo fixo incremental por pedido<br />
+</li>
+<li>Custo variável incremental por unidade<br />
+</li>
+<li>Preço médio de venda<br />
+</li>
+<li>Tamanho médio de pedido<br />
+</li>
+<li>Faixa de preço de venda<br />
+</li>
+<li>Faixa de vendas periódicas</li>
+</ul>
+</div>
+</div>
+
+        </div>
+
+        
+        
+          <div class="btn-improve-page">
+              <a href="https://github.com/retaoliveira/places.git/edit/main/content/cursos%5clog_all%5ckpi.html" title="Improve this page" target="_blank" rel="noopener">
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#projects">Projects</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#recent-posts">Recent Posts</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#achievements">Achievements</a>
+                </li>
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>renataoliveira@gmail.com</span></li>
+            
+            <li><span>Phone: </span> <span>&#43;5531988662226</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>Stay up to date with email notification</p>
+            
+              <form method='post' action='https://blogtrottr.com'>
+              <div class="form-group">
+              <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
+              <input type='hidden' name='btr_url' value='https://determined-poitras-d3dc0d.netlify.app/index.xml' />
+              <input type='hidden' name='schedule_type' value='1' />
+              <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
+              <button type="submit" class="btn btn-info"> Submit </button>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+
+This document was built with the&nbsp
+&nbsp<a href="https://retaoliveira.github.io/blog" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="heart-outline"></ion-icon></a>,&nbsp
+<a href="https://github.com/retaoliveira" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="logo-github"></ion-icon></a>, &nbsp<a href="https://cran.r-project.org" target="_blank" rel="noopener" style="color:#447178"><i class="fab fa-r-project "></i></a> &nbspand
+&nbsp<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener" style="color:#447178"> blogdown</a>.
+</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

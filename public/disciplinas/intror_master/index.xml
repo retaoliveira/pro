@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introdução ao R on Renata Oliveira</title>
+    <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/</link>
+    <description>Recent content in Introdução ao R on Renata Oliveira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atividade 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/atividade1/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/atividade1/</guid>
+      <description>A Unidade 1 é estruturada considerando os seguintes tópicos:  Instalação do R e do RStudio Como instalar o Git Criando uma conta no Github Instalar e carregar pacotes no R Instalar pacotes no R a partir do Github E aí, R? Entendendo o ambiente de trabalho Primeiros documentos no R - RMarkdown  Esta atividade deverá ser realizada até dia 19/10, quando teremos nosso primeiro encontro síncrono. São propostas as seguintes atividades:  Instale o R, o RStudio e o Git no seu computador - Link Crie uma conta no Github, caso ainda não tenha - Link Faça o tutorial - Link Faça o tutorial de Markdown desenvolvido pelas R-Ladies Beatriz Milz e Haydée Svab - Link Crie o seu primeiro documento RMarkdown.</description>
+    </item>
+    
+    <item>
+      <title>Atividade 2</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/atividade2/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/atividade2/</guid>
+      <description>A Unidade 2 é estruturada considerando os seguintes tópicos:  Estrutura de dados no R: tipos de dados, importação de base de dados, criação de objeto (vetores, matrizes, data frames), operadores aritméticos, de comparação e lógicos. Visualização de informações gerenciais e científicas.  Esta atividade deverá ser realizada até dia 26/10, quando teremos nosso segundo encontro síncrono. São propostas as seguintes atividades:  Faça o download do arquivo disponível no link Resolva as questões.</description>
+    </item>
+    
+    <item>
+      <title>Lab 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/lab1/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/lab1/</guid>
+      <description>A Unidade 1 é estruturada considerando os seguintes tópicos:  Instalação do R e do RStudio Como instalar o Git Criando uma conta no Github Instalar e carregar pacotes no R Instalar pacotes no R a partir do Github E aí, R? Entendendo o ambiente de trabalho Primeiros documentos no R - RMarkdown  Diretrizes gerais:  Baixe o arquivo .Rmd e abra no RStudio.  Arquivo
+Instale os pacotes:   &amp;quot;tidyverse&amp;quot; &amp;quot;tinytex&amp;quot; &amp;quot;knitr&amp;quot; &amp;quot;flexdashboard&amp;quot; &amp;quot;xaringan&amp;quot; &amp;quot;xaringanthemer&amp;quot;  Chame as bibliotecas dos pacotes instalados   library(&amp;quot;tidyverse&amp;quot;) library(&amp;quot;tinytex&amp;quot;) library(&amp;quot;knitr&amp;quot;) library(&amp;quot;flexdashboard&amp;quot;) library(&amp;quot;xaringan&amp;quot;) library(&amp;quot;xaringanthemer&amp;quot;)   Corrija os problemas de códigos nos respectivos chunks.</description>
+    </item>
+    
+    <item>
+      <title>Encontro Síncrono 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/sinc1/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/sinc1/</guid>
+      <description>LINK</description>
+    </item>
+    
+    <item>
+      <title>Encontro Síncrono 1</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/sinc2/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/disciplinas/intror_master/sinc2/</guid>
+      <description>LINK</description>
+    </item>
+    
+  </channel>
+</rss>

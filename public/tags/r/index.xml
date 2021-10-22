@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Renata Oliveira</title>
+    <link>https://determined-poitras-d3dc0d.netlify.app/tags/r/</link>
+    <description>Recent content in R on Renata Oliveira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Dec 2020 13:39:12 -0300</lastBuildDate><atom:link href="https://determined-poitras-d3dc0d.netlify.app/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acesso à API do Twitter</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-27-acesso-%C3%A0-api-do-twitter/</link>
+      <pubDate>Sun, 27 Dec 2020 13:39:12 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-27-acesso-%C3%A0-api-do-twitter/</guid>
+      <description>Como obter e usar tokens de acesso à API do Twitter para uso no pacote rtweet Criando um aplicativo no Twitter Para criar um aplicativo no Twitter, você precisará primeiro solicitar uma conta de desenvolvedor. Este processo, juntamente com uma explicação detalhada pode ser encontrado em developer.twitter.com.
+Uma vez que você tenha adquirido uma conta de desenvolvedor, navegue até developer.twitter.com/pt/apps. Clique no botão azul que diz: Create a New App, e então preencha o formulário com os seguintes campos:</description>
+    </item>
+    
+    <item>
+      <title>Mineração de Texto</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-27-minera%C3%A7%C3%A3o-de-texto/</link>
+      <pubDate>Sun, 27 Dec 2020 13:08:19 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-27-minera%C3%A7%C3%A3o-de-texto/</guid>
+      <description>Dicionário de dados do Twitter Data dictionary
+Sentimentos no Twitter para CSV O download do arquivo .csv do Twitter a partir de termos de busca pode ser feito no site Tweet Sentiment to CSV. São 100 tweets sobre o termos pesquisado.
+Links interessantes sobre esse tópico são:  Como investigar tweets com rtweet r R by Abraji Intro to rtweet: Collecting Twitter Data by Michael W. Kearney Aprenda a fazer um Analisador de Sentimentos do Twitter em Python by Paulo Vasconcellos Twitter Data in R Using Rtweet by Leah Wasser, Carson Farmer Github Mariana Cartaxo Text Mining example codes (tweets) Ocupação na UFMG e intervenção policial - Twitter by Neylson Crepalde Github Judite Cypreste Análise de Sentimentos no Twitter Sobre o Governo Bolsonaro by Arthur Carosia A Guide to Mining and Analysing Tweets with R by Céline Van den Rul Mining Tweets of US candidates on mass shootings before and after the 2018 midterms by Céline Van den Rul Análise de Conteúdo (twitteR) by Nelson Crepalde Twitter sentiment analysis  Conteúdo adicional Text Mining and Analytics, University of Illinois at Urbana-Champaign: https://www.</description>
+    </item>
+    
+    <item>
+      <title>Desafios que enfrentei para construir e publicar este site com Blogdown e Hugo</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-desafios-que-enfrentei-para-construir-publicar-este-site-com-blogdown-e-hugo/</link>
+      <pubDate>Sat, 26 Dec 2020 19:23:01 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-desafios-que-enfrentei-para-construir-publicar-este-site-com-blogdown-e-hugo/</guid>
+      <description>https://amber.rbind.io/2016/12/19/website/
+Finalmente, Alison Hill e sua equipe de desenvolvedores salvaram horas de trabalho no site por meio de funções implementadas no pacote Blogdown que permite a verificação de problemas! Muito obrigada!!!!!
+Unbreak your blogdown site by Alison Hill</description>
+    </item>
+    
+    <item>
+      <title>Blogs sobre R em Português</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-blogs-sobre-r-em-portugu%C3%AAs/</link>
+      <pubDate>Sat, 26 Dec 2020 17:34:50 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-blogs-sobre-r-em-portugu%C3%AAs/</guid>
+      <description>Marcos Vital nos presenteou com a organização de uma lista de blogs sobre R no Brasil.
+Outras dicas!!!
+ Curso Básico de Linguagem R by Eduardo Ferreira e Weverton Lisboa  </description>
+    </item>
+    
+    <item>
+      <title>Packages interessantes do R para Análise de dados e espacial</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-packages-interessantes-do-r-para-an%C3%A1lise-de-dados-e-espacial/</link>
+      <pubDate>Sat, 26 Dec 2020 17:32:30 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-packages-interessantes-do-r-para-an%C3%A1lise-de-dados-e-espacial/</guid>
+      <description> RFsp — Random Forest for spatial data (R tutorial) by Hengl, T., Nussbaum, M., and Wright, M.N.  </description>
+    </item>
+    
+    <item>
+      <title>R Para Análise Espacial</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-r-para-an%C3%A1lise-espacial/</link>
+      <pubDate>Sat, 26 Dec 2020 17:25:22 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-r-para-an%C3%A1lise-espacial/</guid>
+      <description>A comunidade acadêmica tem caminhado para abertura de licença de uso e reprodução de material didático, bases de dados, e conteúdo que pode ajudar a construção de competências e a aprendizagem em diferentes contextos. A universalização da informação é responsabilidade do docente que acredita na mudança por meio da educação. A Internet tem possibilitado tanto a publicação como o acesso a diferentes formas de apresentação de conteúdo que, em conjunto, contribuem para a formação de profissionais e outros acadêmicos.</description>
+    </item>
+    
+    <item>
+      <title>Como deixar o R com a minha cara</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/como-deixar-o-r-com-a-minha-cara/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/como-deixar-o-r-com-a-minha-cara/</guid>
+      <description>Para trocar o tema, basta fazer o download do tema favorito (ou criar o seu) e carrega no RStudio. Para isso:
+Tools -&amp;gt; Global Options -&amp;gt; Appearance -&amp;gt; Add&amp;hellip;
+ Temas  </description>
+    </item>
+    
+    <item>
+      <title>Como comecei a usar RMarkdown</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/uso-markdown/</link>
+      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/uso-markdown/</guid>
+      <description>Períodos de pandemia são sempre interessantes! Falo como se tivesse passado por diversos momentos como este; felizmente, isso não é verdade! Entretanto, foi nesse período que descobri o Rmarkdown.
+O isolamento social trouxe possibilidades, como eu aprender o R. Pesquisando sobre Latex, tive acesso a diferentes linguagens para elaboração de relatórios reprodutíveis e dinâmicos. A necessidade faz a “força”. Resolvi explorar as possibilidades antes de me dedicar a aprender efetivamente alguma linguagem e descobri que o Rmarkdown é bem mais intuitivo e dinâmico do que o Latex, apesar de ainda precisar do Latex para implementação de equações, por exemplo.</description>
+    </item>
+    
+  </channel>
+</rss>

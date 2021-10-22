@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Twitter on Renata Oliveira</title>
+    <link>https://determined-poitras-d3dc0d.netlify.app/tags/twitter/</link>
+    <description>Recent content in Twitter on Renata Oliveira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Dec 2020 13:39:12 -0300</lastBuildDate><atom:link href="https://determined-poitras-d3dc0d.netlify.app/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acesso à API do Twitter</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-27-acesso-%C3%A0-api-do-twitter/</link>
+      <pubDate>Sun, 27 Dec 2020 13:39:12 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-27-acesso-%C3%A0-api-do-twitter/</guid>
+      <description>Como obter e usar tokens de acesso à API do Twitter para uso no pacote rtweet Criando um aplicativo no Twitter Para criar um aplicativo no Twitter, você precisará primeiro solicitar uma conta de desenvolvedor. Este processo, juntamente com uma explicação detalhada pode ser encontrado em developer.twitter.com.
+Uma vez que você tenha adquirido uma conta de desenvolvedor, navegue até developer.twitter.com/pt/apps. Clique no botão azul que diz: Create a New App, e então preencha o formulário com os seguintes campos:</description>
+    </item>
+    
+    <item>
+      <title>Mineração de Texto</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-27-minera%C3%A7%C3%A3o-de-texto/</link>
+      <pubDate>Sun, 27 Dec 2020 13:08:19 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-27-minera%C3%A7%C3%A3o-de-texto/</guid>
+      <description>Dicionário de dados do Twitter Data dictionary
+Sentimentos no Twitter para CSV O download do arquivo .csv do Twitter a partir de termos de busca pode ser feito no site Tweet Sentiment to CSV. São 100 tweets sobre o termos pesquisado.
+Links interessantes sobre esse tópico são:  Como investigar tweets com rtweet r R by Abraji Intro to rtweet: Collecting Twitter Data by Michael W. Kearney Aprenda a fazer um Analisador de Sentimentos do Twitter em Python by Paulo Vasconcellos Twitter Data in R Using Rtweet by Leah Wasser, Carson Farmer Github Mariana Cartaxo Text Mining example codes (tweets) Ocupação na UFMG e intervenção policial - Twitter by Neylson Crepalde Github Judite Cypreste Análise de Sentimentos no Twitter Sobre o Governo Bolsonaro by Arthur Carosia A Guide to Mining and Analysing Tweets with R by Céline Van den Rul Mining Tweets of US candidates on mass shootings before and after the 2018 midterms by Céline Van den Rul Análise de Conteúdo (twitteR) by Nelson Crepalde Twitter sentiment analysis  Conteúdo adicional Text Mining and Analytics, University of Illinois at Urbana-Champaign: https://www.</description>
+    </item>
+    
+  </channel>
+</rss>

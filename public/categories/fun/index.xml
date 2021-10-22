@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fun on Renata Oliveira</title>
+    <link>https://determined-poitras-d3dc0d.netlify.app/categories/fun/</link>
+    <description>Recent content in Fun on Renata Oliveira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://determined-poitras-d3dc0d.netlify.app/categories/fun/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como deixar o R com a minha cara</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/como-deixar-o-r-com-a-minha-cara/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/como-deixar-o-r-com-a-minha-cara/</guid>
+      <description>Para trocar o tema, basta fazer o download do tema favorito (ou criar o seu) e carrega no RStudio. Para isso:
+Tools -&amp;gt; Global Options -&amp;gt; Appearance -&amp;gt; Add&amp;hellip;
+ Temas  </description>
+    </item>
+    
+  </channel>
+</rss>

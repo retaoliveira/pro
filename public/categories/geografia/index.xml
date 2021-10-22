@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geografia on Renata Oliveira</title>
+    <link>https://determined-poitras-d3dc0d.netlify.app/categories/geografia/</link>
+    <description>Recent content in Geografia on Renata Oliveira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Dec 2020 17:25:22 -0300</lastBuildDate><atom:link href="https://determined-poitras-d3dc0d.netlify.app/categories/geografia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R Para Análise Espacial</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-r-para-an%C3%A1lise-espacial/</link>
+      <pubDate>Sat, 26 Dec 2020 17:25:22 -0300</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-26-r-para-an%C3%A1lise-espacial/</guid>
+      <description>A comunidade acadêmica tem caminhado para abertura de licença de uso e reprodução de material didático, bases de dados, e conteúdo que pode ajudar a construção de competências e a aprendizagem em diferentes contextos. A universalização da informação é responsabilidade do docente que acredita na mudança por meio da educação. A Internet tem possibilitado tanto a publicação como o acesso a diferentes formas de apresentação de conteúdo que, em conjunto, contribuem para a formação de profissionais e outros acadêmicos.</description>
+    </item>
+    
+  </channel>
+</rss>

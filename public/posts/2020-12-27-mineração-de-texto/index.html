@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mineração de Texto</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" />
+
+<meta property="og:title" content="Mineração de Texto" />
+<meta property="og:description" content="Dicionário de dados do Twitter Data dictionary
+Sentimentos no Twitter para CSV O download do arquivo .csv do Twitter a partir de termos de busca pode ser feito no site Tweet Sentiment to CSV. São 100 tweets sobre o termos pesquisado.
+Links interessantes sobre esse tópico são:  Como investigar tweets com rtweet r R by Abraji Intro to rtweet: Collecting Twitter Data by Michael W. Kearney Aprenda a fazer um Analisador de Sentimentos do Twitter em Python by Paulo Vasconcellos Twitter Data in R Using Rtweet by Leah Wasser, Carson Farmer Github Mariana Cartaxo Text Mining example codes (tweets) Ocupação na UFMG e intervenção policial - Twitter by Neylson Crepalde Github Judite Cypreste Análise de Sentimentos no Twitter Sobre o Governo Bolsonaro by Arthur Carosia A Guide to Mining and Analysing Tweets with R by Céline Van den Rul Mining Tweets of US candidates on mass shootings before and after the 2018 midterms by Céline Van den Rul Análise de Conteúdo (twitteR) by Nelson Crepalde Twitter sentiment analysis  Conteúdo adicional Text Mining and Analytics, University of Illinois at Urbana-Champaign: https://www." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-27-minera%C3%A7%C3%A3o-de-texto/" /><meta property="og:image" content="https://determined-poitras-d3dc0d.netlify.app/posts/2020-12-27-minera%C3%A7%C3%A3o-de-texto/featured.jpg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-12-27T13:08:19-03:00" />
+<meta property="article:modified_time" content="2020-12-27T13:08:19-03:00" />
+
+
+
+    
+    
+<meta name="description" content="Mineração de Texto" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" alt="Logo">
+      Renata Oliveira</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/inverted-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/sdss/" title="Courses">Courses</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/introduction/" title="Introduction">Introduction</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/category/">Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/courses/category/sub-category/">Sub-Category</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/courses/category/sub-category/rich-content/" title="Rich Content">Rich Content</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/shortcodes/" title="Shortcodes Sample">Shortcodes Sample</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://determined-poitras-d3dc0d.netlify.app/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/reta_huaab57059f86c546c583a9e55d0837b53_77497_120x120_fit_q75_box.jpg' alt="Author Image">
+          <h5 class="author-name">Renata Oliveira</h5>
+          <p>December 27, 2020</p>
+        </div>
+
+        <div class="title">
+          <h1>Mineração de Texto</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <h2 id="dicionário-de-dados-do-twitter">Dicionário de dados do Twitter</h2>
+<p><a href="https://developer.twitter.com/en/docs/twitter-api/data-dictionary/introduction">Data dictionary</a></p>
+<h2 id="sentimentos-no-twitter-para-csv">Sentimentos no Twitter para CSV</h2>
+<p>O download do arquivo .csv do Twitter a partir de termos de busca pode ser feito no site <a href="https://twitter-sentiment-csv.herokuapp.com/">Tweet Sentiment to CSV</a>. São 100 tweets sobre o termos pesquisado.</p>
+<h2 id="links-interessantes-sobre-esse-tópico-são">Links interessantes sobre esse tópico são:</h2>
+<ul>
+<li><a href="https://www.abraji.org.br/help-desk/como-investigar-tweets-com-rtweet-e-r">Como investigar tweets com rtweet r R by Abraji</a></li>
+<li><a href="https://cran.r-project.org/web/packages/rtweet/vignettes/intro.html">Intro to rtweet: Collecting Twitter Data by Michael W. Kearney</a></li>
+<li><a href="https://paulovasconcellos.com.br/aprenda-a-fazer-um-analisador-de-sentimentos-do-twitter-em-python-3979454f2d0d">Aprenda a fazer um Analisador de Sentimentos do Twitter em Python by Paulo Vasconcellos</a></li>
+<li><a href="https://www.earthdatascience.org/courses/earth-analytics/get-data-using-apis/use-twitter-api-r/">Twitter Data in R Using Rtweet by Leah Wasser, Carson Farmer</a></li>
+<li><a href="https://github.com/marianacrtx/tweets">Github Mariana Cartaxo</a></li>
+<li><a href="https://rstudio-pubs-static.s3.amazonaws.com/66739_c4422a1761bd4ee0b0bb8821d7780e12.html">Text Mining example codes (tweets)</a></li>
+<li><a href="https://neylsoncrepalde.github.io/2016-11-18-ocupacao-na-ufmg-e-interevencao-policial/">Ocupação na UFMG e intervenção policial - Twitter by Neylson Crepalde</a></li>
+<li><a href="https://github.com/juditecypreste/Aprenda-Python-analisando-os-tuites-do-nosso-presidente">Github Judite Cypreste</a></li>
+<li><a href="https://medium.com/@arthuremanuel.carosia/an%C3%A1lise-de-sentimentos-no-twitter-sobre-o-governo-bolsonaro-15396a22e757">Análise de Sentimentos no Twitter Sobre o Governo Bolsonaro by Arthur Carosia</a></li>
+<li><a href="https://towardsdatascience.com/a-guide-to-mining-and-analysing-tweets-with-r-2f56818fdd16">A Guide to Mining and Analysing Tweets with R by Céline Van den Rul</a></li>
+<li><a href="https://medium.com/@celine.vdr/mining-tweets-of-us-candidates-on-mass-shootings-before-and-after-the-2018-midterms-90cc18ff652a">Mining Tweets of US candidates on mass shootings before and after the 2018 midterms by Céline Van den Rul</a></li>
+<li><a href="https://neylsoncrepalde.github.io/2016-03-18-analise-de-conteudo-twitter/">Análise de Conteúdo (twitteR) by Nelson Crepalde</a></li>
+<li><a href="https://github.com/vineetdhanawat/twitter-sentiment-analysis">Twitter sentiment analysis</a></li>
+</ul>
+<h2 id="conteúdo-adicional">Conteúdo adicional</h2>
+<p>Text Mining and Analytics, University of Illinois at Urbana-Champaign: <a href="https://www.coursera.org/learn/text-mining/home/info">https://www.coursera.org/learn/text-mining/home/info</a>.</p>
+<p>Text Mining with R: A Tidy Approach, Julia Silge and David Robinson: <a href="http://tidytextmining.com/">http://tidytextmining.com/</a>.</p>
+<p>Intro to Text mining using R, Ted Kwartler: <a href="https://opendatascience.com/conferences/ted-kwartler-intro-to-text-mining-using-r/">https://opendatascience.com/conferences/ted-kwartler-intro-to-text-mining-using-r/</a>.</p>
+<p>Intro to Text Mining Using tm, openNLP and topicmodels, Ted Kwartler: <a href="http://www.slideshare.net/odsc/tedkwartlerworkshop1">http://www.slideshare.net/odsc/tedkwartlerworkshop1</a>.</p>
+<p>Text Mining: An Overview, David Madigan: <a href="http://www.stat.columbia.edu/~madigan/W2025/notes/IntroTextMining.pdf">http://www.stat.columbia.edu/~madigan/W2025/notes/IntroTextMining.pdf</a>.</p>
+<p>Text-Mining Tutorial, Marko Grobelnik e Dunja Mladenic: <a href="http://profs.info.uaic.ro/~adiftene/Scoala/2012/APLN/Resurse/03_TM/Tutorial_Marko.pdf">http://profs.info.uaic.ro/~adiftene/Scoala/2012/APLN/Resurse/03_TM/Tutorial_Marko.pdf</a>.</p>
+<p>Text mining, Ian H. Witten: <a href="http://www.cos.ufrj.br/~jano/LinkedDocuments/_papers/aula13/04-IHW-Textmining.pdf">http://www.cos.ufrj.br/~jano/LinkedDocuments/_papers/aula13/04-IHW-Textmining.pdf</a>.</p>
+<p>Text Mining: Applications and Theory, Michael W. Berry e Jacob Kogan: <a href="http://www.mohamedrabeea.com/books/book1_1165.pdf">http://www.mohamedrabeea.com/books/book1_1165.pdf</a>.</p>
+<p>Web Search and Text analysis: <a href="https://www.williamwebber.com/research/teaching/comp90042/2014s1/">https://www.williamwebber.com/research/teaching/comp90042/2014s1/</a>.</p>
+<p>CS 6501: Text Mining: <a href="http://www.cs.virginia.edu/~hw5x/Course/CS6501-Text-Mining/_site/lectures/">http://www.cs.virginia.edu/~hw5x/Course/CS6501-Text-Mining/_site/lectures/</a>.
+Speech and Language Processing: <a href="https://web.stanford.edu/~jurafsky/slp3/">https://web.stanford.edu/~jurafsky/slp3/</a>.</p>
+<p>CETEMPúblico: <a href="http://www.linguateca.pt/acesso/corpus.php?corpus=CETEMPUBLICO">http://www.linguateca.pt/acesso/corpus.php?corpus=CETEMPUBLICO</a>.</p>
+<p>An Introduction to Text Mining: <a href="http://port.sas.ac.uk/course/view.php?id=53">http://port.sas.ac.uk/course/view.php?id=53</a>.</p>
+<p>Similarity Measures for Text Document Clustering.
+Sobre a construção de um léxico da afetividade para o processamento computacional do português.
+Evaluating CETEMPúblico, a free resource for Portuguese.
+Working on Sentiment Analysis on Twitter with Portuguese Language.
+Sentiment Analysis on Twitter Data for Portuguese Language.
+Sentiment Analysis Using R Language.
+Sentiment analysis with machine learning in R.
+SentimentAnalysis package.</p>
+
+        </div>
+
+        
+        
+          <div class="btn-improve-page">
+              <a href="https://github.com/retaoliveira/places.git/edit/main/content/posts%5c2020-12-27-minera%c3%a7%c3%a3o-de-texto%5cindex.md" title="Improve this page" target="_blank" rel="noopener">
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+
+        
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#dicionário-de-dados-do-twitter">Dicionário de dados do Twitter</a></li>
+    <li><a href="#sentimentos-no-twitter-para-csv">Sentimentos no Twitter para CSV</a></li>
+    <li><a href="#links-interessantes-sobre-esse-tópico-são">Links interessantes sobre esse tópico são:</a></li>
+    <li><a href="#conteúdo-adicional">Conteúdo adicional</a></li>
+  </ol>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#projects">Projects</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#recent-posts">Recent Posts</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="/#achievements">Achievements</a>
+                </li>
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+            <li><span>Email: </span> <span>renataoliveira@gmail.com</span></li>
+            
+            <li><span>Phone: </span> <span>&#43;5531988662226</span></li>
+            
+          </ul>
+        </div>
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>Stay up to date with email notification</p>
+            
+              <form method='post' action='https://blogtrottr.com'>
+              <div class="form-group">
+              <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
+              <input type='hidden' name='btr_url' value='https://determined-poitras-d3dc0d.netlify.app/index.xml' />
+              <input type='hidden' name='schedule_type' value='1' />
+              <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
+              <button type="submit" class="btn btn-info"> Submit </button>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+
+This document was built with the&nbsp
+&nbsp<a href="https://retaoliveira.github.io/blog" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="heart-outline"></ion-icon></a>,&nbsp
+<a href="https://github.com/retaoliveira" target="_blank" rel="noopener" style="color:#447178"><ion-icon name="logo-github"></ion-icon></a>, &nbsp<a href="https://cran.r-project.org" target="_blank" rel="noopener" style="color:#447178"><i class="fab fa-r-project "></i></a> &nbspand
+&nbsp<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener" style="color:#447178"> blogdown</a>.
+</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

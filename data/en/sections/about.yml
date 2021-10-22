@@ -44,9 +44,21 @@ socialLinks:
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: Leadership
+- name: Comprehensive understanding of problem-solving and decision making\
   percentage: 85
   color: blue
-- name: Team Work
+- name: Effective Team Work
   percentage: 90
   color: yellow
+- name: GIS and spatial analysis software
+  percentage: 90
+  color: orange
+- name: Data Analysis and Geocomputation with R
+  percentage: 70
+  color: sky
+- name: English as a Medium of Instruction - EMI 
+  percentage: 50
+  color: green
+- name: Mindful parenting
+  percentage: 90
+  color: pink

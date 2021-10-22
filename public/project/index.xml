@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Renata Oliveira</title>
+    <link>https://determined-poitras-d3dc0d.netlify.app/project/</link>
+    <description>Recent content in Projects on Renata Oliveira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://determined-poitras-d3dc0d.netlify.app/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acessibility</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/project/acessibilidade/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/project/acessibilidade/</guid>
+      <description>Accessibility to urban functions.</description>
+    </item>
+    
+    <item>
+      <title>Railroads</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/project/rail/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/project/rail/</guid>
+      <description>Railroads and economic development</description>
+    </item>
+    
+    <item>
+      <title>Spatial Analysis</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/project/spatial/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/project/spatial/</guid>
+      <description>Spatial analysis.</description>
+    </item>
+    
+    <item>
+      <title>Urban Logistics</title>
+      <link>https://determined-poitras-d3dc0d.netlify.app/project/urban-logistics/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://determined-poitras-d3dc0d.netlify.app/project/urban-logistics/</guid>
+      <description>Urban Logistics.</description>
+    </item>
+    
+  </channel>
+</rss>

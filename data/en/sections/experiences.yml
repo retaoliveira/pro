@@ -11,32 +11,34 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
+    name: Tectran - Systra
     url: "https://www.example.com"
-    location: Dhaka Branch
+    location: Belo Horizonte, Brazil
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Development of ransportation engineering projects.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Junior consultant
+    start: January 2003
+    end: September 2003
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+#    responsibilities:
+#    - Design and develop XYZ tool for ABC task
+#    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+#    - Lead backend team.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.preexample.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: Vale
+    url: "https://www.vale.com"
+    location: Belo Horizonte, Brazil
+    overview: Mining and railway
   positions:
   - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+    start: September 2003
+    end: May 2005
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - rail transportation planning and data analytics.
+    
+    
+
